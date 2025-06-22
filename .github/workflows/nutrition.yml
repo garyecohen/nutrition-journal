@@ -32,6 +32,9 @@ jobs:
       - name: Run nutrition log parser
         run: python parse_nutrition.py
 
+      - name: Show nutrition report
+        run: cat nutrition_report.md || echo "No nutrition report found"
+
       - name: Commit and push summary report
         run: |
           git config --global user.name "github-actions[bot]"
