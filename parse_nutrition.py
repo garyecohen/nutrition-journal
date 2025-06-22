@@ -53,14 +53,10 @@ def parse_log(filename):
                 # fields: Date, Meal, Nutrient, Desired Meal (g), Consumed Meal (g), ...
                 if len(fields) >= 5:
                     nutrient = fields[2]
-                    value_str = fields[4].replace('~','').replace('<','').replace('>','').replace('—','').replace(' ', '').replace('–','')
-                    try:
-                        # Only parse if value is numeric
-                        value = float(re.sub(r'[^\d\.]', '', value_str)) if any(c.isdigit() for c in value_str) else 0
-                        if nutrient in NUTRIENTS:
-                            result[current_meal][nutrient] += value
-                    except Exception:
-                        pass
+                    value_str = fields[4]
+                    value = parse_value(value_str)
+                    if nutrient in NUTRIENTS:
+                        result[current_meal][nutrient] += value
             i += 1
     return result
 
