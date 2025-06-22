@@ -46,18 +46,18 @@ def parse_log(filename):
                 current_meal = line
                 i += 2  # Skip header line
                 continue
-                    if current_meal and line and not line.startswith('Date'):
-                        print(f"[DEBUG] Processing line under meal '{current_meal}': {repr(line)}")
-                        fields = line.split('\t')
-                        print(f"[DEBUG] Split fields: {fields}")
-                        if len(fields) >= 5:
-                            nutrient = fields[2].strip()
-                            value_str = fields[4].strip()
-                            print(f"[DEBUG] Nutrient: {nutrient}, Value string: {value_str}")
-                            if nutrient in NUTRIENTS:
-                                value = parse_value(value_str)
-                                print(f"[DEBUG] Parsed value: {value}")
-                                result[current_meal][nutrient] += value
+            if current_meal and line and not line.startswith('Date'):
+                print(f"[DEBUG] Processing line under meal '{current_meal}': {repr(line)}")
+                fields = line.split('\t')
+                print(f"[DEBUG] Split fields: {fields}")
+                if len(fields) >= 5:
+                    nutrient = fields[2].strip()
+                    value_str = fields[4].strip()
+                    print(f"[DEBUG] Nutrient: {nutrient}, Value string: {value_str}")
+                    if nutrient in NUTRIENTS:
+                        value = parse_value(value_str)
+                        print(f"[DEBUG] Parsed value: {value}")
+                        result[current_meal][nutrient] += value
                 i += 1
     return result
 
