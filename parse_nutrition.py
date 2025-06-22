@@ -1,6 +1,9 @@
 import glob
 import re
 
+import os
+print("Current working directory:", os.getcwd())
+
 MEALS = ['Breakfast', 'Lunch', 'Snack', 'Dinner']
 NUTRIENTS = [
     'Calories', 'Total Sugar', 'Carbohydrates', 'Saturated Fat', 'Total Fat',
@@ -38,6 +41,8 @@ def parse_log(filename):
 
 def main():
     log_files = glob.glob('*.md')
+    print("Looking for log files...")
+    print("Found log files:", log_files)
     daily_summaries = {}
 
     for f in log_files:
