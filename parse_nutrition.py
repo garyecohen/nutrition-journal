@@ -66,7 +66,7 @@ def parse_log(filename):
     return result
 
 def main():
-    log_files = glob.glob('*.md')
+    log_files = glob.glob('[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].md')
     print("Looking for log files...")
     print("Found log files:", log_files)
     daily_summaries = {}
