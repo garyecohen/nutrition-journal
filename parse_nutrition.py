@@ -10,6 +10,31 @@ NUTRIENTS = [
     'Protein', 'Fiber', 'Cholesterol', 'Sodium'
 ]
 
+def parse_value(val):
+    if not val or val.strip() == '—':
+        return 0
+    val = val.replace(',', '').replace(' ', '')
+    # Handle ranges like 500–700 or 500-700
+    range_match = re.match(r'(~)?(\d+)[–-](\d+)', val)
+    if range_match:
+        # Use average of range
+        low = int(range_match.group(2))
+        high = int(range_match.group(3))
+        return (low + high) // 2
+    # Handle approximate values (~400)
+    approx_match = re.match(r'~(\d+)', val)
+    if approx_match:
+        return int(approx_match.group(1))
+    # Handle inequalities like <6 or >100
+    ineq_match = re.match(r'[<>](\d+)', val)
+    if ineq_match:
+        return int(ineq_match.group(1))
+    # Handle plain numbers
+    num_match = re.match(r'(\d+)', val)
+    if num_match:
+        return int(num_match.group(1))
+    return 0
+    
 def parse_log(filename):
     result = {meal: {nutrient: 0 for nutrient in NUTRIENTS} for meal in MEALS}
     current_meal = None
