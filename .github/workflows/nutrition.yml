@@ -1,5 +1,8 @@
 name: Nutrition Log Automation
 
+permissions:
+  contents: write
+
 on:
   push:
     paths:
