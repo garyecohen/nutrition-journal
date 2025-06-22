@@ -88,6 +88,8 @@ def main():
         if date:
             daily_summaries[date] = summary
 
+    print("Parsed daily summaries:", daily_summaries)
+
     with open('nutrition_report.md', 'w', encoding='utf-8') as out:
         out.write('# Nutrition Report\n\n')
         for date, meals in sorted(daily_summaries.items()):
