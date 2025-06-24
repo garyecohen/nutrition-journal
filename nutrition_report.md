@@ -90,3 +90,48 @@
 - Cholesterol: 0
 - Sodium: 0
 
+## 2025-06-23
+### Breakfast
+- Calories: 300
+- Total Sugar: 15
+- Carbohydrates: 40
+- Saturated Fat: 2
+- Total Fat: 6
+- Protein: 12
+- Fiber: 5
+- Cholesterol: 185
+- Sodium: 200
+
+### Lunch
+- Calories: 500
+- Total Sugar: 6
+- Carbohydrates: 55
+- Saturated Fat: 5
+- Total Fat: 15
+- Protein: 30
+- Fiber: 7
+- Cholesterol: 90
+- Sodium: 450
+
+### Snack
+- Calories: 190
+- Total Sugar: 5
+- Carbohydrates: 14
+- Saturated Fat: 3
+- Total Fat: 12
+- Protein: 10
+- Fiber: 6
+- Cholesterol: 0
+- Sodium: 140
+
+### Dinner
+- Calories: 500
+- Total Sugar: 7
+- Carbohydrates: 80
+- Saturated Fat: 1
+- Total Fat: 9
+- Protein: 18
+- Fiber: 8
+- Cholesterol: 0
+- Sodium: 50
+
