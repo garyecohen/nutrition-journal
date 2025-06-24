@@ -47,46 +47,46 @@
 
 ## 2025-06-22
 ### Breakfast
-- Calories: 0
-- Total Sugar: 0
+- Calories: 275
+- Total Sugar: 5
 - Carbohydrates: 0
 - Saturated Fat: 0
 - Total Fat: 0
-- Protein: 0
-- Fiber: 0
+- Protein: 17
+- Fiber: 6
 - Cholesterol: 0
 - Sodium: 0
 
 ### Lunch
-- Calories: 0
+- Calories: 400
 - Total Sugar: 0
 - Carbohydrates: 0
 - Saturated Fat: 0
 - Total Fat: 0
-- Protein: 0
-- Fiber: 0
+- Protein: 25
+- Fiber: 7
 - Cholesterol: 0
 - Sodium: 0
 
 ### Snack
-- Calories: 0
-- Total Sugar: 0
-- Carbohydrates: 0
+- Calories: 585
+- Total Sugar: 3
+- Carbohydrates: 52
 - Saturated Fat: 0
 - Total Fat: 0
-- Protein: 0
-- Fiber: 0
+- Protein: 8
+- Fiber: 4
 - Cholesterol: 0
-- Sodium: 0
+- Sodium: 290
 
 ### Dinner
-- Calories: 0
+- Calories: 325
 - Total Sugar: 0
 - Carbohydrates: 0
 - Saturated Fat: 0
 - Total Fat: 0
-- Protein: 0
-- Fiber: 0
+- Protein: 16
+- Fiber: 4
 - Cholesterol: 0
 - Sodium: 0
 
