@@ -8,7 +8,7 @@ Input: Human-computer exchange from another AI tool.  Copilot analyzes input to 
 Output: Extract side by side the original desired meal and the eventually consumed meal following the discussion within.
 
 Copilot instructions:
-Give an input of narrative descriptions of what I planned to eat and what I actually ate, in natural language, produce the following output: 
+Given an input of narrative descriptions of what I planned to eat and what I actually ate, in natural language, produce the following output: 
 
 For each meal on each day, a markdown table capturing: Date; Meal (Breakfast, Lunch, Dinner, Snack); Nutrient (Calories, Sugar, Carbohydrates, etc.); 
 Desired Meal value (g); Consumed Meal value (g); Desired Meal Detail (free text); Consumed Meal Detail (free text) 
