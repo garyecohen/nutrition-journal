@@ -8,17 +8,9 @@ Input: Human-computer exchange from another AI tool.  Copilot analyzes input to 
 Output: Extract side by side the original desired meal and the eventually consumed meal following the discussion within.
 
 Copilot instructions:
-Given an input of narrative descriptions of what I planned to eat and what I actually ate, in natural language, produce the following output: 
-
-For each meal on each day, a markdown table capturing: Date; Meal (Breakfast, Lunch, Dinner, Snack); Nutrient (Calories, Sugar, Carbohydrates, etc.); 
-Desired Meal value (g); Consumed Meal value (g); Desired Meal Detail (free text); Consumed Meal Detail (free text) 
-
+Given an input of narrative descriptions of what I planned to eat and what I actually ate, in natural language, produce the following output:
+For each meal on each day, a markdown table capturing: Date; Meal (Breakfast, Lunch, Dinner, Snack); Nutrient (Calories, Sugar, Carbohydrates, etc.); Desired Meal value (g); Consumed Meal value (g); Desired Meal Detail (free text); Consumed Meal Detail (free text)
 File Structure: Each day is logged in a separate markdown file named YYYY-MM-DD.md. A daily file contains tables (one per meal) with a row for each nutrient.
+I will input a file structure to mimic, followed by 3 input files for 7/7/25, 7/8/25, and 7/9/25.  Follow the input structure exactly, including the elimination of hashtags and pipes.
 
-Sample Rows in a File:
-Breakfast
-Date	Meal	Nutrient	Desired Meal (g)	Consumed Meal (g)	Desired Meal Detail	Consumed Meal Detail
-2025-06-22	Breakfast	Calories	250–300	~275	¾ cup Fage 0% Greek yogurt, ½ small banana, ⅓ cup blackberries, 2 tbsp granola	¾ cup Fage 0% Greek yogurt, ½ banana, ⅓ cup blackberries, 3 tbsp granola
-2025-06-22	Breakfast	Protein	16–18	~17	Fage 0% Greek yogurt base (high protein, no fat), moderate granola	Fage 0% Greek yogurt base (high protein, no fat), moderate granola
-
-Are you ready for the input?
+Are you ready for the 1st file (structure?)
