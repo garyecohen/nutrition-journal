@@ -19,7 +19,7 @@ jobs:
         run: ls -l
 
       - name: Show nutrition log file
-        run: cat 2025-06-21.md || echo "No log file found"
+        run: cat 2025-06-24.md || echo "No log file found"
 
       - name: Set up Python
         uses: actions/setup-python@v5
