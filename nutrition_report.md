@@ -11,6 +11,7 @@
 - Fiber: 5
 - Cholesterol: 5
 - Sodium: 250
+- Sugar: 0
 
 ### Lunch
 - Calories: 400
@@ -22,6 +23,7 @@
 - Fiber: 8
 - Cholesterol: 190
 - Sodium: 350
+- Sugar: 0
 
 ### Snack
 - Calories: 150
@@ -33,6 +35,7 @@
 - Fiber: 2
 - Cholesterol: 0
 - Sodium: 90
+- Sugar: 0
 
 ### Dinner
 - Calories: 550
@@ -44,6 +47,7 @@
 - Fiber: 4
 - Cholesterol: 70
 - Sodium: 550
+- Sugar: 0
 
 ## 2025-06-22
 ### Breakfast
@@ -56,6 +60,7 @@
 - Fiber: 6
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 0
 
 ### Lunch
 - Calories: 400
@@ -67,6 +72,7 @@
 - Fiber: 7
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 0
 
 ### Snack
 - Calories: 585
@@ -78,6 +84,7 @@
 - Fiber: 4
 - Cholesterol: 0
 - Sodium: 290
+- Sugar: 0
 
 ### Dinner
 - Calories: 325
@@ -89,6 +96,7 @@
 - Fiber: 4
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 0
 
 ## 2025-06-23
 ### Breakfast
@@ -101,6 +109,7 @@
 - Fiber: 5
 - Cholesterol: 185
 - Sodium: 200
+- Sugar: 0
 
 ### Lunch
 - Calories: 500
@@ -112,6 +121,7 @@
 - Fiber: 7
 - Cholesterol: 90
 - Sodium: 450
+- Sugar: 0
 
 ### Snack
 - Calories: 190
@@ -123,6 +133,7 @@
 - Fiber: 6
 - Cholesterol: 0
 - Sodium: 140
+- Sugar: 0
 
 ### Dinner
 - Calories: 500
@@ -134,6 +145,7 @@
 - Fiber: 8
 - Cholesterol: 0
 - Sodium: 50
+- Sugar: 0
 
 ## 2025-06-24
 ### Breakfast
@@ -146,6 +158,7 @@
 - Fiber: 3
 - Cholesterol: 0
 - Sodium: 680
+- Sugar: 3
 
 ### Lunch
 - Calories: 425
@@ -157,6 +170,7 @@
 - Fiber: 5
 - Cholesterol: 0
 - Sodium: 600
+- Sugar: 2
 
 ### Snack
 - Calories: 140
@@ -168,6 +182,7 @@
 - Fiber: 3
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 1
 
 ### Dinner
 - Calories: 300
@@ -179,6 +194,7 @@
 - Fiber: 10
 - Cholesterol: 0
 - Sodium: 125
+- Sugar: 5
 
 ## 2025-06-25
 ### Breakfast
@@ -191,6 +207,7 @@
 - Fiber: 8
 - Cholesterol: 0
 - Sodium: 150
+- Sugar: 15
 
 ### Lunch
 - Calories: 375
@@ -202,6 +219,7 @@
 - Fiber: 6
 - Cholesterol: 0
 - Sodium: 225
+- Sugar: 12
 
 ### Snack
 - Calories: 480
@@ -213,6 +231,7 @@
 - Fiber: 9
 - Cholesterol: 0
 - Sodium: 665
+- Sugar: 7
 
 ### Dinner
 - Calories: 830
@@ -224,6 +243,7 @@
 - Fiber: 7
 - Cholesterol: 0
 - Sodium: 1500
+- Sugar: 9
 
 ## 2025-06-26
 ### Breakfast
@@ -236,6 +256,7 @@
 - Fiber: 4
 - Cholesterol: 0
 - Sodium: 905
+- Sugar: 18
 
 ### Lunch
 - Calories: 450
@@ -247,6 +268,7 @@
 - Fiber: 8
 - Cholesterol: 0
 - Sodium: 750
+- Sugar: 0
 
 ### Snack
 - Calories: 445
@@ -258,6 +280,7 @@
 - Fiber: 5
 - Cholesterol: 0
 - Sodium: 155
+- Sugar: 57
 
 ### Dinner
 - Calories: 400
@@ -269,6 +292,7 @@
 - Fiber: 4
 - Cholesterol: 0
 - Sodium: 125
+- Sugar: 3
 
 ## 2025-06-27
 ### Breakfast
@@ -281,6 +305,7 @@
 - Fiber: 8
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 37
 
 ### Lunch
 - Calories: 775
@@ -292,6 +317,7 @@
 - Fiber: 4
 - Cholesterol: 0
 - Sodium: 1850
+- Sugar: 5
 
 ### Snack
 - Calories: 680
@@ -303,6 +329,7 @@
 - Fiber: 13
 - Cholesterol: 0
 - Sodium: 540
+- Sugar: 33
 
 ### Dinner
 - Calories: 375
@@ -314,6 +341,7 @@
 - Fiber: 11
 - Cholesterol: 0
 - Sodium: 50
+- Sugar: 5
 
 ## 2025-06-28
 ### Breakfast
@@ -326,6 +354,7 @@
 - Fiber: 2
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 12
 
 ### Lunch
 - Calories: 300
@@ -337,6 +366,7 @@
 - Fiber: 9
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 3
 
 ### Snack
 - Calories: 465
@@ -348,6 +378,7 @@
 - Fiber: 1
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 40
 
 ### Dinner
 - Calories: 600
@@ -359,6 +390,7 @@
 - Fiber: 4
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 8
 
 ## 2025-06-29
 ### Breakfast
@@ -371,6 +403,7 @@
 - Fiber: 3
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 0
 
 ### Lunch
 - Calories: 367
@@ -382,6 +415,7 @@
 - Fiber: 9
 - Cholesterol: 0
 - Sodium: 325
+- Sugar: 0
 
 ### Snack
 - Calories: 205
@@ -393,6 +427,7 @@
 - Fiber: 2
 - Cholesterol: 0
 - Sodium: 290
+- Sugar: 0
 
 ### Dinner
 - Calories: 925
@@ -404,6 +439,7 @@
 - Fiber: 6
 - Cholesterol: 0
 - Sodium: 700
+- Sugar: 0
 
 ## 2025-06-30
 ### Breakfast
@@ -416,6 +452,7 @@
 - Fiber: 2
 - Cholesterol: 0
 - Sodium: 500
+- Sugar: 7
 
 ### Lunch
 - Calories: 475
@@ -427,6 +464,7 @@
 - Fiber: 4
 - Cholesterol: 0
 - Sodium: 750
+- Sugar: 6
 
 ### Snack
 - Calories: 95
@@ -438,6 +476,7 @@
 - Fiber: 3
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 20
 
 ### Dinner
 - Calories: 342
@@ -449,6 +488,7 @@
 - Fiber: 8
 - Cholesterol: 0
 - Sodium: 310
+- Sugar: 13
 
 ## 2025-07-01
 ### Breakfast
@@ -461,6 +501,7 @@
 - Fiber: 2
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 0
 
 ### Lunch
 - Calories: 885
@@ -472,6 +513,7 @@
 - Fiber: 9
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 0
 
 ### Snack
 - Calories: 430
@@ -483,6 +525,7 @@
 - Fiber: 11
 - Cholesterol: 0
 - Sodium: 290
+- Sugar: 0
 
 ### Dinner
 - Calories: 600
@@ -494,6 +537,7 @@
 - Fiber: 4
 - Cholesterol: 0
 - Sodium: 900
+- Sugar: 0
 
 ## 2025-07-02
 ### Breakfast
@@ -506,6 +550,7 @@
 - Fiber: 2
 - Cholesterol: 0
 - Sodium: 1500
+- Sugar: 0
 
 ### Lunch
 - Calories: 500
@@ -517,6 +562,7 @@
 - Fiber: 5
 - Cholesterol: 0
 - Sodium: 475
+- Sugar: 0
 
 ### Snack
 - Calories: 575
@@ -528,6 +574,7 @@
 - Fiber: 13
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 0
 
 ### Dinner
 - Calories: 600
@@ -539,6 +586,7 @@
 - Fiber: 3
 - Cholesterol: 0
 - Sodium: 900
+- Sugar: 0
 
 ## 2025-07-03
 ### Breakfast
@@ -551,6 +599,7 @@
 - Fiber: 5
 - Cholesterol: 0
 - Sodium: 60
+- Sugar: 0
 
 ### Lunch
 - Calories: 410
@@ -562,6 +611,7 @@
 - Fiber: 4
 - Cholesterol: 30
 - Sodium: 500
+- Sugar: 0
 
 ### Snack
 - Calories: 745
@@ -573,6 +623,7 @@
 - Fiber: 8
 - Cholesterol: 185
 - Sodium: 595
+- Sugar: 0
 
 ### Dinner
 - Calories: 500
@@ -584,6 +635,7 @@
 - Fiber: 11
 - Cholesterol: 70
 - Sodium: 575
+- Sugar: 0
 
 ## 2025-07-04
 ### Breakfast
@@ -596,6 +648,7 @@
 - Fiber: 5
 - Cholesterol: 185
 - Sodium: 67
+- Sugar: 0
 
 ### Lunch
 - Calories: 0
@@ -607,6 +660,7 @@
 - Fiber: 0
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 0
 
 ### Snack
 - Calories: 1370
@@ -618,6 +672,7 @@
 - Fiber: 9
 - Cholesterol: 0
 - Sodium: 937
+- Sugar: 0
 
 ### Dinner
 - Calories: 700
@@ -629,6 +684,7 @@
 - Fiber: 3
 - Cholesterol: 0
 - Sodium: 76
+- Sugar: 0
 
 ## 2025-07-05
 ### Breakfast
@@ -641,6 +697,7 @@
 - Fiber: 7
 - Cholesterol: 0
 - Sodium: 60
+- Sugar: 0
 
 ### Lunch
 - Calories: 475
@@ -652,6 +709,7 @@
 - Fiber: 4
 - Cholesterol: 40
 - Sodium: 700
+- Sugar: 0
 
 ### Snack
 - Calories: 685
@@ -663,6 +721,7 @@
 - Fiber: 11
 - Cholesterol: 0
 - Sodium: 15
+- Sugar: 0
 
 ### Dinner
 - Calories: 575
@@ -674,6 +733,7 @@
 - Fiber: 4
 - Cholesterol: 0
 - Sodium: 900
+- Sugar: 0
 
 ## 2025-07-06
 ### Breakfast
@@ -686,6 +746,7 @@
 - Fiber: 5
 - Cholesterol: 0
 - Sodium: 100
+- Sugar: 0
 
 ### Lunch
 - Calories: 325
@@ -697,6 +758,7 @@
 - Fiber: 8
 - Cholesterol: 20
 - Sodium: 500
+- Sugar: 0
 
 ### Snack
 - Calories: 95
@@ -708,6 +770,7 @@
 - Fiber: 4
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 0
 
 ### Dinner
 - Calories: 625
@@ -719,6 +782,7 @@
 - Fiber: 9
 - Cholesterol: 60
 - Sodium: 600
+- Sugar: 0
 
 ## 2025-07-07
 ### Breakfast
@@ -731,6 +795,7 @@
 - Fiber: 6
 - Cholesterol: 0
 - Sodium: 150
+- Sugar: 27
 
 ### Lunch
 - Calories: 375
@@ -742,6 +807,7 @@
 - Fiber: 7
 - Cholesterol: 0
 - Sodium: 400
+- Sugar: 5
 
 ### Snack
 - Calories: 232
@@ -753,6 +819,7 @@
 - Fiber: 6
 - Cholesterol: 0
 - Sodium: 160
+- Sugar: 6
 
 ### Dinner
 - Calories: 650
@@ -764,6 +831,7 @@
 - Fiber: 7
 - Cholesterol: 0
 - Sodium: 900
+- Sugar: 8
 
 ## 2025-07-08
 ### Breakfast
@@ -776,6 +844,7 @@
 - Fiber: 7
 - Cholesterol: 0
 - Sodium: 575
+- Sugar: 5
 
 ### Lunch
 - Calories: 300
@@ -787,6 +856,7 @@
 - Fiber: 1
 - Cholesterol: 0
 - Sodium: 400
+- Sugar: 2
 
 ### Snack
 - Calories: 234
@@ -798,6 +868,7 @@
 - Fiber: 5
 - Cholesterol: 0
 - Sodium: 32
+- Sugar: 23
 
 ### Dinner
 - Calories: 245
@@ -809,6 +880,7 @@
 - Fiber: 8
 - Cholesterol: 0
 - Sodium: 0
+- Sugar: 3
 
 ## 2025-07-09
 ### Breakfast
@@ -821,6 +893,7 @@
 - Fiber: 2
 - Cholesterol: 0
 - Sodium: 550
+- Sugar: 5
 
 ### Lunch
 - Calories: 600
@@ -832,6 +905,7 @@
 - Fiber: 5
 - Cholesterol: 0
 - Sodium: 900
+- Sugar: 5
 
 ### Snack
 - Calories: 630
@@ -843,6 +917,7 @@
 - Fiber: 11
 - Cholesterol: 0
 - Sodium: 140
+- Sugar: 13
 
 ### Dinner
 - Calories: 400
@@ -854,4 +929,5 @@
 - Fiber: 6
 - Cholesterol: 0
 - Sodium: 50
+- Sugar: 21
 
