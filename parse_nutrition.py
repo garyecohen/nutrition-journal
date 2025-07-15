@@ -74,7 +74,7 @@ def main():
     for f in log_files:
         date = None
         # Try to find the date from filename or content
-        m = re.match(r'(\d{4}-\d{2}-\d{2})\.md', f)
+        m = re.match(r'(\d{4}-\d{2}-\d{2})\.md', os.path.basename(f))     
         if m:
             date = m.group(1)
         else:
