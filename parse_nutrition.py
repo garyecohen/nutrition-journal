@@ -7,7 +7,7 @@ print("Current working directory:", os.getcwd())
 MEALS = ['Breakfast', 'Lunch', 'Snack', 'Dinner']
 NUTRIENTS = [
     'Calories', 'Total Sugar', 'Carbohydrates', 'Saturated Fat', 'Total Fat',
-    'Protein', 'Fiber', 'Cholesterol', 'Sodium'
+    'Protein', 'Fiber', 'Cholesterol', 'Sodium', 'Sugar'
 ]
 
 def parse_value(val):
