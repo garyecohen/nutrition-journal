@@ -6,7 +6,7 @@ permissions:
 on:
   push:
     paths:
-      - '**.md'
+      - 'daily_files/**/*.md'
 
 jobs:
   process-logs:
@@ -19,7 +19,7 @@ jobs:
         run: ls -l
 
       - name: Show nutrition log file
-        run: cat 2025-06-24.md || echo "No log file found"
+        run: cat daily_files/2025-06-24.md || echo "No log file found"
 
       - name: Set up Python
         uses: actions/setup-python@v5
