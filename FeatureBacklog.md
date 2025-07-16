@@ -1,3 +1,6 @@
+Version 1 - Data is useful to me (reports, charts etc)
+Version 2 - Data can be input by others
+
 Database upgrades
 Break down table into:
   Nutrients: basically the same table without repeating the meal details
