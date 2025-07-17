@@ -18,3 +18,5 @@ Nutrient table
 Condition table
 Impact table?  What else from LLM output
 Replace values in main tables with keys from above
+
+Could get more useful data in LLM file by refining prompt (Asking for specific suggestions at a specific granularity) - Suggestion Table
