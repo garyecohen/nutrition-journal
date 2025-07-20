@@ -18,8 +18,8 @@ jobs:
       - name: List files in repo
         run: ls -l
 
-      - name: Show nutrition log file
-        run: cat daily_files/2025-06-24.md || echo "No log file found"
+      # - name: Show nutrition log file
+      #  run: cat daily_files/2025-06-24.md || echo "No log file found"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,13 +27,13 @@ jobs:
           python-version: '3.11'
           
       # - name: Install dependencies
-       # run: pip install -r requirements.txt
+      # run: pip install -r requirements.txt
 
       - name: Run nutrition log parser
-        run: python parse_nutrition.py
+        run: python export-nutrition-data.py
 
-      - name: Show nutrition report
-        run: cat nutrition_report.md || echo "No nutrition report found"
+      # - name: Show nutrition report
+      #  run: cat nutrition_report.md || echo "No nutrition report found"
 
       - name: Commit and push summary report
         run: |
