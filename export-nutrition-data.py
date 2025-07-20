@@ -25,6 +25,7 @@ def extract_meal_description(section):
     - If no L: block, fallback to the last H: block.
     - Clean the result for excessive markdown, lines, or ASCII art.
     """
+    print("[DEBUG] Extracting meal description from section:\n", section[:300], "\n---")
     # Find all 'H:' (user) and 'L:' (LLM) lines and their positions
     h_blocks = list(re.finditer(r'^H:\s*(.*)', section, re.MULTILINE))
     l_blocks = list(re.finditer(r'^L:\s*(.*)', section, re.MULTILINE))
@@ -55,10 +56,13 @@ def extract_meal_description(section):
             summary = last_l.group(1).strip()
         # Clean up markdown or ASCII separators
         summary = re.sub(r'^[-•⸻]+$', '', summary, flags=re.MULTILINE).strip()
+        print(f"[DEBUG] Chose L: summary: {summary}")
         return summary
     elif h_blocks:
         # Fallback to last H: block content
+        print(f"[DEBUG] No L:, fallback to H: {h_blocks[-1].group(1).strip()}")
         return h_blocks[-1].group(1).strip()
+    print("[DEBUG] No valid meal description found.")
     return ""
 
 # Helper: Convert mg to g
@@ -125,6 +129,7 @@ CONDITION_MAP = {
 
 def parse_file(filepath):
     # Parse a single RawLLM file and return extracted Meals, Nutrients, and Impacts
+    print(f"[DEBUG] Parsing file: {filepath}")
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
     date_match = re.search(r'RawLLM-(\d{8})$', filepath)
@@ -152,12 +157,17 @@ def parse_file(filepath):
     if current_mealtype and current_section:
         meal_sections.append((current_mealtype, "\n".join(current_section)))
 
+    print(f"[DEBUG] Found {len(meal_sections)} meal sections: {[t for t, s in meal_sections]}")
     meals = []
     for mealtype, section in meal_sections:
+        print(f"[DEBUG] Processing mealtype {mealtype}")
         meal_desc = extract_meal_description(section)
+        print(f"[DEBUG] Extracted meal description: '{meal_desc}'")
         # Skip sections where no plausible meal description can be found
         if not meal_desc or len(meal_desc.split()) < 3:
+            print(f"[DEBUG] Skipping mealtype {mealtype} - description too short or empty: '{meal_desc}'")
             continue
+        print(f"[DEBUG] Adding meal: Type={mealtype}, Description={meal_desc}")
         meals.append({
             "DateID": dateid,
             "MealTypeID": mealtype,
