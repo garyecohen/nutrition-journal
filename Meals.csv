@@ -1,0 +1,117 @@
+MealID,DateID,MealTypeID,MealDescription
+1,2025-06-21,Snack,"Given the following individual, construct a healthy diet, beginning tomorrow morning. This person has high cholesterol, high blood pressure, gout, and pre-diabetes. Here is the twist: before each meal, the desired meal will be given. Most likely you will need to make adjustments."
+2,2025-06-21,Dinner,My dinner will be from a sushi restaurant and I like to get two special rolls.
+3,2025-06-23,Breakfast,"Given the following individual, construct a healthy diet. This person has high cholesterol, high blood pressure, gout, and pre-diabetes. Here is the twist: before each meal, the desired meal will be given. Most likely you will need to make adjustments."
+4,2025-06-23,Lunch,Starting to think about lunch
+5,2025-06-23,Dinner,"I don’t want much for dinner. I still feel full from lunch. I have the frozen broccoli here. I could have that with pasta, olive oil and sunflower seeds."
+6,2025-06-24,Breakfast,Breakfast will be Starbucks. An iced coffee and maybe a bagel and cream cheese
+7,2025-06-24,Lunch,Lunch is a buffet sponsored by my work. I’m sure there will be plenty of meat.
+8,2025-06-24,Snack,Afternoon snack is 20 raw almonds
+9,2025-06-24,Dinner,"My dinner must be heavy on vegetables. I have frozen broccoli, cherry tomatoes and spring greens mix. I can also stop at the grocery store for something fresh and/or anything I might need for the next couple days"
+10,2025-06-25,Breakfast,For breakfast I have Kashi honey almond cereal and fruit
+11,2025-06-25,Snack,For my morning snack I will have a nature valley protein bar (peanut butter dark chocolate)
+12,2025-06-25,Lunch,"For lunch, there is a restaurant called Crisp in downtown Charlotte NC, and I like the FCN salad"
+13,2025-06-25,Snack,"Afternoon snack I’m thinking low-fat cottage cheese and Breton crackers, maybe 1-2 small mandarin oranges"
+14,2025-06-25,Dinner,Pizza
+15,2025-06-25,Snack,"I forgot I had 1/3 avocado left from yesterday, still fresh."
+16,2025-06-26,Breakfast,"The cafeteria in the office has a breakfast buffet. I like scrambled eggs, 2 veggie sausages and 2 biscuits"
+17,2025-06-26,Snack,"There were free cookies from sweetgirlcookies.com - I had a chocolate chip, 250 calories"
+18,2025-06-26,Lunch,For lunch I want a tuna sandwich from Reid’s fine foods.
+19,2025-06-26,Snack,My snack will be three small mandarins.
+20,2025-06-26,Dinner,"For dinner, I will have 90 minute jasmine rice, honey Dijon mustard, onions, tomatoes, and peanuts"
+21,2025-06-26,Snack,"Bedtime snack is a fruit bowl. Blackberries, cantaloupe, honeydew, grapes and pineapple"
+22,2025-06-27,Breakfast,For breakfast I will have one envy apple and 2 mandarin oranges
+23,2025-06-27,Lunch,I want Johnny Burrito. Ground beef
+24,2025-06-27,Snack,My snack will be hummus and crackers
+25,2025-06-27,Dinner,"Dinner is a bowl of spring greens, cherry tomatoes, a full package of steamed broccoli, 1/2 an avocado, 2.5 teaspoons of sunflower seeds and little bit of olive oil"
+26,2025-06-27,Snack,I decided not to eat at the bar. At home I have the other half of the avocado and peanuts
+27,2025-06-28,Breakfast,Breakfast out at the Common Market in South End.
+28,2025-06-28,Snack,For a snack I am having 12 almonds.
+29,2025-06-28,Lunch,"Lunch is 1 low fat whole wheat pita (90 calories), 1/2 can bush’s best black beans (reduced sodium), spring mix, a little bit of chopped onion and 4 tbsp simple truth organic Caesar croutons"
+30,2025-06-28,Dinner,I want sushi for dinner
+31,2025-06-28,Snack,I want TCBY
+32,2025-06-29,Breakfast,Breakfast will be face 0% yogurt and fruit
+33,2025-06-29,Lunch,"Ready for lunch. Spring mix on the whole wheat pita with the rest of the beans can, and tomatoes and onions"
+34,2025-06-29,Snack,For a snack I’m having hummus and crackers
+35,2025-06-29,Dinner,"Dinner is an 8.5 ounce packet of uncle Ben’s brown basmati rice, 3 oz Tyson grilled chicken breast strips, honey Dijon mustard and peanuts"
+36,2025-06-30,Breakfast,Breakfast will be in the work cafeteria.
+37,2025-06-30,Snack,My morning snack is an envy apple
+38,2025-06-30,Lunch,Chicken salad sandwich for lunch
+39,2025-06-30,Dinner,I want cold cereal for dinner. Kashi honey almond flax with a banana.
+40,2025-07-01,Breakfast,I will have 1/2 banana with peanut butter
+41,2025-07-01,Lunch,I want pizza for lunch
+42,2025-07-01,Snack,I will have a nature valley protein bar snack.
+43,2025-07-01,Dinner,Dinner is a pear and Gorgonzola pizza from Brixx.
+44,2025-07-01,Snack,I’m having a snack of 3 small mandarin oranges
+45,2025-07-02,Breakfast,I will have Chick fil A for breakfast.
+46,2025-07-02,Lunch,For lunch I will have a fit nut wrap from energy cafe
+47,2025-07-02,Snack,I will have a banana and peanut butter as a snack
+48,2025-07-02,Dinner,For dinner I’m having the other half of the brixx
+49,2025-07-02,Snack,I’m having 3 small mandarin oranges
+50,2025-07-03,Breakfast,Breakfast will be fage yogurt with frozen cherries
+51,2025-07-03,Lunch,"For lunch I had a ham, havarti and avocado slider: Black Forest ham, havarti, fresh sliced avocado, roasted garlic aioli, and barbecue plum tomatoes on a telera roll. So basically half a sandwich. Also, I had half a banana and 1 tbsp peanut butter"
+52,2025-07-03,Snack,I had a boiled egg for a snack
+53,2025-07-03,Dinner,"Dinner is 2 ounces Gotham greens lettuce, 1 can of bumble bee pink salmon (skinless and boneless), 4 cups birds-eye steamed frozen broccoli, 4 tablespoons of simple truth organic Caesar croutons, and 1 tbsp olive oil"
+54,2025-07-03,Snack,As a snack I am having five unsalted saltine crackers with peanut butter and strawberry jam
+55,2025-07-04,Breakfast,It will be yogurt and frozen cherries. Tomorrow is a strange day because I have a long cross country flight with a three hour time change so I will have less control over what I eat.
+56,2025-07-04,Snack,I snacked on 5 cups of boom chicka popcorn and some Utz crab chips
+57,2025-07-04,Dinner,"Dinner was an 8.5 oz of uncle Ben jasmine rice, raw bok Choy, and 1/4 cup of cashews and olive oil"
+58,2025-07-05,Breakfast,Breakfast is at Oakberry in West Hollywood. They have açaí bowls
+59,2025-07-05,Lunch,I am having a tuna sandwich on sourdough bread for lunch.
+60,2025-07-05,Snack,I will have a snack of 12 almonds
+61,2025-07-05,Dinner,Dinner will be difficult because I’m going out and the only options might be unhealthy. I’m bringing a protein bar just in case.
+62,2025-07-05,Snack,I had a snack of 1/2 cup of peanuts and almonds
+63,2025-07-06,Breakfast,ok
+64,2025-07-06,Snack,For a snack I will have an apple.
+65,2025-07-06,Lunch,"Lunch is lettuce wraps with tuna, tomatoes and garbanzo beans"
+66,2025-07-06,Dinner,I will have sushi for dinner.
+67,2025-07-07,Breakfast,"For breakfast I am having a smoothie with almond milk, banana, dates, almonds, coconut meat, cinnamon, ashwagandha and blue spirulina"
+68,2025-07-07,Snack,I will have a protein bar as a snack
+69,2025-07-07,Lunch,"Lunch is one lettuce wrap with tuna, tomatoes and garbanzo beans, as well as 1/2 pita"
+70,2025-07-07,Snack,My snack is 6 almonds
+71,2025-07-07,Dinner,"Dinner is wok tossed fried rice with broccoli, carrots, soft tofu, and light soy sauce."
+72,2025-07-08,Breakfast,I will have a breakfast burrito with avocado.
+73,2025-07-08,Snack,I am having a peach for a snack.
+74,2025-07-08,Dinner,"Dinner is on my mind, something light."
+75,2025-07-08,Snack,"I will have a snack of Mott’s sugar free applesauce, 2 small containers, 50 calories each"
+76,2025-07-09,Breakfast,For breakfast I will have an everything bagel and cream cheese.
+77,2025-07-09,Snack,My snack was 10 grape tomatoes and 1/2 cup of peanuts and almonds
+78,2025-07-09,Lunch,For lunch I am having a 10 inch tuna sandwich with lettuce peppers onions oil and vinegar
+79,2025-07-09,Snack,I’m having a nature valley protein bar (peanut butter dark chocolate) as a snack
+80,2025-07-09,Dinner,How about a smoothie for dinner from juice crafters
+81,2025-07-10,Breakfast,"For breakfast I will have an omelette with asparagus, carrots, portobello mushroom, red and yellow peppers, squash and zucchini."
+82,2025-07-10,Lunch,I will have a chicken Caesar salad for lunch.
+83,2025-07-10,Snack,My snack is 8 almonds.
+84,2025-07-10,Dinner,Dinner is 8.8 ounces uncle Ben’s whole grain brown rice with baby mushrooms and grape tomatoes
+85,2025-07-10,Snack,Next is vanilla soft serve ice cream with rose sauce and strawberry sauce
+86,2025-07-11,Breakfast,"Breakfast will be Starbucks, spinach feta wrap and hazelnut coffee with fewer pumps."
+87,2025-07-11,Lunch,Lunch was a go-go garbanzo hummus package from Kreation.
+88,2025-07-11,Snack,I’m having 1/2 cup of peanuts and almonds.
+89,2025-07-11,Dinner,For dinner I will have a grilled chicken Cobb salad.
+90,2025-07-11,Snack,I’m having 1/2 a toblerone bar
+91,2025-07-12,Breakfast,"Breakfast is overnight oats with peanut butter, sugar, raw almond milk, flax seed and flax meal"
+92,2025-07-12,Snack,As a snack I had 12 mini apple cinnamon rice cakes
+93,2025-07-12,Lunch,"Lunch was 1 Joseph’s whole wheat pita, 1 avocado, 1 package Birds Eye steamed broccoli florets, a little bit of onion and a sprinkle of raw unsalted sunflower seeds"
+94,2025-07-12,Snack,For a snack I am having 1/2 a kishka appetizer at a deli.
+95,2025-07-12,Dinner,"Dinner is a whitefish salad sandwich on wheat bread with large cucumber slices, lettuce, tomatoes onions and olives"
+96,2025-07-12,Snack,"Snack: my dinner came with potato salad, but instead I will have 3 mandarin oranges."
+97,2025-07-13,Breakfast,For breakfast I will have a boiled egg
+98,2025-07-13,Snack,I will have a snack of 10 almonds.
+99,2025-07-13,Lunch,"Lunch is a panini sandwich with grilled portobello mushrooms, roasted peppers, wild arugula, grilled artichokes with pesto and almond cheese spread"
+100,2025-07-13,Dinner,"Dinner is a bowl of matzo ball soup with carrots and noodles, with bagel chips and one pickle."
+101,2025-07-13,Snack,I also had one single bite of chocolate cream pie.
+102,2025-07-14,Breakfast,Breakfast is plain nonfat yogurt with 1.5 cups of frozen blueberries and a banana
+103,2025-07-14,Snack,As a snack I will have 8 raw almonds.
+104,2025-07-14,Lunch,Lunch is a tuna salad sandwich on sourdough bread.
+105,2025-07-14,Snack,I am having 3 mandarin oranges.
+106,2025-07-14,Dinner,"Dinner is 1 Joseph whole wheat pita bread, a 250 calorie portion of ready to heat chicken fajitas from Whole Foods (which includes white chicken meat, seasoned rice, black beans and roasted fajita peppers)"
+107,2025-07-15,Breakfast,Breakfast is a toasted bagel and cream cheese.
+108,2025-07-15,Lunch,Lunch is a Greek salad from Whole Foods. 12 ounces.
+109,2025-07-15,Snack,For a snack I will have an apple and peanut butter.
+110,2025-07-15,Dinner,"Dinner is 1 Joseph whole wheat pita bread, a 160 calorie portion of ready to heat chicken fajitas from Whole Foods (which includes white chicken meat, seasoned rice, black beans and roasted fajita peppers), 2 tbsp of sabra classic hummus, and a sprinkle of raw unsalted sunflower seeds"
+111,2025-07-15,Snack,For a snack I had 23 cherries.
+112,2025-07-16,Breakfast,Breakfast is 2 packets of cinnamon and spice Quaker instant oatmeal with unsweetened almond milk
+113,2025-07-16,Snack,I had a snack of 6 almonds.
+114,2025-07-16,Lunch,"Lunch is a breaded chicken sandwich on a French baguette with lettuce tomato onion and Honey mustard, with a side order of French fries and ketchup"
+115,2025-07-16,Snack,For a snack I am having a hammond’s cookie dough bar
+116,2025-07-16,Dinner,"Dinner is a “bolognese ragu”, from a bistro."
