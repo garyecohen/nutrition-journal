@@ -12,7 +12,56 @@ MEALS_CSV = "Meals.csv"
 NUTRIENTS_CSV = "Nutrients.csv"
 IMPACTS_CSV = "Impacts.csv"
 
-# Helper: Convert milligrams to grams
+MEAL_TYPES = ["Breakfast", "Lunch", "Dinner", "Snack", "Dessert"]
+
+# Helper for extracting the best meal description from a meal section
+def extract_meal_description(section):
+    """
+    Extract a concise, accurate meal description from a meal section.
+
+    Logic:
+    - Prefer the LLM response (L:) after the last 'H:' (user) meal report, as this is usually an analysis/summary.
+    - If not found, fallback to the last L: block.
+    - If no L: block, fallback to the last H: block.
+    - Clean the result for excessive markdown, lines, or ASCII art.
+    """
+    # Find all 'H:' (user) and 'L:' (LLM) lines and their positions
+    h_blocks = list(re.finditer(r'^H:\s*(.*)', section, re.MULTILINE))
+    l_blocks = list(re.finditer(r'^L:\s*(.*)', section, re.MULTILINE))
+
+    if h_blocks:
+        last_h = h_blocks[-1]
+        # Find the first L: after last H:
+        l_after_h = [l for l in l_blocks if l.start() > last_h.end()]
+        if l_after_h:
+            last_l = l_after_h[0]
+        elif l_blocks:
+            last_l = l_blocks[-1]
+        else:
+            last_l = None
+    elif l_blocks:
+        last_l = l_blocks[-1]
+    else:
+        last_l = None
+
+    # Now extract the paragraph following last_l
+    if last_l:
+        # Grab everything after this L: line, or just this line if nothing follows
+        after = section[last_l.end():]
+        # Get up to first double newline or horizontal line (⸻), or end
+        summary = after.split("\n\n")[0].split("⸻")[0].strip()
+        # If empty, fallback to just the L: line
+        if not summary:
+            summary = last_l.group(1).strip()
+        # Clean up markdown or ASCII separators
+        summary = re.sub(r'^[-•⸻]+$', '', summary, flags=re.MULTILINE).strip()
+        return summary
+    elif h_blocks:
+        # Fallback to last H: block content
+        return h_blocks[-1].group(1).strip()
+    return ""
+
+# Helper: Convert mg to g
 def mg_to_g(val):
     try:
         return float(val) / 1000
@@ -65,10 +114,6 @@ def assign_score(note):
     return 7
 
 # Mapping for condition types to canonical names
-CONDITION_TYPES = [
-    "Fatty liver", "Pre-diabetes", "High cholesterol", "High blood pressure", "Gout"
-]
-
 CONDITION_MAP = {
     "Fatty liver": "Fatty Liver",
     "Pre-diabetes": "Pre-Diabetes",
@@ -77,9 +122,6 @@ CONDITION_MAP = {
     "High blood pressure": "High Blood Pressure",
     "Gout": "Gout",
 }
-
-# Meal types
-MEAL_TYPES = ["Breakfast", "Lunch", "Dinner", "Snack", "Dessert"]
 
 def parse_file(filepath):
     # Parse a single RawLLM file and return extracted Meals, Nutrients, and Impacts
@@ -111,19 +153,11 @@ def parse_file(filepath):
         meal_sections.append((current_mealtype, "\n".join(current_section)))
 
     meals = []
-    nutrients = []
-    impacts = []
-
-    meal_id_base = 1  # Will be incremented outside for multi-file
-    nutrient_id = 1
-    impact_id = 1
-
     for mealtype, section in meal_sections:
-        # Extract meal description (from 'H:' line)
-        desc_match = re.search(r'H:\s*(.+)', section)
-        meal_desc = desc_match.group(1).strip() if desc_match else ""
-
-        # Build Meals entry (MealID assigned later)
+        meal_desc = extract_meal_description(section)
+        # Skip sections where no plausible meal description can be found
+        if not meal_desc or len(meal_desc.split()) < 3:
+            continue
         meals.append({
             "DateID": dateid,
             "MealTypeID": mealtype,
@@ -136,8 +170,6 @@ def parse_file(filepath):
 def extract_nutrients_impacts(meals, meal_id_start=1):
     nutrients = []
     impacts = []
-    nutrient_id = 1
-    impact_id = 1
 
     # Nutrient field mapping: (user-facing label, canonical label, units)
     NUTRIENT_MAPPINGS = {
@@ -151,28 +183,23 @@ def extract_nutrients_impacts(meals, meal_id_start=1):
         "Sodium": ("Sodium", "mg"),
         "Sugar": ("Sugars", "g"),
         "Saturated Fat": ("Saturated Fat", "g"),
-        "Magnesium & Vitamin E": (None, None),
     }
 
     # Regexes for nutrients
     nutrient_line_re = re.compile(r'^(Calories|Carbs|Carbohydrates|Fiber|Sugars|Sugar|Protein|Fat|Sodium|Saturated Fat)\s*~?([-\d\.–]+)(?:\s*\((?:includes|with)[^\)]*\))?', re.I)
-    sodium_re = re.compile(r'Sodium\s*~?([-\d,\.–]+)\s*mg', re.I)
     gram_val_re = re.compile(r'~?([-\d\.–]+)\s*g', re.I)
     cal_val_re = re.compile(r'~?([-\d\.–]+)\s*k?cal', re.I)
     mg_val_re = re.compile(r'~?([-\d\.–]+)\s*mg', re.I)
 
     # ConditionType regex
-    cond_section_re = re.compile(r'Health Fit Check:\s*Condition\s*Fit\?\s*Notes(.+?)(?:✅|⚠️|$)', re.S)
     cond_line_re = re.compile(r'^(Fatty liver|Pre-diabetes|High cholesterol|High blood pressure|Gout)\s*([✅⚠️])\s*(.+)$', re.I | re.M)
 
-    # For scoring
     for idx, meal in enumerate(meals):
         meal_id = meal_id_start + idx
         section = meal["section"]
 
         # --- Nutrients Extraction ---
-        # 1. Find Nutrition Estimate or similar block
-        # Try to find all lines after 'Nutrition Estimate:' or similar
+        # Find Nutrition Estimate or similar block
         nutri_blocks = re.findall(r'Nutrition Estimate:(.+?)(?:⸻|$)', section, re.S)
         if not nutri_blocks:
             nutri_blocks = re.findall(r'Estimated Nutrition:(.+?)(?:⸻|$)', section, re.S)
@@ -180,13 +207,9 @@ def extract_nutrients_impacts(meals, meal_id_start=1):
             nutri_blocks = re.findall(r'Estimated Nutritional Info(.+?)(?:⸻|$)', section, re.S)
         if not nutri_blocks:
             nutri_blocks = re.findall(r'Snack:(.+?)(?:⸻|$)', section, re.S)
-        # Also try for explicit label-amount tables
         if not nutri_blocks:
             nutri_blocks = re.findall(r'Nutrient\s*Approx\.?\s*Amount(.+?)(?:⸻|$)', section, re.S)
-            # Also try for 'Nutrient Estimate(.+?)⸻'
-        # Vitamin/Mineral blocks are ignored for simplicity
 
-        nutri_found = set()
         for block in nutri_blocks:
             for line in block.splitlines():
                 line = line.strip()
@@ -206,7 +229,6 @@ def extract_nutrients_impacts(meals, meal_id_start=1):
                         "NutrientType": canonical,
                         "Grams": grams_val,
                     })
-                    nutri_found.add(canonical)
                 elif "Calories" in line:
                     m = cal_val_re.search(line)
                     if m:
@@ -216,7 +238,6 @@ def extract_nutrients_impacts(meals, meal_id_start=1):
                             "NutrientType": "Calories",
                             "Grams": extract_highest(val),
                         })
-                        nutri_found.add("Calories")
                 elif "Sodium" in line:
                     m = mg_val_re.search(line)
                     if m:
@@ -226,12 +247,9 @@ def extract_nutrients_impacts(meals, meal_id_start=1):
                             "NutrientType": "Sodium",
                             "Grams": mg_to_g(extract_highest(val)),
                         })
-                        nutri_found.add("Sodium")
-        # Special case: if no nutrition found, try to parse calories/fat/protein from summary lines
-        # (omitted here for brevity)
 
         # --- Impacts Extraction ---
-        # Find Health Fit Check section
+        # Look for Health Fit Check or Health Notes
         fit_section = None
         fit_start = section.find("Health Fit Check:")
         if fit_start >= 0:
@@ -247,7 +265,6 @@ def extract_nutrients_impacts(meals, meal_id_start=1):
                     "Notes": notes,
                     "Score": score,
                 })
-        # Try for detailed Health Notes block (for dinner in example) -- parse those as well
         notes_block = re.findall(r'Health Notes.*?\n(.+?)\n⸻', section, re.S)
         if notes_block:
             for line in notes_block[0].splitlines():
@@ -273,15 +290,11 @@ def main():
     all_nutrients = []
     all_impacts = []
     meal_id = 1
-    nutrient_id = 1
-    impact_id = 1
-    mealid_map = {}  # (date, index) -> meal_id
 
     for file in files:
         meals = parse_file(file)
         for i, meal in enumerate(meals):
             meal['MealID'] = meal_id
-            mealid_map[(meal['DateID'], i)] = meal_id
             meal_id += 1
         nutrients, impacts = extract_nutrients_impacts(meals, meal_id_start=meal_id-len(meals))
         all_meals.extend(meals)
