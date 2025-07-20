@@ -9,11 +9,48 @@ MEALS_CSV = "Meals.csv"
 NUTRIENTS_CSV = "Nutrients.csv"
 IMPACTS_CSV = "Impacts.csv"
 
-# Lowercase meal types for normalization
 MEAL_TYPES = ["breakfast", "lunch", "dinner", "snack", "dessert"]
 
+NUTRIENT_SYNONYMS = {
+    "calories": "Calories",
+    "total sugar": "Sugar",
+    "sugar": "Sugar",
+    "carbohydrates": "Carbohydrates",
+    "carbs": "Carbohydrates",
+    "saturated fat": "Saturated Fat",
+    "total fat": "Fat",
+    "fat": "Fat",
+    "protein": "Protein",
+    "fiber": "Fiber",
+    "cholesterol": "Cholesterol",
+    "sodium": "Sodium",
+}
+
+def parse_value(val):
+    if not val or val.strip() in ('—', '-', ''):
+        return 0
+    val = val.replace(',', '').replace(' ', '')
+    # Range: 500–700 or 500-700
+    range_match = re.match(r'[~<>=]?\s*(\d+)[–-](\d+)', val)
+    if range_match:
+        low = int(range_match.group(1))
+        high = int(range_match.group(2))
+        return (low + high) // 2
+    # Approximate: ~400
+    approx_match = re.match(r'~(\d+)', val)
+    if approx_match:
+        return int(approx_match.group(1))
+    # Inequality: <6 or >100
+    ineq_match = re.match(r'[<>](\d+)', val)
+    if ineq_match:
+        return int(ineq_match.group(1))
+    # Plain number anywhere in string
+    num_match = re.search(r'(\d+)', val)
+    if num_match:
+        return int(num_match.group(1))
+    return 0
+
 def extract_meal_description(section):
-    print("[DEBUG] Extracting meal description from section:\n", section[:300], "\n---")
     h_blocks = list(re.finditer(r'^H:\s*(.*)', section, re.MULTILINE))
     l_blocks = list(re.finditer(r'^L:\s*(.*)', section, re.MULTILINE))
     if h_blocks:
@@ -36,88 +73,30 @@ def extract_meal_description(section):
         if not summary:
             summary = last_l.group(1).strip()
         summary = re.sub(r'^[-•⸻]+$', '', summary, flags=re.MULTILINE).strip()
-        print(f"[DEBUG] Chose L: summary: {summary}")
         return summary
     elif h_blocks:
-        print(f"[DEBUG] No L:, fallback to H: {h_blocks[-1].group(1).strip()}")
         return h_blocks[-1].group(1).strip()
-    print("[DEBUG] No valid meal description found.")
     return ""
 
-def parse_file(filepath):
-    print(f"[DEBUG] Parsing file: {filepath}")
-    with open(filepath, "r", encoding="utf-8") as f:
-        content = f.read()
-    date_match = re.search(r'RawLLM-(\d{8})$', filepath)
-    if not date_match:
-        raise ValueError(f"Could not parse date from filename {filepath}")
-    dateid = datetime.datetime.strptime(date_match.group(1), "%Y%m%d").date().isoformat()
-
-    meal_sections = []
-    current_mealtype = None
-    current_section = []
-
-    lines = content.splitlines()
-    for idx, line in enumerate(lines):
-        raw = line.strip()
-        # Remove trailing colon and lowercase for robust matching
-        normalized = raw.rstrip(':').lower()
-        print(f"[DEBUG] Line {idx}: '{line}' (normalized: '{normalized}')")
-        if normalized in MEAL_TYPES:
-            print(f"[DEBUG] Matched meal type header: '{normalized}'")
-            if current_mealtype is not None and current_section:
-                meal_sections.append((current_mealtype, "\n".join(current_section)))
-                current_section = []
-            current_mealtype = normalized.capitalize()  # Store in TitleCase for output consistency
-        elif raw == "" and not current_section:
-            continue
-        else:
-            current_section.append(line)
-    if current_mealtype and current_section:
-        meal_sections.append((current_mealtype, "\n".join(current_section)))
-
-    print(f"[DEBUG] Found {len(meal_sections)} meal sections: {[t for t, s in meal_sections]}")
-    meals = []
-    for mealtype, section in meal_sections:
-        print(f"[DEBUG] Processing mealtype {mealtype}")
-        meal_desc = extract_meal_description(section)
-        print(f"[DEBUG] Extracted meal description: '{meal_desc}'")
-        if not meal_desc or len(meal_desc.split()) < 3:
-            print(f"[DEBUG] Skipping mealtype {mealtype} - description too short or empty: '{meal_desc}'")
-            continue
-        print(f"[DEBUG] Adding meal: Type={mealtype}, Description={meal_desc}")
-        meals.append({
-            "DateID": dateid,
-            "MealTypeID": mealtype,
-            "MealDescription": meal_desc,
-            "section": section,  # Keep for further parsing
-        })
-
-    return meals
-
-# Placeholders for nutrients and impacts functions
-def mg_to_g(val):
-    try:
-        return float(val) / 1000
-    except Exception:
-        return val
-
-def extract_highest(val):
-    if isinstance(val, (float, int)):
-        return float(val)
-    if isinstance(val, str):
-        if "–" in val or "-" in val:
-            val = val.replace("–", "-")
-            parts = re.split(r"[-]", val)
-            try:
-                return float(parts[-1].strip())
-            except Exception:
-                pass
-        try:
-            return float(val.strip())
-        except Exception:
-            pass
-    return None
+def extract_nutrients_from_section(section):
+    """
+    Extract nutrients from any line in a meal section that looks like
+    'NutrientName: value unit' or 'NutrientName value unit', robust to format.
+    Returns a dict {CanonicalNutrientName: value}
+    """
+    nutrients = {}
+    # Regex matches lines like: 'Calories: 350', 'Protein~10g', 'Fat: 5-7g', etc.
+    pattern = re.compile(
+        r'(?i)\b(' + '|'.join(re.escape(x) for x in NUTRIENT_SYNONYMS.keys()) + r')\b[:\s~\-]*([<>=~]?\s*[\d,\.]+(?:[–\-][\d,\.]+)?)\s*(kcal|g|mg|mcg)?',
+        re.I
+    )
+    for line in section.splitlines():
+        for m in pattern.finditer(line):
+            raw_name = m.group(1).lower()
+            std_name = NUTRIENT_SYNONYMS.get(raw_name, raw_name.title())
+            value = parse_value(m.group(2))
+            nutrients[std_name] = value
+    return nutrients
 
 def assign_score(note):
     note = note.lower()
@@ -154,82 +133,68 @@ CONDITION_MAP = {
     "Gout": "Gout",
 }
 
+def parse_file(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
+        content = f.read()
+    date_match = re.search(r'RawLLM-(\d{8})$', filepath)
+    if not date_match:
+        raise ValueError(f"Could not parse date from filename {filepath}")
+    dateid = datetime.datetime.strptime(date_match.group(1), "%Y%m%d").date().isoformat()
+
+    meal_sections = []
+    current_mealtype = None
+    current_section = []
+
+    lines = content.splitlines()
+    for idx, line in enumerate(lines):
+        raw = line.strip()
+        normalized = raw.rstrip(':').lower()
+        if normalized in MEAL_TYPES:
+            if current_mealtype is not None and current_section:
+                meal_sections.append((current_mealtype, "\n".join(current_section)))
+                current_section = []
+            current_mealtype = normalized.capitalize()
+        elif raw == "" and not current_section:
+            continue
+        else:
+            current_section.append(line)
+    if current_mealtype and current_section:
+        meal_sections.append((current_mealtype, "\n".join(current_section)))
+
+    meals = []
+    for mealtype, section in meal_sections:
+        meal_desc = extract_meal_description(section)
+        if not meal_desc or len(meal_desc.split()) < 3:
+            continue
+        meals.append({
+            "DateID": dateid,
+            "MealTypeID": mealtype,
+            "MealDescription": meal_desc,
+            "section": section,
+        })
+
+    return meals
+
 def extract_nutrients_impacts(meals, meal_id_start=1):
     nutrients = []
     impacts = []
 
-    NUTRIENT_MAPPINGS = {
-        "Calories": ("Calories", "kcal"),
-        "Carbs": ("Carbohydrates", "g"),
-        "Carbohydrates": ("Carbohydrates", "g"),
-        "Fiber": ("Fiber", "g"),
-        "Sugars": ("Sugars", "g"),
-        "Protein": ("Protein", "g"),
-        "Fat": ("Fat", "g"),
-        "Sodium": ("Sodium", "mg"),
-        "Sugar": ("Sugars", "g"),
-        "Saturated Fat": ("Saturated Fat", "g"),
-    }
-
-    nutrient_line_re = re.compile(r'^(Calories|Carbs|Carbohydrates|Fiber|Sugars|Sugar|Protein|Fat|Sodium|Saturated Fat)\s*~?([-\d\.–]+)(?:\s*\((?:includes|with)[^\)]*\))?', re.I)
-    gram_val_re = re.compile(r'~?([-\d\.–]+)\s*g', re.I)
-    cal_val_re = re.compile(r'~?([-\d\.–]+)\s*k?cal', re.I)
-    mg_val_re = re.compile(r'~?([-\d\.–]+)\s*mg', re.I)
     cond_line_re = re.compile(r'^(Fatty liver|Pre-diabetes|High cholesterol|High blood pressure|Gout)\s*([✅⚠️])\s*(.+)$', re.I | re.M)
 
     for idx, meal in enumerate(meals):
         meal_id = meal_id_start + idx
         section = meal["section"]
 
-        # Nutrients Extraction (as before)
-        nutri_blocks = re.findall(r'Nutrition Estimate:(.+?)(?:⸻|$)', section, re.S)
-        if not nutri_blocks:
-            nutri_blocks = re.findall(r'Estimated Nutrition:(.+?)(?:⸻|$)', section, re.S)
-        if not nutri_blocks:
-            nutri_blocks = re.findall(r'Estimated Nutritional Info(.+?)(?:⸻|$)', section, re.S)
-        if not nutri_blocks:
-            nutri_blocks = re.findall(r'Snack:(.+?)(?:⸻|$)', section, re.S)
-        if not nutri_blocks:
-            nutri_blocks = re.findall(r'Nutrient\s*Approx\.?\s*Amount(.+?)(?:⸻|$)', section, re.S)
+        # --- Nutrients Extraction ---
+        nutrients_dict = extract_nutrients_from_section(section)
+        for nut_name, nut_val in nutrients_dict.items():
+            nutrients.append({
+                "MealID": meal_id,
+                "NutrientType": nut_name,
+                "Grams": nut_val,
+            })
 
-        for block in nutri_blocks:
-            for line in block.splitlines():
-                line = line.strip()
-                m = nutrient_line_re.match(line)
-                if m:
-                    label, val = m.group(1), m.group(2)
-                    label = label.strip()
-                    canonical, units = NUTRIENT_MAPPINGS.get(label, (label, "g"))
-                    if not canonical:
-                        continue
-                    if units == "mg":
-                        grams_val = mg_to_g(extract_highest(val))
-                    else:
-                        grams_val = extract_highest(val)
-                    nutrients.append({
-                        "MealID": meal_id,
-                        "NutrientType": canonical,
-                        "Grams": grams_val,
-                    })
-                elif "Calories" in line:
-                    m = cal_val_re.search(line)
-                    if m:
-                        val = m.group(1)
-                        nutrients.append({
-                            "MealID": meal_id,
-                            "NutrientType": "Calories",
-                            "Grams": extract_highest(val),
-                        })
-                elif "Sodium" in line:
-                    m = mg_val_re.search(line)
-                    if m:
-                        val = m.group(1)
-                        nutrients.append({
-                            "MealID": meal_id,
-                            "NutrientType": "Sodium",
-                            "Grams": mg_to_g(extract_highest(val)),
-                        })
-        # Impacts Extraction (as before)
+        # --- Impacts Extraction ---
         fit_section = None
         fit_start = section.find("Health Fit Check:")
         if fit_start >= 0:
@@ -279,9 +244,6 @@ def main():
         all_meals.extend(meals)
         all_nutrients.extend(nutrients)
         all_impacts.extend(impacts)
-        print(f"[DEBUG] File {file}: final extracted meals:")
-        for meal in meals:
-            print(f"  MealID {meal['MealID']}: {meal['MealTypeID']} - {meal['MealDescription']}")
 
     with open(MEALS_CSV, "w", newline='', encoding="utf-8") as f:
         writer = csv.writer(f)
