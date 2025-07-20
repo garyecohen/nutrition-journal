@@ -6,7 +6,7 @@ permissions:
 on:
   push:
     paths:
-      - 'daily_files/**/*.md'
+      - 'daily_files/RawLLM*'
 
 jobs:
   process-logs:
