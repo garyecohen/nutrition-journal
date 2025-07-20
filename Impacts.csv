@@ -1,61 +1,61 @@
 ImpactID,MealID,ConditionType,Notes,Score
-1,105,Fatty Liver,"Low-fat, antioxidant-rich",7
-2,105,Pre-Diabetes,Natural sugars balanced by fiber; just watch total fruit load today,7
-3,105,High Cholesterol,Fruit fiber supports cholesterol metabolism,7
-4,105,High Blood Pressure,"High potassium, low sodium",10
-5,105,Gout,Very safe,10
-6,106,Fatty Liver,"Lean protein, fiber, and healthy carbs — low saturated fat",7
-7,106,Pre-Diabetes,Balanced macros with fiber and slow-digesting carbs,7
-8,106,High Cholesterol,Low in cholesterol and saturated fat,7
-9,106,High Blood Pressure,"️ Sodium is moderate — not excessive, but keep water intake high",4
-10,106,Gout,"Chicken is moderate in purines, but fine in this portion",5
-11,107,Fatty Liver,️ Refined carbs + saturated fat combo isn’t ideal; better if occasional,7
-12,107,Pre-Diabetes,️ High glycemic — consider pairing with fiber/protein later in the morning,4
-13,107,High Cholesterol,️ Cream cheese adds saturated fat; small portion is better,7
-14,107,High Blood Pressure,️ Moderate sodium,5
-15,107,Gout,"Safe, though not especially nutrient-dense",7
-16,108,Fatty Liver,Good mix of veggies and healthy fats,7
-17,108,Pre-Diabetes,Low-carb and low-glycemic,7
-18,108,High Cholesterol,"Olive oil and veggies help, though feta adds some saturated fat",7
-19,108,High Blood Pressure,️ Watch the sodium — olives + feta + dressing can add up,7
-20,108,Gout,Safe and low purine,10
-21,109,Fatty Liver,"Low sugar, nutrient-dense, healthy fats",7
-22,109,Pre-Diabetes,Fiber + fat = blood sugar stability,7
-23,109,High Cholesterol,Peanut butter may help lower LDL,7
-24,109,High Blood Pressure,"If unsalted PB, sodium is very low",7
-25,109,Gout,Completely safe,10
-26,110,Fatty Liver,"Lean protein, fiber, no added sugar",7
-27,110,Pre-Diabetes,Balanced glycemic load with protein/fiber,7
-28,110,High Cholesterol,Healthy fats and low saturated fat,7
-29,110,High Blood Pressure,"Hummus and sunflower seeds are naturally low sodium; fajita mix could have some, but portion is small",10
-30,110,Gout,"Moderate protein, no red meat or high-purine ingredients",4
-31,111,Fatty Liver,Antioxidants and fiber support liver health,7
-32,111,Pre-Diabetes,"Moderate glycemic load, especially fine as part of balanced intake",5
-33,111,High Cholesterol,No fat or cholesterol; helps reduce inflammation,7
-34,111,High Blood Pressure,Potassium + low sodium = great choice,10
-35,111,Gout,✅ Cherries may help reduce uric acid and gout flares,7
-36,112,Fatty Liver,"️ Oats are great, but added sugars aren’t ideal",7
-37,112,Pre-Diabetes,️ High glycemic carbs + added sugar — better if paired with protein or fat,4
-38,112,High Cholesterol,Oats support lower LDL,7
-39,112,High Blood Pressure,Reasonable sodium,7
-40,112,Gout,No purines; totally safe,10
-41,113,Fatty Liver,Anti-inflammatory fats; helps with insulin sensitivity,10
-42,113,Pre-Diabetes,Excellent blood sugar stabilizer,10
-43,113,High Cholesterol,Can help lower LDL over time,10
-44,113,High Blood Pressure,"Low sodium, potassium-rich",10
-45,113,Gout,Low-purine and safe,10
-46,114,Fatty Liver,️ Refined carbs + fried food and saturated fat — not ideal,4
-47,114,Pre-Diabetes,"️ High glycemic load, little fiber — causes a spike without a balance",3
-48,114,High Cholesterol,️ Breaded/fried chicken and fries raise LDL,2
-49,114,High Blood Pressure,"️ High sodium from breading, condiments, and fries",3
-50,114,Gout,No high-purine content — safe in that regard,10
-51,115,Fatty Liver,️ High in added sugars and saturated fats — best as an occasional treat,2
-52,115,Pre-Diabetes,️ High sugar and fast-absorbing carbs may cause a glucose spike,3
-53,115,High Cholesterol,️ Contains saturated fats from chocolate and filling,7
-54,115,High Blood Pressure,Low sodium,10
-55,115,Gout,No purines,10
-56,116,Fatty Liver,️ Moderate — okay in moderation if it’s lean meat and portion-controlled,5
-57,116,Pre-Diabetes,️ Likely moderate-to-high in refined carbs — especially from pasta,4
-58,116,High Cholesterol,️ May contain saturated fat from beef and oil — lean meat helps,7
-59,116,High Blood Pressure,️ Sodium could be high,4
-60,116,Gout,️ Beef and pork can contribute to purine load,7
+1,112,Fatty Liver,"Low-fat, antioxidant-rich",7
+2,112,Pre-Diabetes,Natural sugars balanced by fiber; just watch total fruit load today,7
+3,112,High Cholesterol,Fruit fiber supports cholesterol metabolism,7
+4,112,High Blood Pressure,"High potassium, low sodium",10
+5,112,Gout,Very safe,10
+6,113,Fatty Liver,"Lean protein, fiber, and healthy carbs — low saturated fat",7
+7,113,Pre-Diabetes,Balanced macros with fiber and slow-digesting carbs,7
+8,113,High Cholesterol,Low in cholesterol and saturated fat,7
+9,113,High Blood Pressure,"️ Sodium is moderate — not excessive, but keep water intake high",4
+10,113,Gout,"Chicken is moderate in purines, but fine in this portion",5
+11,114,Fatty Liver,️ Refined carbs + saturated fat combo isn’t ideal; better if occasional,7
+12,114,Pre-Diabetes,️ High glycemic — consider pairing with fiber/protein later in the morning,4
+13,114,High Cholesterol,️ Cream cheese adds saturated fat; small portion is better,7
+14,114,High Blood Pressure,️ Moderate sodium,5
+15,114,Gout,"Safe, though not especially nutrient-dense",7
+16,115,Fatty Liver,Good mix of veggies and healthy fats,7
+17,115,Pre-Diabetes,Low-carb and low-glycemic,7
+18,115,High Cholesterol,"Olive oil and veggies help, though feta adds some saturated fat",7
+19,115,High Blood Pressure,️ Watch the sodium — olives + feta + dressing can add up,7
+20,115,Gout,Safe and low purine,10
+21,116,Fatty Liver,"Low sugar, nutrient-dense, healthy fats",7
+22,116,Pre-Diabetes,Fiber + fat = blood sugar stability,7
+23,116,High Cholesterol,Peanut butter may help lower LDL,7
+24,116,High Blood Pressure,"If unsalted PB, sodium is very low",7
+25,116,Gout,Completely safe,10
+26,117,Fatty Liver,"Lean protein, fiber, no added sugar",7
+27,117,Pre-Diabetes,Balanced glycemic load with protein/fiber,7
+28,117,High Cholesterol,Healthy fats and low saturated fat,7
+29,117,High Blood Pressure,"Hummus and sunflower seeds are naturally low sodium; fajita mix could have some, but portion is small",10
+30,117,Gout,"Moderate protein, no red meat or high-purine ingredients",4
+31,118,Fatty Liver,Antioxidants and fiber support liver health,7
+32,118,Pre-Diabetes,"Moderate glycemic load, especially fine as part of balanced intake",5
+33,118,High Cholesterol,No fat or cholesterol; helps reduce inflammation,7
+34,118,High Blood Pressure,Potassium + low sodium = great choice,10
+35,118,Gout,✅ Cherries may help reduce uric acid and gout flares,7
+36,119,Fatty Liver,"️ Oats are great, but added sugars aren’t ideal",7
+37,119,Pre-Diabetes,️ High glycemic carbs + added sugar — better if paired with protein or fat,4
+38,119,High Cholesterol,Oats support lower LDL,7
+39,119,High Blood Pressure,Reasonable sodium,7
+40,119,Gout,No purines; totally safe,10
+41,120,Fatty Liver,Anti-inflammatory fats; helps with insulin sensitivity,10
+42,120,Pre-Diabetes,Excellent blood sugar stabilizer,10
+43,120,High Cholesterol,Can help lower LDL over time,10
+44,120,High Blood Pressure,"Low sodium, potassium-rich",10
+45,120,Gout,Low-purine and safe,10
+46,121,Fatty Liver,️ Refined carbs + fried food and saturated fat — not ideal,4
+47,121,Pre-Diabetes,"️ High glycemic load, little fiber — causes a spike without a balance",3
+48,121,High Cholesterol,️ Breaded/fried chicken and fries raise LDL,2
+49,121,High Blood Pressure,"️ High sodium from breading, condiments, and fries",3
+50,121,Gout,No high-purine content — safe in that regard,10
+51,122,Fatty Liver,️ High in added sugars and saturated fats — best as an occasional treat,2
+52,122,Pre-Diabetes,️ High sugar and fast-absorbing carbs may cause a glucose spike,3
+53,122,High Cholesterol,️ Contains saturated fats from chocolate and filling,7
+54,122,High Blood Pressure,Low sodium,10
+55,122,Gout,No purines,10
+56,123,Fatty Liver,️ Moderate — okay in moderation if it’s lean meat and portion-controlled,5
+57,123,Pre-Diabetes,️ Likely moderate-to-high in refined carbs — especially from pasta,4
+58,123,High Cholesterol,️ May contain saturated fat from beef and oil — lean meat helps,7
+59,123,High Blood Pressure,️ Sodium could be high,4
+60,123,Gout,️ Beef and pork can contribute to purine load,7
