@@ -32,6 +32,13 @@ jobs:
       - name: Run nutrition log parser
         run: python export-nutrition-data.py
 
+      - name: Preview Meals.csv
+        run: head Meals.csv || echo "Meals.csv not found"
+      - name: Preview Nutrients.csv
+        run: head Nutrients.csv || echo "Nutrients.csv not found"
+      - name: Preview Impacts.csv
+        run: head Impacts.csv || echo "Impacts.csv not found"
+
       # - name: Show nutrition report
       #  run: cat nutrition_report.md || echo "No nutrition report found"
 
