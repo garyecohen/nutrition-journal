@@ -263,6 +263,10 @@ def main():
     print("Meals.csv written:", os.path.exists(MEALS_CSV))
     print("Nutrients.csv written:", os.path.exists(NUTRIENTS_CSV))
     print("Impacts.csv written:", os.path.exists(IMPACTS_CSV))
+    print("Repo root used for output:", os.path.dirname(os.path.abspath(__file__)))
+    print("Meals.csv absolute path:", MEALS_CSV)
+    print("Nutrients.csv absolute path:", NUTRIENTS_CSV)
+    print("Impacts.csv absolute path:", IMPACTS_CSV)
 
 if __name__ == "__main__":
     main()
