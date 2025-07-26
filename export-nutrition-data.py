@@ -30,21 +30,17 @@ def parse_value(val):
     if not val or val.strip() in ('—', '-', ''):
         return 0
     val = val.replace(',', '').replace(' ', '')
-    # Range: 500–700 or 500-700
     range_match = re.match(r'[~<>=]?\s*(\d+)[–-](\d+)', val)
     if range_match:
         low = int(range_match.group(1))
         high = int(range_match.group(2))
         return (low + high) // 2
-    # Approximate: ~400
     approx_match = re.match(r'~(\d+)', val)
     if approx_match:
         return int(approx_match.group(1))
-    # Inequality: <6 or >100
     ineq_match = re.match(r'[<>](\d+)', val)
     if ineq_match:
         return int(ineq_match.group(1))
-    # Plain number anywhere in string
     num_match = re.search(r'(\d+)', val)
     if num_match:
         return int(num_match.group(1))
@@ -79,13 +75,7 @@ def extract_meal_description(section):
     return ""
 
 def extract_nutrients_from_section(section):
-    """
-    Extract nutrients from any line in a meal section that looks like
-    'NutrientName: value unit' or 'NutrientName value unit', robust to format.
-    Returns a dict {CanonicalNutrientName: value}
-    """
     nutrients = {}
-    # Regex matches lines like: 'Calories: 350', 'Protein~10g', 'Fat: 5-7g', etc.
     pattern = re.compile(
         r'(?i)\b(' + '|'.join(re.escape(x) for x in NUTRIENT_SYNONYMS.keys()) + r')\b[:\s~\-]*([<>=~]?\s*[\d,\.]+(?:[–\-][\d,\.]+)?)\s*(kcal|g|mg|mcg)?',
         re.I
@@ -126,7 +116,6 @@ def assign_score(note):
 
 CONDITION_MAP = {
     "Fatty liver": "Fatty Liver",
-    "Pre-diabetes": "Pre-Diabetes",
     "Pre-diabetes": "Pre-Diabetes",
     "High cholesterol": "High Cholesterol",
     "High blood pressure": "High Blood Pressure",
@@ -265,3 +254,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
