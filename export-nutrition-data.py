@@ -4,10 +4,13 @@ import glob
 import datetime
 import csv
 
+# Always write CSVs to repo root (where this script is located)
+REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
+MEALS_CSV = os.path.join(REPO_ROOT, "Meals.csv")
+NUTRIENTS_CSV = os.path.join(REPO_ROOT, "Nutrients.csv")
+IMPACTS_CSV = os.path.join(REPO_ROOT, "Impacts.csv")
 DAILY_FILES_DIR = "daily_files"
-MEALS_CSV = "Meals.csv"
-NUTRIENTS_CSV = "Nutrients.csv"
-IMPACTS_CSV = "Impacts.csv"
+
 
 MEAL_TYPES = ["breakfast", "lunch", "dinner", "snack", "dessert"]
 
