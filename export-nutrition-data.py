@@ -257,5 +257,9 @@ def main():
         for idx, impact in enumerate(all_impacts, start=1):
             writer.writerow([idx, impact['MealID'], impact['ConditionType'], impact['Notes'], impact['Score']])
 
+    print("Meals.csv written:", os.path.exists(MEALS_CSV))
+    print("Nutrients.csv written:", os.path.exists(NUTRIENTS_CSV))
+    print("Impacts.csv written:", os.path.exists(IMPACTS_CSV))
+
 if __name__ == "__main__":
     main()
