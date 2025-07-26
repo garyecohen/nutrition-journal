@@ -82,20 +82,42 @@ def extract_nutrients_from_section(section):
     """
     Extract nutrients from any line in a meal section that looks like
     'NutrientName: value unit' or 'NutrientName value unit', robust to format.
+    Also handles 'value unit NutrientName' format like '26g protein'.
     Returns a dict {CanonicalNutrientName: value}
     """
     nutrients = {}
-    # Regex matches lines like: 'Calories: 350', 'Protein~10g', 'Fat: 5-7g', etc.
-    pattern = re.compile(
+    
+    # Pattern 1: Nutrient followed by value (e.g., "Calories ~720", "Fat ~36g")
+    pattern1 = re.compile(
         r'(?i)\b(' + '|'.join(re.escape(x) for x in NUTRIENT_SYNONYMS.keys()) + r')\b[:\s~\-]*([<>=~]?\s*[\d,\.]+(?:[–\-][\d,\.]+)?)\s*(kcal|g|mg|mcg)?',
         re.I
     )
+    
+    # Pattern 2: Value followed by nutrient (e.g., "26g protein", "760mg sodium")
+    pattern2 = re.compile(
+        r'(?i)([<>=~]?\s*[\d,\.]+(?:[–\-][\d,\.]+)?)\s*(g|mg|mcg|kcal)?\s+(' + '|'.join(re.escape(x) for x in NUTRIENT_SYNONYMS.keys()) + r')\b',
+        re.I
+    )
+    
     for line in section.splitlines():
-        for m in pattern.finditer(line):
+        # Try pattern 1 (nutrient followed by value)
+        for m in pattern1.finditer(line):
             raw_name = m.group(1).lower()
             std_name = NUTRIENT_SYNONYMS.get(raw_name, raw_name.title())
             value = parse_value(m.group(2))
-            nutrients[std_name] = value
+            # Store the higher value if we've seen this nutrient before
+            if std_name not in nutrients or value > nutrients[std_name]:
+                nutrients[std_name] = value
+                
+        # Try pattern 2 (value followed by nutrient)
+        for m in pattern2.finditer(line):
+            raw_name = m.group(3).lower()
+            std_name = NUTRIENT_SYNONYMS.get(raw_name, raw_name.title())
+            value = parse_value(m.group(1))
+            # Store the higher value if we've seen this nutrient before
+            if std_name not in nutrients or value > nutrients[std_name]:
+                nutrients[std_name] = value
+                
     return nutrients
 
 def assign_score(note):
