@@ -15,8 +15,11 @@ NUTRIENT_SYNONYMS = {
     "calories": "Calories",
     "total sugar": "Sugar",
     "sugar": "Sugar",
+    "sugars": "Sugar",
     "carbohydrates": "Carbohydrates",
     "carbs": "Carbohydrates",
+    "total carbs": "Carbohydrates",
+    "total carbohydrates": "Carbohydrates",
     "saturated fat": "Saturated Fat",
     "total fat": "Fat",
     "fat": "Fat",
@@ -85,17 +88,34 @@ def extract_nutrients_from_section(section):
     Returns a dict {CanonicalNutrientName: value}
     """
     nutrients = {}
-    # Regex matches lines like: 'Calories: 350', 'Protein~10g', 'Fat: 5-7g', etc.
-    pattern = re.compile(
-        r'(?i)\b(' + '|'.join(re.escape(x) for x in NUTRIENT_SYNONYMS.keys()) + r')\b[:\s~\-]*([<>=~]?\s*[\d,\.]+(?:[–\-][\d,\.]+)?)\s*(kcal|g|mg|mcg)?',
+    # Enhanced regex to handle multiple patterns:
+    # Pattern 1: 'Calories: ~300', 'Protein: 10g ✅', 'Total Carbs: ~14g (description)'
+    pattern1 = re.compile(
+        r'(?i)(?:•\s*)?(?:total\s+)?(' + '|'.join(re.escape(x) for x in NUTRIENT_SYNONYMS.keys()) + r')\s*:\s*([<>=~]?\s*[\d,\.]+(?:[–\-][\d,\.]+)?)\s*(?:kcal|g|mg|mcg)?\s*(?:[✅⚠️]|\([^)]*\))?',
         re.I
     )
+    # Pattern 2: 'Calories ~250–300 kcal', 'Protein ~16–18g From...'
+    pattern2 = re.compile(
+        r'(?i)\b(' + '|'.join(re.escape(x) for x in NUTRIENT_SYNONYMS.keys()) + r')\s+([<>=~]?\s*[\d,\.]+(?:[–\-][\d,\.]+)?)\s*(?:kcal|g|mg|mcg)?',
+        re.I
+    )
+    
     for line in section.splitlines():
-        for m in pattern.finditer(line):
+        # Try pattern 1 first (colon format)
+        for m in pattern1.finditer(line):
             raw_name = m.group(1).lower()
             std_name = NUTRIENT_SYNONYMS.get(raw_name, raw_name.title())
             value = parse_value(m.group(2))
             nutrients[std_name] = value
+        
+        # Try pattern 2 if pattern 1 didn't match anything in this line
+        if not any(pattern1.finditer(line)):
+            for m in pattern2.finditer(line):
+                raw_name = m.group(1).lower()
+                std_name = NUTRIENT_SYNONYMS.get(raw_name, raw_name.title())
+                value = parse_value(m.group(2))
+                nutrients[std_name] = value
+    
     return nutrients
 
 def assign_score(note):
