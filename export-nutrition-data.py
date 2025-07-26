@@ -234,6 +234,11 @@ def main():
         all_nutrients.extend(nutrients)
         all_impacts.extend(impacts)
 
+    print("Files found:", files)
+    print("Meals parsed:", len(all_meals))
+    print("Nutrients extracted:", len(all_nutrients))
+    print("Impacts extracted:", len(all_impacts))
+
     with open(MEALS_CSV, "w", newline='', encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["MealID", "DateID", "MealTypeID", "MealDescription"])
