@@ -90,20 +90,35 @@ def extract_meal_description(section):
 
 def extract_nutrients_from_section(section):
     nutrients = {}
-    pattern = re.compile(
-        r'(?i)\b(' + '|'.join(re.escape(x) for x in NUTRIENT_SYNONYMS.keys()) + r')\b[:\s~\-]*([<>=~]?\s*[\d,\.]+(?:[–\-][\d,\.]+)?)\s*(kcal|g|mg|mcg)?',
-        re.I
+    # Regex for "Nutrient: value" (with optional units)
+    pattern_colon = re.compile(
+        r'(?i)\b(' + '|'.join(re.escape(x) for x in NUTRIENT_SYNONYMS.keys()) + r')\b[:\s]+([<>=~]?\s*[\d,\.]+(?:[–\-][\d,\.]+)?)\s*(kcal|g|mg|mcg)?'
     )
-    print("extract_nutrients_from_section: section preview:")
-    for l in section.splitlines()[:5]:
-        print(f"  {l}")
+    # Regex for "Nutrient value" in a Nutrition Estimate table
+    pattern_table = re.compile(
+        r'(?i)\b(' + '|'.join(re.escape(x) for x in NUTRIENT_SYNONYMS.keys()) + r')\b\s*[~:]*\s*([<>=~]?\s*[\d,\.]+(?:[–\-][\d,\.]+)?)\s*(kcal|g|mg|mcg)?'
+    )
+
     for line in section.splitlines():
-        for m in pattern.finditer(line):
+        # Try colon pattern first
+        m = pattern_colon.search(line)
+        if m:
             raw_name = m.group(1).lower()
             std_name = NUTRIENT_SYNONYMS.get(raw_name, raw_name.title())
             value = parse_value(m.group(2))
-            print(f"extract_nutrients_from_section: found '{raw_name}' as '{std_name}' with value '{value}' in line '{line}'")
-            nutrients[std_name] = value
+            if value != 0:
+                nutrients[std_name] = value
+                print(f"extract_nutrients_from_section: [colon] found '{raw_name}' as '{std_name}' with value '{value}' in line '{line}'")
+            continue
+        # Try table pattern next
+        m = pattern_table.search(line)
+        if m:
+            raw_name = m.group(1).lower()
+            std_name = NUTRIENT_SYNONYMS.get(raw_name, raw_name.title())
+            value = parse_value(m.group(2))
+            if value != 0:
+                nutrients[std_name] = value
+                print(f"extract_nutrients_from_section: [table] found '{raw_name}' as '{std_name}' with value '{value}' in line '{line}'")
     return nutrients
 
 def assign_score(note):
