@@ -60,7 +60,6 @@ def parse_file(path):
                     "Notes": narrative,
                     "Score": score,
                 })
-                i += 1
             meals.append(meal)
         else:
             i += 1
