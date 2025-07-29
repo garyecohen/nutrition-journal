@@ -53,13 +53,20 @@ def parse_file(path):
                     i += 1
                     continue
                 cond = lines[i].strip()
-                i += 1; narrative = lines[i].split(":", 1)[1].strip()
-                i += 1; score = lines[i].split(":", 1)[1].strip()
+                i += 1
+                if i >= len(lines) or not lines[i].startswith("Narrative:"):
+                    break  # Malformed input, or end of impacts.
+                narrative = lines[i].split(":", 1)[1].strip()
+                i += 1
+                if i >= len(lines) or not lines[i].startswith("Score:"):
+                    break  # Malformed input, or end of impacts.
+                score = lines[i].split(":", 1)[1].strip()
                 meal["Impacts"].append({
                     "ConditionType": cond,
                     "Notes": narrative,
                     "Score": score,
                 })
+                i += 1   # Move to next line (could be blank or next condition)
             meals.append(meal)
         else:
             i += 1
