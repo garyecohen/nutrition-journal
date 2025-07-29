@@ -1,0 +1,1046 @@
+ImpactID,MealID,ConditionType,Notes,Score
+1,1,Fatty Liver,"Low-fat, high-fiber breakfast with minimal added sugar; supports liver health.",8
+2,1,High Cholesterol,Low in saturated fat and cholesterol; beneficial for cholesterol management.,9
+3,1,High Blood Pressure,Low sodium and high potassium from blueberries; positive for blood pressure.,9
+4,1,Gout,Low-purine ingredients; safe for gout.,10
+5,1,Pre-diabetes,Moderate sugar content; fiber and protein help reduce glycemic impact.,8
+6,2,Fatty Liver,High in plant fiber and unsaturated fats; supports liver health.,9
+7,2,High Cholesterol,Contains egg (cholesterol) but otherwise heart-healthy fats; good balance.,8
+8,2,High Blood Pressure,Moderate sodium from pita/hummus; overall beneficial due to potassium-rich veggies.,8
+9,2,Gout,Moderate-purine due to lentils and egg; occasional consumption is safe for most.,7
+10,2,Pre-diabetes,"High fiber, moderate carbs; supports glucose control.",9
+11,3,Fatty Liver,Low fat and sugar; neutral impact.,7
+12,3,High Cholesterol,Low cholesterol and saturated fat; positive snack choice.,8
+13,3,High Blood Pressure,Contains salt; moderate portion is acceptable.,7
+14,3,Gout,Low-purine snack; safe for gout.,10
+15,3,Pre-diabetes,Contains added sugar; small portion is acceptable.,7
+16,4,Fatty Liver,High in omega-3s from salmon; generally supportive but moderate rice portion best.,8
+17,4,High Cholesterol,Salmon provides heart-healthy fats; low in saturated fat.,8
+18,4,High Blood Pressure,Sodium can be high if soy sauce used; otherwise moderate.,7
+19,4,Gout,Salmon is high in purines; best consumed occasionally for gout.,4
+20,4,Pre-diabetes,Sushi rice is high glycemic; balance with sashimi is better.,7
+21,5,Fatty Liver,"Low fat, high fiber, good protein, minimal added sugar; suitable for fatty liver.",9
+22,5,High Cholesterol,Very low saturated fat and cholesterol; beneficial for cholesterol control.,9
+23,5,High Blood Pressure,Low sodium and potassium-rich; supportive for blood pressure management.,9
+24,5,Gout,Low purines and animal protein; safe for gout.,9
+25,5,Pre-diabetes,"Moderate carbohydrate load, low added sugar, substantial fiber; generally supportive.",8
+26,6,Fatty Liver,Low saturated fat and simple sugars; good snack for fatty liver.,9
+27,6,High Cholesterol,"Peanut butter in moderation supports cholesterol management, especially if unsweetened.",9
+28,6,High Blood Pressure,Very low sodium; positive for hypertension.,10
+29,6,Gout,"Plant-based, low purines; safe for gout.",9
+30,6,Pre-diabetes,Moderate glycemic load; fiber mitigates impact.,8
+31,7,Fatty Liver,"Balanced, moderate fat, high protein; supports liver health.",8
+32,7,High Cholesterol,"Lean chicken and seeds are good, but check sodium and limit saturated fat.",8
+33,7,High Blood Pressure,Sodium a bit high due to pita and chicken; moderation recommended.,7
+34,7,Gout,"Chicken and seeds are moderate in purines; monitor portion, generally acceptable.",7
+35,7,Pre-diabetes,"High fiber, moderate carbs, low sugar; supportive.",8
+36,8,Fatty Liver,"Low fat, minimal sugar, not harmful for fatty liver in moderation.",8
+37,8,High Cholesterol,Very low saturated fat and cholesterol; good for cholesterol levels.,8
+38,8,High Blood Pressure,Sodium is modest; suitable if total sodium intake remains low.,8
+39,8,Gout,"Plant-based, low purines; safe for gout.",9
+40,8,Pre-diabetes,"Low sugar, moderate carbs; appropriate snack.",8
+41,9,Fatty Liver,"High fat, fried snack, low fiber; not recommended for fatty liver.",4
+42,9,High Cholesterol,"Fried, moderate saturated fat; not ideal for cholesterol control.",4
+43,9,High Blood Pressure,Moderate sodium; can contribute to elevated blood pressure.,5
+44,9,Gout,"Low purines, but high salt and fat; acceptable in strict moderation.",6
+45,9,Pre-diabetes,"High refined carbs, low fiber; best kept occasional.",5
+46,10,Fatty Liver,"Moderate fat, good protein, greens; acceptable for fatty liver.",7
+47,10,High Cholesterol,Contains cheese and peanuts; moderate saturated fat.,7
+48,10,High Blood Pressure,"Sodium mainly from cottage cheese; moderate, but not excessive.",7
+49,10,Gout,Moderate purines from cheese and peanuts; use in moderation.,6
+50,10,Pre-diabetes,"Low carbohydrates, balanced protein and fiber; supportive.",8
+51,11,Fatty Liver,"Mostly plant-based, low fat, minimal cheese and dressing; good choice.",8
+52,11,High Cholesterol,Minimal cheese and ranch keeps saturated fat low.,8
+53,11,High Blood Pressure,"Sodium is moderate; mostly from cheese and dressing, which were limited.",8
+54,11,Gout,"Low purines, limited animal products; safe for gout.",9
+55,11,Pre-diabetes,"Low carb, good fiber, minimal sugar; suitable for pre-diabetes.",9
+56,12,Fatty Liver,"Low saturated fat, high fiber, moderate protein, suitable for fatty liver.",8
+57,12,High Cholesterol,"Contains egg, which is high in cholesterol but low in saturated fat; overall balanced.",7
+58,12,High Blood Pressure,Sodium is moderate; mainly from cereal and egg.,8
+59,12,Gout,Egg is moderate in purines; otherwise safe.,7
+60,12,Pre-diabetes,"Moderate carbohydrates, fiber, and low added sugar; supportive.",8
+61,13,Fatty Liver,"Moderate fat and saturated fat, good vegetables, but beef increases risk; fair choice.",6
+62,13,High Cholesterol,Beef and tahini add saturated fat; moderate impact on cholesterol.,6
+63,13,High Blood Pressure,"Sodium moderate, vegetables help offset; reasonable choice.",7
+64,13,Gout,Beef and chicken are higher in purines; risk for gout.,5
+65,13,Pre-diabetes,"Small rice portion, high protein, and fiber; supportive.",7
+66,14,Fatty Liver,"Moderate fat, fiber and protein; suitable for fatty liver as a snack.",8
+67,14,High Cholesterol,Low saturated fat and cholesterol; good choice.,8
+68,14,High Blood Pressure,Sodium modest; not excessive for a snack.,8
+69,14,Gout,"Plant-based, low purines; safe for gout.",9
+70,14,Pre-diabetes,"Moderate carbs and sugar, good fiber; supportive.",8
+71,15,Fatty Liver,"Low saturated fat, high fiber, plant-based; good meal for fatty liver.",9
+72,15,High Cholesterol,Very low saturated fat and cholesterol; beneficial for cholesterol.,9
+73,15,High Blood Pressure,"Very low sodium, high potassium from broccoli; ideal for blood pressure.",10
+74,15,Gout,"Low purines, plant-based; safe for gout.",9
+75,15,Pre-diabetes,"High carbohydrate load, but high fiber; good if portion controlled.",7
+76,16,Fatty Liver,"High fat, especially saturated from cream cheese; bagel is refined carb; not ideal for fatty liver.",4
+77,16,High Cholesterol,High saturated fat and cholesterol from cream cheese; adverse effect on cholesterol.,3
+78,16,High Blood Pressure,High sodium from bagel and cream cheese; not recommended for hypertension.,4
+79,16,Gout,"Low purines, dairy and plant-based; generally safe for gout.",8
+80,16,Pre-diabetes,"High refined carbohydrates; risk of glucose spike, moderate protein.",5
+81,17,Fatty Liver,"Moderate fat, some saturated and refined carbs, fair amount of protein; partially suitable.",6
+82,17,High Cholesterol,Contains chicken and dairy; saturated fat moderate; better with less tzatziki.,6
+83,17,High Blood Pressure,Sodium is high; could contribute to hypertension risk.,5
+84,17,Gout,"Chicken and chickpeas moderate purines; monitor portion, generally acceptable.",6
+85,17,Pre-diabetes,"Moderate carbs, some fiber; small rice portion helps.",7
+86,18,Fatty Liver,"Healthy fats, fiber, and plant protein; excellent for fatty liver.",10
+87,18,High Cholesterol,"Low saturated fat, high unsaturated fats; beneficial.",10
+88,18,High Blood Pressure,No sodium; optimal for hypertension.,10
+89,18,Gout,"Plant-based, low purines; safe for gout.",10
+90,18,Pre-diabetes,"Low carb, high fiber; supportive for glucose control.",10
+91,19,Fatty Liver,"High fiber, low saturated fat, nutrient-dense; excellent for fatty liver.",10
+92,19,High Cholesterol,"Low saturated fat, high unsaturated fats; supports cholesterol management.",10
+93,19,High Blood Pressure,"Low sodium, high potassium; beneficial for hypertension.",10
+94,19,Gout,"Plant-based, low purines; very safe.",10
+95,19,Pre-diabetes,"Low carbs, high fiber and healthy fat; ideal for glucose control.",10
+96,20,Fatty Liver,"High fiber, low saturated fat, plant-based; well suited for fatty liver.",9
+97,20,High Cholesterol,Low saturated fat and cholesterol; beneficial for cholesterol control.,10
+98,20,High Blood Pressure,"Moderate sodium, potassium-rich banana; supportive for hypertension.",9
+99,20,Gout,"Plant-based, low purines; safe for gout.",10
+100,20,Pre-diabetes,"Moderate sugar, good fiber, low added sugars; supportive for blood sugar.",9
+101,21,Fatty Liver,"Rich in fiber and healthy fats, moderate saturated fat from cheese; generally suitable.",8
+102,21,High Cholesterol,Contains blue cheese with saturated fat; overall nuts and greens beneficial.,7
+103,21,High Blood Pressure,Sodium moderate due to cheese and dressing; could be lower.,7
+104,21,Gout,"Low purines, mostly plant-based; safe for gout.",9
+105,21,Pre-diabetes,"Fruit sugars present, but fiber and nuts help balance; supportive.",8
+106,22,Fatty Liver,"Moderate fat, high fiber, low sugar; suitable for fatty liver.",8
+107,22,High Cholesterol,Low saturated fat and cholesterol; good choice.,8
+108,22,High Blood Pressure,Sodium is moderate; not excessive for a snack.,8
+109,22,Gout,"Plant-based, low purines; safe for gout.",9
+110,22,Pre-diabetes,"Moderate carbs and sugar, good fiber; supportive.",8
+111,23,Fatty Liver,"Protein is good, but high sodium and some saturated fat; moderate suitability.",7
+112,23,High Cholesterol,"Low-fat cheese is helpful, but sodium and saturated fat still present.",7
+113,23,High Blood Pressure,Sodium is high due to cottage cheese and crackers; not ideal for hypertension.,5
+114,23,Gout,"Dairy and wheat, moderate purines; acceptable in moderation.",7
+115,23,Pre-diabetes,"Low sugar and moderate carbs, good protein; supportive.",8
+116,24,Fatty Liver,"High fat and sodium, moderate fiber; not optimal for fatty liver.",5
+117,24,High Cholesterol,Contains cheese with saturated fat; not ideal for cholesterol.,5
+118,24,High Blood Pressure,High sodium; adverse for hypertension.,4
+119,24,Gout,"Cheese and vegetables, moderate purines; generally acceptable.",7
+120,24,Pre-diabetes,"Moderate carbs, good fiber and protein; best with portion control.",7
+121,25,Fatty Liver,"Healthy fat, fiber, and micronutrients; excellent for fatty liver.",10
+122,25,High Cholesterol,"Rich in unsaturated fat, very low saturated fat; beneficial.",10
+123,25,High Blood Pressure,"Very low sodium, high potassium; ideal for hypertension.",10
+124,25,Gout,"Plant-based, low purines; safe for gout.",10
+125,25,Pre-diabetes,"Low carb, high fiber, healthy fat; supportive for glucose control.",10
+126,26,Fatty Liver,"High fat and saturated fat, moderate fiber, high cholesterol; not ideal for fatty liver.",5
+127,26,High Cholesterol,"Eggs and biscuit add cholesterol and saturated fat; veggie sausage may help, but overall intake is high.",4
+128,26,High Blood Pressure,"Sodium is high from biscuit, veggie sausage, and eggs; not recommended for hypertension.",4
+129,26,Gout,Eggs and biscuit provide moderate purines; veggie sausage is preferable to meat.,6
+130,26,Pre-diabetes,"Moderate carbs, significant protein, but high fat and sugar content; portion control recommended.",6
+131,27,Fatty Liver,High sugar and saturated fat; not recommended for fatty liver.,3
+132,27,High Cholesterol,Contains butter and eggs; saturated fat is moderate.,4
+133,27,High Blood Pressure,Sodium is low; minimal impact if consumed infrequently.,7
+134,27,Gout,Low purines; generally safe for gout.,8
+135,27,Pre-diabetes,"High sugar, refined flour; not suitable for frequent consumption.",4
+136,28,Fatty Liver,"High fiber, low saturated fat, plant-based protein; excellent for fatty liver.",9
+137,28,High Cholesterol,"No cholesterol, low saturated fat, nuts and beans are heart-healthy.",10
+138,28,High Blood Pressure,"Sodium is modest, vegetables help; supportive for blood pressure.",9
+139,28,Gout,Beans and almonds are moderate in purines; generally safe in moderation.,7
+140,28,Pre-diabetes,"High fiber, moderate carbs, plant protein; supportive for glucose control.",9
+141,29,Fatty Liver,"Low fat, high vitamin C, good fiber; excellent for fatty liver.",10
+142,29,High Cholesterol,No cholesterol or saturated fat; beneficial.,10
+143,29,High Blood Pressure,"Very low sodium, potassium-rich; supports healthy blood pressure.",10
+144,29,Gout,"Plant-based, low purines; very safe for gout.",10
+145,29,Pre-diabetes,"Natural sugar, fiber helps slow absorption; supportive for glucose control.",9
+146,30,Fatty Liver,"Moderate fat, high fiber, plant-based; generally supportive for fatty liver.",8
+147,30,High Cholesterol,"Low saturated fat, no cholesterol; nuts are heart-healthy.",9
+148,30,High Blood Pressure,Sodium moderate mainly from mustard; could be lower.,8
+149,30,Gout,Peanuts and rice are moderate in purines; acceptable in moderation.,7
+150,30,Pre-diabetes,"High carbs, good fiber; portion control important for blood sugar.",7
+151,31,Fatty Liver,"Low fat, rich in antioxidants and fiber; excellent for fatty liver.",10
+152,31,High Cholesterol,No cholesterol or saturated fat; beneficial.,10
+153,31,High Blood Pressure,"Very low sodium, potassium-rich; supports healthy blood pressure.",10
+154,31,Gout,"Plant-based, low purines; very safe for gout.",10
+155,31,Pre-diabetes,"Natural sugars, moderate fiber; suitable in modest portions.",9
+156,32,Fatty Liver,"High fiber, no fat, and rich in antioxidants; excellent for fatty liver.",10
+157,32,High Cholesterol,"No cholesterol, no saturated fat; highly beneficial.",10
+158,32,High Blood Pressure,"Very low sodium, potassium-rich; optimal for blood pressure.",10
+159,32,Gout,"Plant-based, low purines; very safe for gout.",10
+160,32,Pre-diabetes,Natural sugars with fiber; supportive for glucose control in normal portions.,9
+161,33,Fatty Liver,"High fat and saturated fat, processed meat, moderate fiber; not recommended for fatty liver.",3
+162,33,High Cholesterol,High saturated fat and cholesterol; adverse for cholesterol management.,2
+163,33,High Blood Pressure,"Very high sodium from ham, bacon, cheese, and mayo; not suitable for hypertension.",1
+164,33,Gout,Pork and ham are high in purines; increased risk for gout flare.,2
+165,33,Pre-diabetes,"Refined carbs, high fat, moderate protein; portion control needed.",5
+166,34,Fatty Liver,"Moderate fat, some sodium, good fiber; reasonable snack for fatty liver.",8
+167,34,High Cholesterol,Low saturated fat and cholesterol; supportive.,9
+168,34,High Blood Pressure,Sodium is moderate; acceptable if overall intake is controlled.,8
+169,34,Gout,Chickpeas are moderate in purines; safe in moderate portions.,8
+170,34,Pre-diabetes,"Low sugar, moderate carbs, good fiber; supportive snack.",9
+171,35,Fatty Liver,"High fiber, healthy fats, plant-based; excellent for fatty liver.",10
+172,35,High Cholesterol,"Low saturated fat, high unsaturated fat; beneficial for cholesterol.",10
+173,35,High Blood Pressure,"Very low sodium, potassium-rich; optimal for blood pressure.",10
+174,35,Gout,"Plant-based, low purines; very safe for gout.",10
+175,35,Pre-diabetes,"High fiber, low sugar, healthy fat; supportive for glucose control.",10
+176,36,Fatty Liver,"Good fiber, healthy fat, moderate sugar; suitable for fatty liver.",9
+177,36,High Cholesterol,"Low saturated fat, plant-based fats; beneficial.",9
+178,36,High Blood Pressure,"Low sodium, potassium-rich; supportive for blood pressure.",9
+179,36,Gout,"Plant-based, low purines; safe for gout.",10
+180,36,Pre-diabetes,"Moderate sugar, good fiber; portion control advised for fruit.",8
+181,37,Fatty Liver,"Moderate sugar and fat, some fiber; suitable in reasonable portions.",8
+182,37,High Cholesterol,Low saturated fat and cholesterol; supportive.,9
+183,37,High Blood Pressure,Very low sodium; beneficial for hypertension.,10
+184,37,Gout,Nuts and seeds are moderate in purines; safe in small portions.,8
+185,37,Pre-diabetes,"Moderate sugar, some fiber; use portion control.",7
+186,38,Fatty Liver,"High fat and saturated fat, processed meat and cheese; not recommended for fatty liver.",3
+187,38,High Cholesterol,"High saturated fat and cholesterol from bacon, cheese, and egg; adverse for cholesterol management.",2
+188,38,High Blood Pressure,High sodium from bacon and cheese; not suitable for hypertension.,2
+189,38,Gout,Bacon and egg are high in purines; risk for gout flare.,3
+190,38,Pre-diabetes,"Refined carbs, high fat, moderate sugar; best with portion control.",6
+191,39,Fatty Liver,"Healthy fats, fiber, and plant protein; excellent for fatty liver.",10
+192,39,High Cholesterol,"Low saturated fat, high unsaturated fat; beneficial.",10
+193,39,High Blood Pressure,No sodium; optimal for hypertension.,10
+194,39,Gout,"Plant-based, low purines; safe for gout.",10
+195,39,Pre-diabetes,"Low carb, high fiber, healthy fat; supportive for glucose control.",10
+196,40,Fatty Liver,"High fiber, low fat, plant-based; supportive for fatty liver.",9
+197,40,High Cholesterol,"Low saturated fat, high fiber; beneficial for cholesterol management.",10
+198,40,High Blood Pressure,Sodium moderate due to beans and croutons; suitable if overall intake controlled.,8
+199,40,Gout,Beans are moderate in purines; safe in moderation.,7
+200,40,Pre-diabetes,"High fiber, moderate carbs; supportive for blood sugar control.",9
+201,41,Fatty Liver,"Moderate fat, high omega-3, but high sodium and purines; portion control advised.",6
+202,41,High Cholesterol,Fish and avocado provide healthy fats; sodium and cholesterol moderate.,8
+203,41,High Blood Pressure,High sodium from soy sauce and mayo; limit intake.,5
+204,41,Gout,"Tuna, salmon, and crab are high in purines; avoid if gout risk is high.",3
+205,41,Pre-diabetes,"Moderate carbs, good protein and fat; suitable with portion control.",8
+206,42,Fatty Liver,High sugar and saturated fat; not recommended for fatty liver.,2
+207,42,High Cholesterol,High sugar and saturated fat; adverse for cholesterol.,3
+208,42,High Blood Pressure,Sodium is moderate; not a significant issue.,7
+209,42,Gout,Dairy and nuts are moderate in purines; safe in small portions.,6
+210,42,Pre-diabetes,High sugar; not recommended for blood sugar control.,3
+211,43,Fatty Liver,"High fiber, low fat, plant-based, good micronutrients; excellent for fatty liver.",10
+212,43,High Cholesterol,"Low saturated fat, no cholesterol, healthy fats from almonds; highly beneficial.",10
+213,43,High Blood Pressure,"Very low sodium, potassium-rich fruits; optimal for blood pressure.",10
+214,43,Gout,"Plant-based, low purines; very safe for gout.",10
+215,43,Pre-diabetes,"Natural sugars, good fiber, healthy fat; supportive for glucose control.",9
+216,44,Fatty Liver,"High fiber, low fat, plant-based; supportive for fatty liver.",9
+217,44,High Cholesterol,"Low saturated fat, high fiber; beneficial for cholesterol management.",10
+218,44,High Blood Pressure,Sodium moderate due to beans and hummus; suitable if overall intake controlled.,8
+219,44,Gout,Beans and seeds are moderate in purines; safe in moderation.,7
+220,44,Pre-diabetes,"High fiber, moderate carbs; supportive for blood sugar control.",9
+221,45,Fatty Liver,"Moderate fat, some sodium, good fiber; reasonable snack for fatty liver.",8
+222,45,High Cholesterol,Low saturated fat and cholesterol; supportive for cholesterol control.,9
+223,45,High Blood Pressure,Sodium is moderate; acceptable if overall intake is controlled.,8
+224,45,Gout,Chickpeas are moderate in purines; safe in moderate portions.,8
+225,45,Pre-diabetes,"Low sugar, moderate carbs, good fiber; supportive snack.",9
+226,46,Fatty Liver,"Moderate fat, lean protein, good fiber; suitable in portion control.",8
+227,46,High Cholesterol,"Lean chicken, low saturated fat, healthy fats from olive oil and peanuts; supportive for cholesterol.",9
+228,46,High Blood Pressure,"Sodium moderate, mainly from mustard; suitable if overall intake controlled.",8
+229,46,Gout,Chicken and peanuts are moderate in purines; safe with moderation for gout.,7
+230,46,Pre-diabetes,"High carbs, moderate fiber, protein and healthy fats; portion control important for blood sugar.",7
+231,47,Fatty Liver,"Moderate fat and saturated fat, refined carbs, protein from eggs; not ideal for fatty liver.",5
+232,47,High Cholesterol,"High cholesterol and saturated fat from eggs, biscuit, butter; not recommended.",4
+233,47,High Blood Pressure,"Sodium moderate to high, especially from biscuit; limit intake.",5
+234,47,Gout,"Eggs are moderate in purines, pancakes and biscuit low; generally safe in moderation.",7
+235,47,Pre-diabetes,"Refined carbs and sugar, but some protein; best with portion control.",6
+236,48,Fatty Liver,"High fiber, no fat, micronutrients; excellent for fatty liver.",10
+237,48,High Cholesterol,"No cholesterol, no saturated fat; highly beneficial.",10
+238,48,High Blood Pressure,"Very low sodium, potassium-rich; optimal for blood pressure.",10
+239,48,Gout,"Plant-based, low purines; very safe for gout.",10
+240,48,Pre-diabetes,"Natural sugars, fiber helps slow absorption; supportive for glucose control.",9
+241,49,Fatty Liver,"Moderate fat, some saturated fat, protein, multigrain bread helps; add vegetables for best result.",7
+242,49,High Cholesterol,"Moderate saturated fat and cholesterol, multigrain bread beneficial.",7
+243,49,High Blood Pressure,Sodium moderate from chicken salad and bread; limit if hypertensive.,6
+244,49,Gout,Chicken is moderate in purines; safe in moderation.,7
+245,49,Pre-diabetes,"Moderate carbs, good fiber, protein; supportive for glucose control.",8
+246,50,Fatty Liver,"High fiber, low saturated fat, plant-based; well suited for fatty liver.",9
+247,50,High Cholesterol,Low saturated fat and cholesterol; beneficial for cholesterol control.,10
+248,50,High Blood Pressure,"Moderate sodium, potassium-rich banana; supportive for hypertension.",9
+249,50,Gout,"Plant-based, low purines; safe for gout.",10
+250,50,Pre-diabetes,"Moderate sugar, good fiber, low added sugars; supportive for blood sugar.",9
+251,51,Fatty Liver,"Moderate fat, low sugar, good protein, low in added sugars; supportive for fatty liver.",8
+252,51,High Cholesterol,Egg increases cholesterol but low saturated fat; acceptable in moderation.,7
+253,51,High Blood Pressure,Low sodium and potassium-rich banana; good for blood pressure.,9
+254,51,Gout,"Egg is moderate in purines, peanut butter is low; generally safe.",8
+255,51,Pre-diabetes,"Low glycemic load, moderate carbs, some fiber; good for glucose control.",8
+256,52,Fatty Liver,"Moderate protein, fiber, but high fat and sodium; not optimal for fatty liver.",5
+257,52,High Cholesterol,"Contains saturated fat from cream, ranch, and breaded chicken; moderate impact.",5
+258,52,High Blood Pressure,"High sodium, especially from soup, breaded chicken, and ranch; not ideal for hypertension.",4
+259,52,Gout,Chicken and chickpeas moderate in purines; acceptable in moderation.,6
+260,52,Pre-diabetes,"Good fiber and protein, moderate carbs; supportive but limit dressing and breading.",7
+261,53,Fatty Liver,"Moderate fat, fiber, and protein; suitable snack for fatty liver.",8
+262,53,High Cholesterol,"Low saturated fat, no cholesterol; good choice.",8
+263,53,High Blood Pressure,Sodium moderate but not excessive; generally acceptable.,8
+264,53,Gout,"Plant-based, low purines; safe for gout.",9
+265,53,Pre-diabetes,"Moderate carbs and sugar, good fiber; supportive for glucose control.",8
+266,54,Fatty Liver,"High fat, saturated fat, and refined carbs; not recommended for fatty liver.",4
+267,54,High Cholesterol,"Cheese increases saturated fat; walnuts are beneficial, but overall impact is negative.",4
+268,54,High Blood Pressure,High sodium from cheese and crust; not ideal for hypertension.,3
+269,54,Gout,Cheese and walnuts moderate in purines; generally safe in moderation.,6
+270,54,Pre-diabetes,"High carbs and sugar, some fiber, best in moderation.",6
+271,55,Fatty Liver,"High in fruit, fiber, low fat; excellent for fatty liver.",10
+272,55,High Cholesterol,"No cholesterol, low saturated fat; highly beneficial.",10
+273,55,High Blood Pressure,"Low sodium, potassium-rich; supportive for blood pressure.",10
+274,55,Gout,"Plant-based, low purines; very safe for gout.",10
+275,55,Pre-diabetes,"Natural sugars, some fiber; best with portion control.",8
+276,56,Fatty Liver,"High in fat, saturated fat, and refined carbs; not recommended for fatty liver.",2
+277,56,High Cholesterol,High saturated fat and cholesterol from chicken and butter; adverse for cholesterol.,2
+278,56,High Blood Pressure,Very high sodium from chicken and breading; not suitable for hypertension.,1
+279,56,Gout,Chicken is high in purines; increased risk for gout flare.,2
+280,56,Pre-diabetes,"Refined carbs and sugar, high fat; not supportive for glucose control.",4
+281,57,Fatty Liver,"Good protein, healthy fats, fiber from wrap and greens; reasonable for fatty liver.",8
+282,57,High Cholesterol,"Low saturated fat, walnuts are heart-healthy; supportive for cholesterol.",9
+283,57,High Blood Pressure,"Sodium moderate, potassium-rich greens; acceptable if overall intake controlled.",8
+284,57,Gout,Chicken and walnuts moderate in purines; safe in moderation.,7
+285,57,Pre-diabetes,"Good fiber, moderate sugar from raisins and vinaigrette; supportive for glucose control.",8
+286,58,Fatty Liver,"Low saturated fat, healthy fat, and some fiber; good choice for fatty liver.",9
+287,58,High Cholesterol,Very low in cholesterol and saturated fat; beneficial.,10
+288,58,High Blood Pressure,"Very low sodium, potassium-rich banana; excellent for hypertension.",10
+289,58,Gout,"Plant-based, low purines; very safe for gout.",10
+290,58,Pre-diabetes,"Low glycemic load, some fiber, healthy fat; supportive for glucose control.",9
+291,59,Fatty Liver,"High fat and saturated fat, refined carbs; not recommended for fatty liver.",4
+292,59,High Cholesterol,"Cheese increases saturated fat, walnuts are beneficial, but overall impact is negative.",4
+293,59,High Blood Pressure,High sodium from cheese and crust; not ideal for hypertension.,3
+294,59,Gout,Cheese and walnuts moderate in purines; safe in moderation.,6
+295,59,Pre-diabetes,"High carbs and sugar, some fiber; portion control important.",6
+296,60,Fatty Liver,"Fiber, vitamin C, no fat; excellent for fatty liver.",10
+297,60,High Cholesterol,"No cholesterol, no saturated fat; highly beneficial.",10
+298,60,High Blood Pressure,"Very low sodium, potassium-rich; optimal for blood pressure.",10
+299,60,Gout,"Plant-based, low purines; very safe for gout.",10
+300,60,Pre-diabetes,"Natural sugars, fiber helps slow absorption; supportive for glucose control.",9
+301,61,Fatty Liver,"High in healthy fats, fiber, and antioxidants; supportive for fatty liver.",9
+302,61,High Cholesterol,"Low saturated fat, high unsaturated fat; beneficial for cholesterol management.",10
+303,61,High Blood Pressure,"Very low sodium, potassium-rich; supportive for hypertension.",10
+304,61,Gout,Peanuts are moderate in purines; safe in portion control.,8
+305,61,Pre-diabetes,"Low sugar, moderate carbs, high fiber and fat; supportive for glucose control.",9
+306,62,Fatty Liver,"Low fat, good protein, high antioxidants and fiber; excellent for fatty liver.",10
+307,62,High Cholesterol,"No cholesterol, no saturated fat; highly beneficial.",10
+308,62,High Blood Pressure,"Very low sodium, potassium-rich; optimal for blood pressure.",10
+309,62,Gout,"Plant-based, low purines; very safe for gout.",10
+310,62,Pre-diabetes,"High natural sugar, but fiber and protein help; portion control recommended.",8
+311,63,Fatty Liver,"Contains some saturated fat and sodium from ham and cheese, avocado and peanut butter provide healthy fats.",7
+312,63,High Cholesterol,Saturated fat and cholesterol from ham and cheese; avocado and peanut butter are beneficial.,6
+313,63,High Blood Pressure,Sodium is moderate due to ham and cheese; better with lower sodium choices.,6
+314,63,Gout,Ham is moderate in purines; portion is modest.,6
+315,63,Pre-diabetes,"Balanced carbs, fiber, and protein; banana adds natural sugar.",8
+316,64,Fatty Liver,"Moderate fat, high protein, some cholesterol; suitable in moderation.",8
+317,64,High Cholesterol,"High cholesterol, low saturated fat; moderation advised.",6
+318,64,High Blood Pressure,Low sodium; supportive for blood pressure.,10
+319,64,Gout,Egg is moderate in purines; safe in moderation.,8
+320,64,Pre-diabetes,"Low carb, high protein; excellent snack for glucose control.",10
+321,65,Fatty Liver,"High in protein, omega-3 fats, fiber; moderate sodium and fat.",8
+322,65,High Cholesterol,"Fish and olive oil are heart-healthy, moderate saturated fat.",9
+323,65,High Blood Pressure,Sodium from croutons and canned salmon; could be lower.,7
+324,65,Gout,Salmon is high in purines; moderation needed for gout.,5
+325,65,Pre-diabetes,"Low sugar, high fiber and protein; supportive for glucose control.",9
+326,66,Fatty Liver,"Contains refined carbs and sugar, moderate fat; acceptable as an occasional snack.",7
+327,66,High Cholesterol,Low saturated fat and cholesterol; generally supportive.,9
+328,66,High Blood Pressure,Sodium is modest; better if crackers are low-sodium.,8
+329,66,Gout,"Plant-based, low purines; safe for gout.",10
+330,66,Pre-diabetes,Added sugar and refined carbs; portion control recommended.,7
+331,67,Fatty Liver,"Low fat, low fiber, refined carbs, added sugar; suitable as an occasional snack.",7
+332,67,High Cholesterol,"No cholesterol, very low fat; supportive.",10
+333,67,High Blood Pressure,Low sodium; suitable for hypertension.,10
+334,67,Gout,"Plant-based, low purines; very safe.",10
+335,67,Pre-diabetes,Refined carbs and sugar; best with portion control.,7
+336,68,Fatty Liver,"Low fat, some fiber, whole grain; acceptable as a snack.",8
+337,68,High Cholesterol,Very low saturated fat and cholesterol; supportive.,10
+338,68,High Blood Pressure,Sodium moderate; limit serving size if hypertensive.,8
+339,68,Gout,"Plant-based, low purines; safe for gout.",10
+340,68,Pre-diabetes,"Moderate carbs, some fiber; good as part of balanced snack.",8
+341,69,Fatty Liver,"High fiber, low saturated fat, some cholesterol from egg; supportive for fatty liver in moderation.",8
+342,69,High Cholesterol,Contains some cholesterol and saturated fat from egg; yogurt and almonds beneficial.,7
+343,69,High Blood Pressure,"Low sodium, potassium from fruit and nuts; supportive for blood pressure.",9
+344,69,Gout,"Egg is moderate in purines, almonds low; suitable in moderation.",8
+345,69,Pre-diabetes,"Natural sugars, good fiber and protein; supportive for glucose control.",8
+346,70,Fatty Liver,"High fat and sodium, low nutrient density; not recommended for fatty liver.",4
+347,70,High Cholesterol,"Low saturated fat, but processed snack foods; not ideal for cholesterol.",6
+348,70,High Blood Pressure,High sodium due to chips and popcorn; not suitable for hypertension.,3
+349,70,Gout,"Plant-based, low purines; safe for gout.",10
+350,70,Pre-diabetes,"High refined carbs, low protein; best consumed in moderation.",5
+351,71,Fatty Liver,"High fat, mostly unsaturated, moderate fiber and protein; large portion size not ideal for fatty liver.",6
+352,71,High Cholesterol,"Low saturated fat, high unsaturated fat from nuts; supportive for cholesterol in moderation.",8
+353,71,High Blood Pressure,"Sodium moderate, most from bar and crackers; acceptable if not repeated frequently.",8
+354,71,Gout,Nuts are moderate in purines; portion size should be monitored.,7
+355,71,Pre-diabetes,"High carbs and sugar, but good fiber and protein; portion control is important.",6
+356,72,Fatty Liver,"High carb and moderate fat meal, mostly unsaturated; portion control important for fatty liver.",7
+357,72,High Cholesterol,"Low saturated fat, no cholesterol, healthy fat from cashews and oil; supportive for cholesterol.",9
+358,72,High Blood Pressure,"Very low sodium, potassium from bok choy; excellent for blood pressure.",10
+359,72,Gout,"Cashews moderate in purines, rice and bok choy low; safe in moderation.",8
+360,72,Pre-diabetes,"High carbs, moderate fiber and fat; portion control for rice is important.",6
+361,73,Fatty Liver,"High fiber, low fat, rich in antioxidants; excellent for fatty liver.",10
+362,73,High Cholesterol,"No cholesterol, low saturated fat, high fiber; very beneficial.",10
+363,73,High Blood Pressure,"Very low sodium, potassium-rich; optimal for blood pressure.",10
+364,73,Gout,"Plant-based, low purines; very safe for gout.",10
+365,73,Pre-diabetes,"Moderate-high sugar, but good fiber and micronutrients; portion control recommended.",8
+366,74,Fatty Liver,"Moderate fat and sodium, lean protein; suitable, but tuna is not ideal if fatty liver is advanced.",7
+367,74,High Cholesterol,"Lean protein, low saturated fat, but tuna may have some cholesterol; overall supportive.",8
+368,74,High Blood Pressure,Sodium moderate from bread and tuna; best if sodium intake is controlled.,7
+369,74,Gout,Tuna is high in purines; caution for gout.,3
+370,74,Pre-diabetes,"Moderate carbs, fiber, and protein; supportive for glucose control.",8
+371,75,Fatty Liver,"Healthy fats, fiber, and protein; ideal for fatty liver.",10
+372,75,High Cholesterol,"High unsaturated fat, low saturated fat; beneficial.",10
+373,75,High Blood Pressure,No sodium; excellent for hypertension.,10
+374,75,Gout,"Low purines, plant-based; very safe.",10
+375,75,Pre-diabetes,"Low carb, high fiber and fat; very supportive.",10
+376,76,Fatty Liver,"High fiber, low fat, some healthy fat from peanut butter; supportive for fatty liver.",9
+377,76,High Cholesterol,"Low saturated fat, no cholesterol; beneficial.",10
+378,76,High Blood Pressure,"Very low sodium, potassium-rich; excellent for hypertension.",10
+379,76,Gout,"Plant-based, low purines; very safe.",10
+380,76,Pre-diabetes,"Natural sugar, good fiber, healthy fat; supportive for glucose control.",9
+381,77,Fatty Liver,"Moderate fat, fried preparation, high sodium; best in moderation for fatty liver.",6
+382,77,High Cholesterol,"Moderate saturated fat, tofu is beneficial, fried egg and oil less ideal; supportive with moderation.",7
+383,77,High Blood Pressure,High sodium from soy sauce; not ideal for hypertension.,4
+384,77,Gout,"Tofu and egg moderate purines, plant-based protein; safe in moderation.",7
+385,77,Pre-diabetes,"Moderate carbs, some fiber, protein; portion control recommended.",7
+386,78,Fatty Liver,"High calories, healthy fats, good protein; portion control needed for fatty liver.",7
+387,78,High Cholesterol,"High unsaturated fat, low saturated fat; beneficial if portion is controlled.",9
+388,78,High Blood Pressure,Very low sodium; excellent for hypertension.,10
+389,78,Gout,"Moderate purines, plant-based; safe in moderate portion.",8
+390,78,Pre-diabetes,"Low carb, high fat and protein; supportive if not overeaten.",8
+391,79,Fatty Liver,"High fiber, healthy fats, low sugar; excellent for fatty liver.",10
+392,79,High Cholesterol,"No cholesterol, high unsaturated fat; highly beneficial.",10
+393,79,High Blood Pressure,"Low sodium, potassium-rich avocado; supportive for hypertension.",10
+394,79,Gout,"Plant-based, low purines; very safe for gout.",10
+395,79,Pre-diabetes,"Complex carbs, healthy fat, good fiber; supportive for glucose control.",9
+396,80,Fatty Liver,"High fiber, no fat, micronutrients; excellent for fatty liver.",10
+397,80,High Cholesterol,"No cholesterol, no saturated fat; highly beneficial.",10
+398,80,High Blood Pressure,"Very low sodium, potassium-rich; optimal for blood pressure.",10
+399,80,Gout,"Plant-based, low purines; very safe for gout.",10
+400,80,Pre-diabetes,"Natural sugar, fiber helps slow absorption; supportive for glucose control.",9
+401,81,Fatty Liver,"Lean protein, moderate fiber, low fat; supportive but tuna not ideal for advanced fatty liver.",8
+402,81,High Cholesterol,"Lean protein, low saturated fat; supportive for cholesterol.",9
+403,81,High Blood Pressure,"Moderate sodium, potassium from vegetables; generally supportive.",8
+404,81,Gout,Tuna is high in purines; caution for gout.,4
+405,81,Pre-diabetes,"Balanced carbs, fiber and protein; good for glucose control.",9
+406,82,Fatty Liver,"High in omega-3, fiber, and plant nutrients; portion control recommended.",8
+407,82,High Cholesterol,"Salmon and tahini provide healthy fats, low saturated fat; supportive for cholesterol.",9
+408,82,High Blood Pressure,"Moderate sodium, potassium from salad; generally good for blood pressure.",8
+409,82,Gout,Salmon is high in purines; not ideal for gout.,4
+410,82,Pre-diabetes,"Complex carbs, healthy fat, good fiber; portion control important for rice and pita.",8
+411,83,Fatty Liver,"Moderate fat, mostly unsaturated, some fruit sugar, fiber; supportive if portion is controlled.",8
+412,83,High Cholesterol,"No cholesterol, mostly healthy fats; beneficial.",10
+413,83,High Blood Pressure,"Low sodium, potassium-rich; supportive for blood pressure.",10
+414,83,Gout,"Plant-based, low purines; very safe for gout.",10
+415,83,Pre-diabetes,High sugar from dates and banana; best with portion control and added protein.,6
+416,84,Fatty Liver,"Moderate fat, fiber, and protein; appropriate snack for fatty liver.",8
+417,84,High Cholesterol,"Low saturated fat, no cholesterol; supportive for cholesterol.",9
+418,84,High Blood Pressure,Sodium moderate; generally acceptable.,8
+419,84,Gout,"Plant-based, low purines; very safe for gout.",10
+420,84,Pre-diabetes,"Moderate carbs and sugar, good fiber; supportive for glucose control in moderation.",8
+421,85,Fatty Liver,"Lean protein, good fiber, moderate fat; supportive but tuna is not ideal for advanced fatty liver.",8
+422,85,High Cholesterol,"Lean protein, low saturated fat; generally supportive.",9
+423,85,High Blood Pressure,"Moderate sodium, potassium from vegetables; supportive if overall sodium is controlled.",8
+424,85,Gout,Tuna is high in purines; not ideal for gout.,4
+425,85,Pre-diabetes,"Balanced carbs, fiber, protein; supportive for glucose control.",9
+426,86,Fatty Liver,"Healthy fats, fiber, plant-based; excellent for fatty liver.",10
+427,86,High Cholesterol,"High unsaturated fat, low saturated fat; beneficial.",10
+428,86,High Blood Pressure,No sodium; very supportive.,10
+429,86,Gout,"Plant-based, low purines; very safe.",10
+430,86,Pre-diabetes,"Low carb, good fat and protein; supportive for glucose control.",10
+431,87,Fatty Liver,"Moderate fat, high sodium, fried preparation; best in moderation for fatty liver.",6
+432,87,High Cholesterol,Mostly plant-based and low saturated fat; supportive in moderation.,8
+433,87,High Blood Pressure,High sodium from soy sauce and orange chicken; not ideal for hypertension.,4
+434,87,Gout,Tofu and chicken moderate in purines; suitable with moderation.,7
+435,87,Pre-diabetes,"High carbs, some fiber and protein; portion control important.",6
+436,88,Fatty Liver,"Moderate fat, high fiber, mostly unsaturated fat; supportive for fatty liver.",8
+437,88,High Cholesterol,"Low cholesterol and saturated fat, healthy fat from avocado; beneficial for cholesterol.",9
+438,88,High Blood Pressure,"Sodium moderate, potassium-rich, mostly plant-based; supportive for blood pressure.",8
+439,88,Gout,"Plant-based, low purines; very safe for gout.",10
+440,88,Pre-diabetes,"Moderate carbs, good fiber, healthy fat; supportive for glucose control.",8
+441,89,Fatty Liver,"Low calorie, high fiber, micronutrients; excellent for fatty liver.",10
+442,89,High Cholesterol,"No cholesterol, no saturated fat; highly beneficial.",10
+443,89,High Blood Pressure,"No sodium, potassium-rich; excellent for blood pressure.",10
+444,89,Gout,"Plant-based, low purines; very safe for gout.",10
+445,89,Pre-diabetes,"Natural sugars, some fiber; good for glucose control in moderation.",9
+446,90,Fatty Liver,High saturated fat and cholesterol from beef; not ideal for fatty liver.,4
+447,90,High Cholesterol,"Red meat, high in saturated fat and cholesterol; not recommended for cholesterol management.",3
+448,90,High Blood Pressure,"Sodium moderate, especially if pickles are included; best with low sodium pickles.",7
+449,90,Gout,Beef is high in purines; not recommended for gout.,2
+450,90,Pre-diabetes,"Low carb, high protein, moderate fat; generally supportive with leaner beef.",8
+451,91,Fatty Liver,"Healthy unsaturated fats, fiber, plant protein; excellent for fatty liver.",10
+452,91,High Cholesterol,"Low saturated fat, no cholesterol, heart-healthy; highly beneficial.",10
+453,91,High Blood Pressure,No sodium; excellent for hypertension.,10
+454,91,Gout,"Plant-based, low purines; very safe for gout.",10
+455,91,Pre-diabetes,"Low carb, healthy fat, good fiber; supportive for glucose control.",10
+456,92,Fatty Liver,"High fiber, plant protein, low saturated fat; excellent for fatty liver.",10
+457,92,High Cholesterol,"Low saturated fat, no cholesterol, heart-healthy; highly beneficial.",10
+458,92,High Blood Pressure,"Very low sodium, potassium-rich; excellent for hypertension.",10
+459,92,Gout,Legumes moderate in purines; safe in portion control.,8
+460,92,Pre-diabetes,"Moderate carbs, high fiber and protein; supportive for glucose control.",9
+461,93,Fatty Liver,"Low calorie, low fat, modest fiber, no added sugar; good for fatty liver.",9
+462,93,High Cholesterol,"No cholesterol, no fat; highly beneficial.",10
+463,93,High Blood Pressure,Very low sodium; excellent for hypertension.,10
+464,93,Gout,"Plant-based, low purines; very safe for gout.",10
+465,93,Pre-diabetes,"Moderate carbs, no added sugar, some fiber; supportive for glucose control.",9
+466,94,Fatty Liver,"Healthy fats, low carbs, plant protein; supportive for fatty liver.",10
+467,94,High Cholesterol,"Low saturated fat, no cholesterol; beneficial.",10
+468,94,High Blood Pressure,No sodium; excellent for hypertension.,10
+469,94,Gout,"Plant-based, low purines; very safe for gout.",10
+470,94,Pre-diabetes,"Low carb, healthy fat, plant protein; supportive.",10
+471,95,Fatty Liver,"High refined carbohydrate, saturated fat, and sodium; not ideal for fatty liver.",4
+472,95,High Cholesterol,"Saturated fat from cream cheese, refined carbs; not supportive for cholesterol management.",4
+473,95,High Blood Pressure,High sodium from bagel and cream cheese; not recommended for hypertension.,3
+474,95,Gout,"Mostly moderate purines, no high purine animal protein; generally safe.",8
+475,95,Pre-diabetes,"High refined carbs, low fiber; not supportive for glucose control.",5
+476,96,Fatty Liver,"High in healthy fats and fiber, but calorie dense; portion control needed for fatty liver.",7
+477,96,High Cholesterol,"High unsaturated fat, low saturated fat, no cholesterol; supportive for cholesterol.",9
+478,96,High Blood Pressure,"Very low sodium, potassium-rich tomatoes; excellent for blood pressure.",10
+479,96,Gout,Peanuts moderate in purines; portion control important for gout.,8
+480,96,Pre-diabetes,"Low sugar, good fiber, healthy fat; supportive for glucose control.",9
+481,97,Fatty Liver,"Moderate fat and protein, high sodium, and refined carbs; not optimal for fatty liver.",6
+482,97,High Cholesterol,"Lean protein, low saturated fat, but bread is refined; generally acceptable.",8
+483,97,High Blood Pressure,High sodium from tuna and bread; not ideal for hypertension.,4
+484,97,Gout,Tuna is high in purines; not recommended for gout.,3
+485,97,Pre-diabetes,"High refined carbs, low fiber; best with whole grain bread.",6
+486,98,Fatty Liver,"Moderate fat, some fiber and protein; suitable in moderation for fatty liver.",8
+487,98,High Cholesterol,Low saturated fat and cholesterol; supportive for cholesterol.,9
+488,98,High Blood Pressure,Moderate sodium; generally acceptable for blood pressure.,8
+489,98,Gout,"Plant-based, low purines; safe for gout.",10
+490,98,Pre-diabetes,"Moderate carbs and sugar, good fiber; suitable for glucose control in moderation.",8
+491,99,Fatty Liver,"Moderate fat, healthy unsaturated fat, natural sugar, good fiber; supportive for fatty liver.",8
+492,99,High Cholesterol,"No cholesterol, low saturated fat, healthy fat from almonds; beneficial.",10
+493,99,High Blood Pressure,"Low sodium, potassium-rich banana; excellent for hypertension.",10
+494,99,Gout,"Plant-based, low purines; very safe for gout.",10
+495,99,Pre-diabetes,"Natural sugar, good fiber, healthy fat; portion control recommended.",8
+496,100,Fatty Liver,"High fiber, low fat, no cholesterol; highly supportive for fatty liver.",10
+497,100,High Cholesterol,"No cholesterol, low saturated fat; very beneficial.",10
+498,100,High Blood Pressure,"Moderate sodium, high potassium from fruit; supportive for blood pressure.",9
+499,100,Gout,"Plant-based, low purines; very safe for gout.",10
+500,100,Pre-diabetes,"Moderate carbs, high fiber, low added sugar; supportive for glucose control.",9
+501,101,Fatty Liver,"Lean protein, moderate fat, some saturated fat from cheese; supportive in moderation.",8
+502,101,High Cholesterol,Chicken and cheese increase cholesterol; best with less cheese.,7
+503,101,High Blood Pressure,"Sodium moderate, especially from cheese; supportive if cheese is limited.",7
+504,101,Gout,"Chicken moderate in purines, cheese low; safe in moderation.",7
+505,101,Pre-diabetes,"Low carb, high protein and fiber; supportive for glucose control.",9
+506,102,Fatty Liver,"Healthy fats, plant-based protein, and fiber; excellent for fatty liver.",10
+507,102,High Cholesterol,"No cholesterol, high unsaturated fat; highly beneficial.",10
+508,102,High Blood Pressure,"No sodium, potassium-rich; excellent for hypertension.",10
+509,102,Gout,"Low purines, plant-based; very safe.",10
+510,102,Pre-diabetes,"Low carb, healthy fats, fiber; supportive for glucose control.",10
+511,103,Fatty Liver,Contains saturated fat and cholesterol from eggs and cream; best as an occasional snack.,5
+512,103,High Cholesterol,High saturated fat and cholesterol; not recommended for cholesterol management.,4
+513,103,High Blood Pressure,Sodium moderate; best in moderation for hypertension.,7
+514,103,Gout,Eggs and cheese moderate in purines; safe in moderation.,7
+515,103,Pre-diabetes,"Moderate carbs, fat, and protein; portion control recommended.",7
+516,104,Fatty Liver,"High fiber, low fat, plant-based; excellent for fatty liver.",10
+517,104,High Cholesterol,"No cholesterol, very low fat; highly beneficial.",10
+518,104,High Blood Pressure,"Very low sodium, potassium-rich; excellent for blood pressure.",10
+519,104,Gout,Mushrooms moderate in purines; generally safe in moderation.,8
+520,104,Pre-diabetes,"High carb, good fiber, slow digestion; supportive for glucose control.",8
+521,105,Fatty Liver,"High sugar, saturated fat; best as an occasional treat for fatty liver.",4
+522,105,High Cholesterol,Contains saturated fat and cholesterol; not recommended for cholesterol management.,5
+523,105,High Blood Pressure,"Low sodium, but sugar and saturated fat should be limited.",7
+524,105,Gout,"Dairy-based, low purines; safe for gout.",9
+525,105,Pre-diabetes,"High sugar, low fiber; not supportive for glucose control.",5
+526,106,Fatty Liver,"Moderate fat, lean protein, some fiber, but high sodium; generally supportive with occasional sodium caution.",7
+527,106,High Cholesterol,"Low saturated fat and cholesterol, nonfat milk; supportive for cholesterol.",9
+528,106,High Blood Pressure,High sodium from wrap and cheese; not ideal for hypertension.,5
+529,106,Gout,Egg whites and cheese moderate in purines; suitable in moderation.,8
+530,106,Pre-diabetes,"Moderate carbs and sugar, fiber and protein; supportive in portion control.",8
+531,107,Fatty Liver,"High fiber, moderate healthy fats, plant-based protein; highly supportive for fatty liver.",9
+532,107,High Cholesterol,"No cholesterol, high unsaturated fat; beneficial for cholesterol.",10
+533,107,High Blood Pressure,"Moderate sodium, potassium-rich from vegetables; supportive if sodium controlled.",8
+534,107,Gout,Chickpeas moderate in purines; generally safe if portion controlled.,8
+535,107,Pre-diabetes,"Moderate carbs, high fiber, healthy fats; supportive for glucose control.",9
+536,108,Fatty Liver,"High in healthy unsaturated fats, plant protein; portion control important for fatty liver.",7
+537,108,High Cholesterol,"High unsaturated fat, low saturated fat, no cholesterol; beneficial.",10
+538,108,High Blood Pressure,"Very low sodium, potassium from nuts; excellent for hypertension.",10
+539,108,Gout,"Moderate purines, plant-based; safe in moderate portions.",8
+540,108,Pre-diabetes,"Low carb, healthy fat, protein; supportive unless overeaten.",8
+541,109,Fatty Liver,"High in fat, saturated fat, and sodium; not ideal for fatty liver.",4
+542,109,High Cholesterol,"High saturated fat and cholesterol from cheese, bacon, and egg; not recommended for cholesterol management.",3
+543,109,High Blood Pressure,"High sodium from bacon, cheese, bread; not ideal for blood pressure.",3
+544,109,Gout,"Chicken, egg, and bacon are high in purines; not recommended for gout.",2
+545,109,Pre-diabetes,"High protein and fat, moderate carbs, some fiber; avoid excess bread.",7
+546,110,Fatty Liver,"High sugar, saturated fat; best as an occasional treat for fatty liver.",5
+547,110,High Cholesterol,"Contains saturated fat, but small portion; acceptable for cholesterol if infrequent.",6
+548,110,High Blood Pressure,Very low sodium; fine for hypertension in moderation.,10
+549,110,Gout,"Plant-based, low purines; very safe for gout.",10
+550,110,Pre-diabetes,"High sugar, low fiber; occasional treat only.",5
+551,111,Fatty Liver,"Low calorie, low fat, modest fiber; good for fatty liver.",9
+552,111,High Cholesterol,"No cholesterol, no fat; highly beneficial.",10
+553,111,High Blood Pressure,Very low sodium; excellent for blood pressure.,10
+554,111,Gout,"Plant-based, low purines; very safe for gout.",10
+555,111,Pre-diabetes,"Moderate carbs, natural sugar, low fiber; supportive in moderation.",8
+556,112,Fatty Liver,"High fiber, healthy fats, plant-based; supportive for fatty liver.",9
+557,112,High Cholesterol,"Low saturated fat, no cholesterol, omega-3s from flax; very supportive.",10
+558,112,High Blood Pressure,"Low sodium, potassium from almond milk; excellent for hypertension.",10
+559,112,Gout,"Plant-based, low purines; very safe for gout.",10
+560,112,Pre-diabetes,"Good fiber and fat, moderate sugar; supportive with portion control.",8
+561,113,Fatty Liver,"Low fat, low calorie, little fiber; acceptable as an occasional snack.",7
+562,113,High Cholesterol,"No cholesterol, no fat; supportive for cholesterol.",10
+563,113,High Blood Pressure,Low sodium; good for blood pressure.,10
+564,113,Gout,"Plant-based, low purines; very safe for gout.",10
+565,113,Pre-diabetes,"Refined carbs, low fiber; portion control recommended.",6
+566,114,Fatty Liver,"High fiber, healthy fats, plant-based; excellent for fatty liver.",10
+567,114,High Cholesterol,"No cholesterol, low saturated fat, unsaturated fats; highly beneficial.",10
+568,114,High Blood Pressure,"Moderate sodium, potassium-rich; supportive for blood pressure.",9
+569,114,Gout,"Plant-based, low purines; very safe for gout.",10
+570,114,Pre-diabetes,"Complex carbs, high fiber, healthy fat; good for glucose control.",9
+571,115,Fatty Liver,Contains animal fat and refined carbs; not optimal for fatty liver.,5
+572,115,High Cholesterol,Some saturated fat and cholesterol; best as an occasional snack.,6
+573,115,High Blood Pressure,Moderate sodium; acceptable in moderation.,7
+574,115,Gout,"Contains animal fat, moderate purines; safe in small portions.",7
+575,115,Pre-diabetes,"Refined carbs, low fiber; best as an occasional choice.",6
+576,116,Fatty Liver,"High fiber, no fat, micronutrients; excellent for fatty liver.",10
+577,116,High Cholesterol,"No cholesterol, no saturated fat; highly beneficial.",10
+578,116,High Blood Pressure,"Very low sodium, potassium-rich; excellent for blood pressure.",10
+579,116,Gout,"Plant-based, low purines; very safe for gout.",10
+580,116,Pre-diabetes,Natural sugar and fiber; supportive for glucose control.,9
+581,117,Fatty Liver,Fish salad contains moderate fat and sodium; portion control needed for fatty liver.,6
+582,117,High Cholesterol,Contains cholesterol and some saturated fat; moderation recommended.,6
+583,117,High Blood Pressure,High sodium from fish salad and olives; not ideal for hypertension.,5
+584,117,Gout,Whitefish is high in purines; not recommended for gout.,3
+585,117,Pre-diabetes,"Whole grains and vegetables, some fat; supportive with portion control.",8
+586,118,Fatty Liver,"High vitamin C, fiber, no fat; excellent for fatty liver.",10
+587,118,High Cholesterol,"No cholesterol, no saturated fat; highly beneficial.",10
+588,118,High Blood Pressure,"Very low sodium, potassium-rich; optimal for blood pressure.",10
+589,118,Gout,"Plant-based, low purines; very safe for gout.",10
+590,118,Pre-diabetes,"Natural sugars, good fiber; supportive for glucose control.",9
+591,119,Fatty Liver,"High sugar, saturated fat; best as an occasional treat for fatty liver.",5
+592,119,High Cholesterol,"Contains saturated fat, but small portion; acceptable for cholesterol if infrequent.",6
+593,119,High Blood Pressure,Very low sodium; fine for hypertension in moderation.,10
+594,119,Gout,"Plant-based, low purines; very safe for gout.",10
+595,119,Pre-diabetes,"High sugar, low fiber; occasional treat only.",5
+596,120,Fatty Liver,"Moderate fat, high cholesterol, high-quality protein; best in moderation for fatty liver.",7
+597,120,High Cholesterol,"High cholesterol, moderate saturated fat; limit for high cholesterol.",5
+598,120,High Blood Pressure,"Low sodium, high protein; supportive for blood pressure.",9
+599,120,Gout,Eggs are moderate in purines; suitable in moderation.,8
+600,120,Pre-diabetes,"Low carb, high protein; excellent for glucose control.",10
+601,121,Fatty Liver,"Healthy fats, fiber, plant protein; excellent for fatty liver.",10
+602,121,High Cholesterol,"High unsaturated fat, low saturated fat; highly beneficial.",10
+603,121,High Blood Pressure,No sodium; very supportive.,10
+604,121,Gout,"Plant-based, low purines; very safe for gout.",10
+605,121,Pre-diabetes,"Low carb, healthy fat, good fiber; supportive for glucose control.",10
+606,122,Fatty Liver,Contains saturated fat and cholesterol; best in moderation for fatty liver.,6
+607,122,High Cholesterol,"Contains eggs and mayonnaise, moderate saturated fat; limit for high cholesterol.",6
+608,122,High Blood Pressure,Moderate sodium; best with portion control.,7
+609,122,Gout,"Contains eggs, moderate purines; safe in moderation.",7
+610,122,Pre-diabetes,"Moderate carbs, some fat; portion control recommended.",7
+611,123,Fatty Liver,"Plant-based, moderate fat, high fiber; supportive for fatty liver.",9
+612,123,High Cholesterol,"No cholesterol, low saturated fat; highly beneficial.",10
+613,123,High Blood Pressure,"Moderate sodium, high potassium from vegetables; supportive for blood pressure.",9
+614,123,Gout,"Plant-based, low purines; very safe for gout.",10
+615,123,Pre-diabetes,"Complex carbs, high fiber, moderate fat; supportive for glucose control.",9
+616,124,Fatty Liver,High in vegetables and healthy fat; excellent for fatty liver.,10
+617,124,High Cholesterol,"No cholesterol, low saturated fat, high unsaturated fat; highly beneficial.",10
+618,124,High Blood Pressure,"Very low sodium, potassium-rich; excellent for hypertension.",10
+619,124,Gout,"Plant-based, low purines; very safe for gout.",10
+620,124,Pre-diabetes,"Low carb, high fiber, healthy fat; excellent for glucose control.",10
+621,125,Fatty Liver,High saturated fat and cholesterol; best as an occasional snack for fatty liver.,5
+622,125,High Cholesterol,High saturated fat and cholesterol; not ideal for cholesterol management.,5
+623,125,High Blood Pressure,Moderate sodium; acceptable in moderation.,7
+624,125,Gout,"Eggs, cheese, and mushrooms are moderate in purines; safe in small amounts.",7
+625,125,Pre-diabetes,"Moderate carbs, fat, and protein; portion control recommended.",7
+626,126,Fatty Liver,"Moderate fat, high sodium, refined carbs; best in moderation for fatty liver.",5
+627,126,High Cholesterol,Contains cholesterol and moderate saturated fat; limit for high cholesterol.,6
+628,126,High Blood Pressure,"High sodium from broth, pickle, and chips; not recommended for hypertension.",3
+629,126,Gout,"Contains egg and chicken broth, moderate purines; limit for gout.",6
+630,126,Pre-diabetes,"Refined carbs, moderate fat, some protein; portion control and balance recommended.",6
+631,127,Fatty Liver,"High fat and sugar, but very small portion; minimal impact for fatty liver.",7
+632,127,High Cholesterol,Contains saturated fat and cholesterol; very small serving is acceptable.,7
+633,127,High Blood Pressure,Very low sodium; no concern for hypertension.,10
+634,127,Gout,"Low purines, very small portion; safe for gout.",10
+635,127,Pre-diabetes,"High sugar, low fiber, but only a bite; minimal glycemic load.",8
+636,128,Fatty Liver,"High fiber, low fat, antioxidant-rich; excellent for fatty liver.",10
+637,128,High Cholesterol,"No cholesterol, no saturated fat, high fiber; highly beneficial.",10
+638,128,High Blood Pressure,"Low sodium, potassium-rich fruits; supportive for hypertension.",10
+639,128,Gout,"Dairy and fruit, low purines; very safe for gout.",10
+640,128,Pre-diabetes,"Moderate-high sugar from fruit, good fiber, protein; watch portion for glucose control.",8
+641,129,Fatty Liver,"Healthy fat, fiber, plant protein; excellent for fatty liver.",10
+642,129,High Cholesterol,"No cholesterol, high unsaturated fat, low saturated fat; highly beneficial.",10
+643,129,High Blood Pressure,No sodium; excellent for hypertension.,10
+644,129,Gout,"Plant-based, low purines; very safe for gout.",10
+645,129,Pre-diabetes,"Low carb, healthy fat; excellent for glucose control.",10
+646,130,Fatty Liver,"Lean protein, moderate fat, high sodium, refined bread; moderation needed for fatty liver.",6
+647,130,High Cholesterol,"Moderate saturated fat from mayo, tuna is lean; supportive if mayo is limited.",7
+648,130,High Blood Pressure,High sodium from bread and tuna; not optimal for hypertension.,5
+649,130,Gout,Tuna is high in purines; not ideal for gout.,3
+650,130,Pre-diabetes,"Moderate carbs, low fiber, some protein; choose whole grain bread for glucose control.",6
+651,131,Fatty Liver,"High vitamin C, fiber, low calorie; excellent for fatty liver.",10
+652,131,High Cholesterol,"No cholesterol, no fat; highly beneficial.",10
+653,131,High Blood Pressure,"Very low sodium, potassium-rich; excellent for blood pressure.",10
+654,131,Gout,"Plant-based, low purines; very safe for gout.",10
+655,131,Pre-diabetes,"Natural sugar, fiber; supportive for glucose control in moderation.",9
+656,132,Fatty Liver,"Low calorie, low fat, some fiber; good for fatty liver.",9
+657,132,High Cholesterol,"No cholesterol, no fat; highly beneficial.",10
+658,132,High Blood Pressure,Very low sodium; excellent for blood pressure.,10
+659,132,Gout,"Plant-based, low purines; very safe for gout.",10
+660,132,Pre-diabetes,"Moderate carbs, low fiber; supportive in moderation.",8
+661,133,Fatty Liver,"High fiber, lean protein, low fat; supportive for fatty liver.",9
+662,133,High Cholesterol,"Low saturated fat, lean protein, no cheese; very supportive.",10
+663,133,High Blood Pressure,"Moderate sodium, potassium-rich; supportive for hypertension.",8
+664,133,Gout,"Chicken moderate in purines, beans low; safe in moderation.",8
+665,133,Pre-diabetes,"Complex carbs, high fiber, lean protein; good for glucose control.",9
+666,134,Fatty Liver,"High in healthy fats, but calorie dense from cheese, nuts, and dressing; moderation needed for fatty liver.",6
+667,134,High Cholesterol,"Contains saturated fat from goat cheese, but mostly unsaturated fat from pecans; supportive in moderation.",7
+668,134,High Blood Pressure,"Moderate sodium, potassium from greens; supportive if dressing is not salty.",8
+669,134,Gout,Cheese and nuts low in purines; very safe for gout.,10
+670,134,Pre-diabetes,"Low carbs, high fat, fiber, and protein; supportive for glucose control.",8
+671,135,Fatty Liver,"High refined carbs, saturated fat, and sodium; not ideal for fatty liver.",4
+672,135,High Cholesterol,Contains saturated fat and cholesterol from cream cheese; not recommended for cholesterol management.,4
+673,135,High Blood Pressure,High sodium content; not supportive for hypertension.,3
+674,135,Gout,"Moderate purines, little animal protein; generally okay in moderation.",8
+675,135,Pre-diabetes,"High refined carbs, low fiber; best eaten sparingly.",5
+676,136,Fatty Liver,"High in vegetables and healthy fats, moderate sodium and cheese; supportive in moderation.",8
+677,136,High Cholesterol,Contains some saturated fat from feta; generally supportive with moderation.,7
+678,136,High Blood Pressure,Moderate sodium from cheese and olives; suitable if sodium is controlled elsewhere.,7
+679,136,Gout,"Plant-based, low purines; very safe for gout.",10
+680,136,Pre-diabetes,"Low carbs, good fiber, healthy fats; supportive for glucose control.",8
+681,137,Fatty Liver,"High fiber, fruit, healthy fat; supportive for fatty liver.",9
+682,137,High Cholesterol,"No cholesterol, low saturated fat; highly beneficial.",10
+683,137,High Blood Pressure,"Very low sodium, potassium-rich; excellent for hypertension.",10
+684,137,Gout,"Plant-based, low purines; very safe for gout.",10
+685,137,Pre-diabetes,"Natural sugar, fiber and fat slow absorption; supportive for glucose control.",9
+686,138,Fatty Liver,"High fiber, lean protein, healthy fats; supportive for fatty liver.",9
+687,138,High Cholesterol,"Low saturated fat, lean protein, no cheese; very supportive.",10
+688,138,High Blood Pressure,"Moderate sodium, potassium-rich; supportive if sodium is limited elsewhere.",7
+689,138,Gout,"Chicken moderate in purines, beans and seeds low; safe in moderation.",8
+690,138,Pre-diabetes,"Complex carbs, good fiber, lean protein; supportive for glucose control.",9
+691,139,Fatty Liver,"Contains healthy fat and protein, moderate sodium; supportive if portion controlled.",8
+692,139,High Cholesterol,"High unsaturated fat, low saturated fat; beneficial.",9
+693,139,High Blood Pressure,Moderate sodium from soy sauce; supportive in moderation.,7
+694,139,Gout,"Peanuts moderate in purines, largely plant-based; safe in moderation.",8
+695,139,Pre-diabetes,"Moderate carbs, some fiber and protein; suitable with portion control.",8
+696,140,Fatty Liver,"High in antioxidants, fiber, low fat; excellent for fatty liver.",10
+697,140,High Cholesterol,"No cholesterol, no fat; highly beneficial.",10
+698,140,High Blood Pressure,"No sodium, potassium-rich; excellent for hypertension.",10
+699,140,Gout,"Plant-based, low purines; cherries may help reduce gout attacks.",10
+700,140,Pre-diabetes,"Natural sugar, fiber slows absorption; moderate portion is supportive.",9
+701,141,Fatty Liver,"High fiber, low fat, plant-based; supportive for fatty liver.",9
+702,141,High Cholesterol,"No cholesterol, low saturated fat; highly beneficial.",10
+703,141,High Blood Pressure,"Moderate sodium, potassium from almond milk; supportive for hypertension.",9
+704,141,Gout,"Plant-based, low purines; very safe for gout.",10
+705,141,Pre-diabetes,"High carb, moderate sugar, good fiber; portion control helpful.",7
+706,142,Fatty Liver,"Healthy fats, fiber, plant-based; excellent for fatty liver.",10
+707,142,High Cholesterol,"No cholesterol, high unsaturated fat; highly beneficial.",10
+708,142,High Blood Pressure,No sodium; very supportive.,10
+709,142,Gout,"Plant-based, low purines; very safe for gout.",10
+710,142,Pre-diabetes,"Low carb, good fat and protein; excellent for glucose control.",10
+711,143,Fatty Liver,"High fat, refined carbs, and sodium; not optimal for fatty liver.",4
+712,143,High Cholesterol,Moderate saturated fat and cholesterol; portion control needed.,5
+713,143,High Blood Pressure,"High sodium, fried foods; best avoided for hypertension.",3
+714,143,Gout,Breaded chicken moderate in purines; safe with moderation.,7
+715,143,Pre-diabetes,"High carb, low fiber, added sugar; not ideal for glucose control.",4
+716,144,Fatty Liver,High sugar and saturated fat; occasional treat for fatty liver.,4
+717,144,High Cholesterol,"Contains saturated fat, some cholesterol; best as a rare treat.",5
+718,144,High Blood Pressure,"Low sodium, but high sugar and fat; acceptable in moderation.",8
+719,144,Gout,"Mostly plant-based, low purines; very safe for gout.",10
+720,144,Pre-diabetes,High sugar and refined carbs; not supportive for glucose control.,3
+721,145,Fatty Liver,"High fat, saturated fat, and cholesterol from meats and cheese; not recommended for fatty liver.",2
+722,145,High Cholesterol,High saturated fat and cholesterol; not advised for cholesterol management.,2
+723,145,High Blood Pressure,"High sodium, saturated fat; not suitable for hypertension.",2
+724,145,Gout,Red meats and cheese are high in purines; not recommended for gout.,1
+725,145,Pre-diabetes,"High in carbs, fat, and protein; portion control important.",5
+726,146,Fatty Liver,"High refined carbs, saturated fat, and sodium; not optimal for fatty liver.",4
+727,146,High Cholesterol,Contains saturated fat and cholesterol from cream cheese; not supportive for cholesterol management.,4
+728,146,High Blood Pressure,High sodium content; not recommended for hypertension.,3
+729,146,Gout,"Moderate purines, mostly plant-based; generally safe in moderation.",8
+730,146,Pre-diabetes,"High refined carbs and sugar, low fiber; not optimal for glucose control.",5
+731,147,Fatty Liver,"Moderate fat, fiber, and protein; suitable in moderation for fatty liver.",8
+732,147,High Cholesterol,Low saturated fat and cholesterol; supportive for cholesterol.,9
+733,147,High Blood Pressure,Moderate sodium; generally acceptable for blood pressure.,8
+734,147,Gout,"Plant-based, low purines; very safe for gout.",10
+735,147,Pre-diabetes,"Moderate carbs and sugar, good fiber; suitable for glucose control in moderation.",8
+736,148,Fatty Liver,"Healthy fats from avocado, moderate sodium, refined carbs; portion control needed.",7
+737,148,High Cholesterol,"Healthy unsaturated fat, low saturated fat; supportive for cholesterol.",9
+738,148,High Blood Pressure,Moderate sodium from crackers; portion control helps.,7
+739,148,Gout,"Plant-based, low purines; very safe for gout.",10
+740,148,Pre-diabetes,"Refined carbs, some fiber, healthy fat; supportive in moderation.",7
+741,149,Fatty Liver,"High saturated fat and cholesterol, large portion size; not recommended for fatty liver.",2
+742,149,High Cholesterol,Very high saturated fat and cholesterol; not advised for cholesterol management.,2
+743,149,High Blood Pressure,High sodium and saturated fat; not suitable for hypertension.,2
+744,149,Gout,Beef patties are high in purines; not recommended for gout.,1
+745,149,Pre-diabetes,"High fat, moderate carbs, low fiber; not optimal for glucose control.",4
+746,150,Fatty Liver,"Contains moderate fat and sodium, some fiber and protein; moderation needed.",6
+747,150,High Cholesterol,"Contains eggs and mayonnaise, moderate saturated fat and cholesterol; best in moderation.",6
+748,150,High Blood Pressure,"High sodium from soup, sandwich, and chips; not ideal for hypertension.",4
+749,150,Gout,"Eggs are moderate in purines, mushrooms are moderate; safe in moderation.",7
+750,150,Pre-diabetes,"Moderate carbs, some fiber; supportive with portion control.",7
+751,151,Fatty Liver,"Contains saturated fat and cholesterol, refined carbs; moderation is important.",5
+752,151,High Cholesterol,High cholesterol and saturated fat from egg and cheese; not ideal for cholesterol.,4
+753,151,High Blood Pressure,"Contains moderate sodium, especially from cheese; limit for hypertension.",6
+754,151,Gout,Egg and cheese moderate in purines; acceptable in moderation.,7
+755,151,Pre-diabetes,"Refined carbs, modest protein and fat; portion control is key.",6
+756,152,Fatty Liver,"High fiber, plant-based, modest fat; supportive for fatty liver.",9
+757,152,High Cholesterol,"No cholesterol, low saturated fat; very supportive for cholesterol.",10
+758,152,High Blood Pressure,Moderate sodium; watch portion if sensitive.,7
+759,152,Gout,Chickpeas moderate in purines; safe in reasonable portions.,8
+760,152,Pre-diabetes,"High fiber, plant protein, low sugar; beneficial for glucose control.",9
+761,153,Fatty Liver,"High sugar, saturated fat; best as an occasional treat.",4
+762,153,High Cholesterol,"Contains saturated fat, very small portion; minimal impact if infrequent.",6
+763,153,High Blood Pressure,Very low sodium; fine for hypertension as a treat.,10
+764,153,Gout,"Low purines, small portion; safe for gout.",10
+765,153,Pre-diabetes,"High sugar, low fiber; limit for glucose control.",4
+766,154,Fatty Liver,"Moderate fat, fiber, and protein; suitable in moderation.",8
+767,154,High Cholesterol,"Low saturated fat, no cholesterol; supportive for cholesterol.",9
+768,154,High Blood Pressure,Moderate sodium; generally acceptable.,8
+769,154,Gout,"Plant-based, low purines; safe for gout.",10
+770,154,Pre-diabetes,"Moderate carbs and sugar, good fiber; suitable in moderation.",8
+771,155,Fatty Liver,Contains saturated fat and sugar; best as an occasional dessert.,4
+772,155,High Cholesterol,Contains saturated fat and cholesterol; not ideal for cholesterol management.,5
+773,155,High Blood Pressure,"Moderate sodium, small portion; generally acceptable.",8
+774,155,Gout,"Low purines, small portion; safe for gout.",10
+775,155,Pre-diabetes,"Contains sugar and fat, low fiber; best as an occasional treat.",4
+776,156,Fatty Liver,"High in fiber, plant protein, healthy fats, low in saturated fat; excellent for fatty liver.",10
+777,156,High Cholesterol,"No cholesterol, low saturated fat, plant-based; highly beneficial.",10
+778,156,High Blood Pressure,"Moderate sodium, potassium-rich; supportive for hypertension.",9
+779,156,Gout,"Plant-based, low purines; very safe for gout.",10
+780,156,Pre-diabetes,"High fiber, plant protein, moderate carbs; good for glucose control.",9
+781,157,Fatty Liver,"High fiber, fruit, and healthy fats; supportive for fatty liver.",9
+782,157,High Cholesterol,"Low saturated fat and cholesterol, plant-based; highly beneficial.",10
+783,157,High Blood Pressure,"Low sodium, potassium-rich; very supportive for hypertension.",10
+784,157,Gout,"Plant-based, low purines; very safe for gout.",10
+785,157,Pre-diabetes,"Contains natural sugar, good fiber, healthy fat; portion control recommended.",8
+786,158,Fatty Liver,"High fiber, plant protein, moderate fat; supportive for fatty liver.",9
+787,158,High Cholesterol,"Low saturated fat, no cholesterol, healthy fat; very supportive.",10
+788,158,High Blood Pressure,"Moderate sodium, potassium-rich; supportive for hypertension.",8
+789,158,Gout,"Mushrooms moderate in purines, otherwise plant-based; safe in moderation.",8
+790,158,Pre-diabetes,"High fiber, complex carbs, moderate fat; supportive for glucose control.",9
+791,159,Fatty Liver,"Low calorie, high vitamin C, fiber; excellent for fatty liver.",10
+792,159,High Cholesterol,"No cholesterol, no fat; highly beneficial.",10
+793,159,High Blood Pressure,"Very low sodium, potassium-rich; excellent for hypertension.",10
+794,159,Gout,"Plant-based, low purines; very safe for gout.",10
+795,159,Pre-diabetes,"Natural sugar, good fiber; moderate portion is supportive.",9
+796,160,Fatty Liver,"Lean protein, healthy fats, high sodium, and purines; moderation is needed.",5
+797,160,High Cholesterol,"Contains omega-3s, moderate fat, some cholesterol; supportive if not excessive.",7
+798,160,High Blood Pressure,High sodium from soy sauce and rolls; limit for hypertension.,4
+799,160,Gout,"Fish, especially bluefin, salmon, eel, and yellowtail, are high in purines; not recommended for gout.",2
+800,160,Pre-diabetes,"Moderate carbs, some sugar, protein, and fat; portion control is key.",7
+801,161,Fatty Liver,"Healthy fats, fiber, plant protein; excellent for fatty liver.",10
+802,161,High Cholesterol,"No cholesterol, high unsaturated fat; highly beneficial.",10
+803,161,High Blood Pressure,No sodium; excellent for blood pressure.,10
+804,161,Gout,"Plant-based, low purines; very safe for gout.",10
+805,161,Pre-diabetes,"Low carb, healthy fat; excellent for glucose control.",10
+806,162,Fatty Liver,"Very small amount, healthy fat; negligible impact.",10
+807,162,High Cholesterol,"No cholesterol, healthy fat; negligible impact.",10
+808,162,High Blood Pressure,No sodium; neutral for hypertension.,10
+809,162,Gout,"Plant-based, low purines; very safe for gout.",10
+810,162,Pre-diabetes,"Very small amount, minimal sugar; negligible impact.",10
+811,163,Fatty Liver,"Low fat, high sugar, some fiber; supportive but reduce sugar for best results.",7
+812,163,High Cholesterol,"No cholesterol, low saturated fat; highly beneficial.",10
+813,163,High Blood Pressure,"Moderate sodium, low fat; generally supportive.",8
+814,163,Gout,"Plant-based, low purines; very safe for gout.",10
+815,163,Pre-diabetes,"High sugar, moderate fiber; limit portion and sugar for glucose control.",6
+816,164,Fatty Liver,"Healthy fats, fiber, plant-based protein; excellent for fatty liver.",10
+817,164,High Cholesterol,"No cholesterol, high unsaturated fat; highly beneficial.",10
+818,164,High Blood Pressure,No sodium; excellent for hypertension.,10
+819,164,Gout,"Low purines, plant-based; very safe for gout.",10
+820,164,Pre-diabetes,"Low carb, healthy fat and protein; excellent for glucose control.",10
+821,165,Fatty Liver,"High fiber, antioxidants, but high sugar; moderation recommended.",7
+822,165,High Cholesterol,"No cholesterol, low saturated fat; highly beneficial.",10
+823,165,High Blood Pressure,"Very low sodium, potassium-rich; excellent for hypertension.",10
+824,165,Gout,"Plant-based, low purines; very safe for gout.",10
+825,165,Pre-diabetes,"High sugar and carbs, some fiber; portion control needed for glucose management.",5
+826,166,Fatty Liver,"Lean protein, healthy fat, moderate carbs; supportive but limit mayonnaise for best results.",7
+827,166,High Cholesterol,"Contains omega-3s, moderate saturated fat; beneficial if mayo is limited.",8
+828,166,High Blood Pressure,"Moderate sodium, potassium from greens; generally supportive.",8
+829,166,Gout,Salmon is high in purines; best to limit if prone to gout.,4
+830,166,Pre-diabetes,"Moderate carbs, good protein and fat; choose whole grain pita for best glucose control.",7
+831,167,Fatty Liver,"Balanced protein and healthy fats, moderate saturated fat and sodium; supportive in moderation.",7
+832,167,High Cholesterol,"Contains eggs and cheese, moderate saturated fat and cholesterol; limit frequency for cholesterol management.",6
+833,167,High Blood Pressure,Moderate sodium; suitable if sodium is limited elsewhere.,7
+834,167,Gout,Eggs are moderate in purines; suitable in moderation.,8
+835,167,Pre-diabetes,"Good fiber and protein, moderate carbs; supportive for glucose control.",8
+836,168,Fatty Liver,"Moderate fat, fiber, and protein; suitable in moderation for fatty liver.",8
+837,168,High Cholesterol,Low saturated fat and cholesterol; supportive for cholesterol.,9
+838,168,High Blood Pressure,Moderate sodium; generally acceptable for blood pressure.,8
+839,168,Gout,"Plant-based, low purines; very safe for gout.",10
+840,168,Pre-diabetes,"Moderate carbs and sugar, good fiber; supportive for glucose control in moderation.",8
+841,169,Fatty Liver,"Healthy fats from avocado, high carbs, high sodium; moderation needed.",6
+842,169,High Cholesterol,"No cholesterol, low saturated fat; highly beneficial.",10
+843,169,High Blood Pressure,High sodium from soy sauce and noodles; not optimal for hypertension.,5
+844,169,Gout,"Plant-based, low purines; very safe for gout.",10
+845,169,Pre-diabetes,"High carbs, low protein; moderation and portion control advised.",6
+846,170,Fatty Liver,"High sugar and fat, small portion; fine as an occasional treat.",7
+847,170,High Cholesterol,"Some saturated fat, small portion; acceptable in moderation.",8
+848,170,High Blood Pressure,Very low sodium; no concern for hypertension.,10
+849,170,Gout,"Plant-based, low purines; very safe for gout.",10
+850,170,Pre-diabetes,"High sugar, low fiber, small serving; infrequent treat is best.",6
+851,171,Fatty Liver,"Lean protein, low fat, low sodium; highly supportive for fatty liver.",9
+852,171,High Cholesterol,"Low saturated fat, lean meat; supportive for cholesterol management.",10
+853,171,High Blood Pressure,"Low sodium, lean protein; excellent for hypertension.",10
+854,171,Gout,Chicken moderate in purines; safe in moderation.,8
+855,171,Pre-diabetes,"Moderate carbs, high protein; excellent for glucose control.",9
+856,172,Fatty Liver,"High sugar, refined carbs, small portion; occasional snack is fine.",6
+857,172,High Cholesterol,"Low cholesterol, small amount of saturated fat; suitable infrequently.",8
+858,172,High Blood Pressure,"Moderate sodium, small serving; generally acceptable.",8
+859,172,Gout,"Plant-based, low purines; very safe for gout.",10
+860,172,Pre-diabetes,"High sugar, refined carbs, low fiber; best as an infrequent treat.",5
+861,173,Fatty Liver,"Contains healthy fat, fiber, and protein, but refined carbs and moderate saturated fat; supportive with portion control.",7
+862,173,High Cholesterol,Moderate saturated fat and cholesterol from eggs; limit frequency for cholesterol management.,6
+863,173,High Blood Pressure,"Moderate sodium, potassium-rich; suitable if sodium is limited elsewhere.",7
+864,173,Gout,"Eggs are moderate in purines, bagel is low; acceptable in moderation.",8
+865,173,Pre-diabetes,"High carbs, moderate fiber, protein and fat help balance; portion control is important.",7
+866,174,Fatty Liver,"Good protein and fiber, but high sodium and saturated fat from cheese; portion control needed.",6
+867,174,High Cholesterol,"Contains cheese and chicken, moderate saturated fat; limit cheese for better management.",6
+868,174,High Blood Pressure,High sodium from cheese and tortilla; not optimal for hypertension.,5
+869,174,Gout,"Chicken and cheese moderate in purines, beans are low; safe in moderation.",7
+870,174,Pre-diabetes,"High carbs, good fiber and protein; choose whole grain tortilla for better glucose control.",7
+871,175,Fatty Liver,"High in fat and refined carbs, low fiber; best as an occasional snack.",5
+872,175,High Cholesterol,"Mostly unsaturated fat, low saturated fat; acceptable in small amounts.",7
+873,175,High Blood Pressure,"Contains sodium, moderate portion acceptable.",7
+874,175,Gout,"Plant-based, low purines; very safe for gout.",10
+875,175,Pre-diabetes,"Refined carbs, low fiber and protein; best eaten infrequently.",5
+876,176,Fatty Liver,"High carb, moderate fat, includes fruits and vegetables; supportive if portion controlled.",7
+877,176,High Cholesterol,"Plant-based, low saturated fat and no cholesterol; highly beneficial.",10
+878,176,High Blood Pressure,"Moderate sodium from soy sauce, potassium-rich vegetables; supportive in moderation.",7
+879,176,Gout,"Mushrooms moderate in purines, other items low; acceptable in moderation.",8
+880,176,Pre-diabetes,"High carbs and sugar, some fiber and protein; portion control is needed.",6
+881,177,Fatty Liver,"High fiber, low fat, and plant-based; highly supportive for fatty liver.",10
+882,177,High Cholesterol,"No cholesterol, low saturated fat, and healthy nuts; very beneficial.",10
+883,177,High Blood Pressure,"Low sodium, high potassium from fruit and nuts; excellent for hypertension.",10
+884,177,Gout,"Plant-based, low purines; very safe for gout.",10
+885,177,Pre-diabetes,"Moderate sugar from fruit, good fiber and protein; portion control is supportive.",8
+886,178,Fatty Liver,"Lean protein, moderate fat, added sugar from fruit, and dressing; supportive in moderation.",7
+887,178,High Cholesterol,"Contains mayonnaise and ranch, moderate saturated fat; limit dressings for best results.",7
+888,178,High Blood Pressure,Moderate sodium from bread and dressing; portion control needed.,7
+889,178,Gout,"Chicken breast moderate in purines, otherwise safe; moderation advised.",8
+890,178,Pre-diabetes,"Moderate carbs, some fruit sugar, fiber, and protein; supportive with portion control.",7
+891,179,Fatty Liver,"Processed meat, cheese, refined carbs; best as an occasional snack.",5
+892,179,High Cholesterol,Contains saturated fat and cholesterol; limit frequency.,5
+893,179,High Blood Pressure,High sodium; not ideal for hypertension.,4
+894,179,Gout,Pepperoni and cheese are moderate in purines; occasional intake is acceptable.,6
+895,179,Pre-diabetes,"Refined carbs, moderate fat; portion control needed.",6
+896,180,Fatty Liver,"High fiber, healthy fat, moderate sodium and cheese; supportive for fatty liver.",8
+897,180,High Cholesterol,"Mostly unsaturated fat, low cholesterol, some saturated fat from cheese; generally supportive.",8
+898,180,High Blood Pressure,Moderate sodium from cheese and croutons; portion control is helpful.,7
+899,180,Gout,"Plant-based, low purines, small amount of cheese; very safe for gout.",10
+900,180,Pre-diabetes,"Low sugar, high fiber, healthy fat; supportive for glucose control.",9
+901,181,Fatty Liver,"Healthy fat, fiber, plant-based protein; excellent for fatty liver.",10
+902,181,High Cholesterol,"No cholesterol, high unsaturated fat; highly beneficial.",10
+903,181,High Blood Pressure,No sodium; excellent for hypertension.,10
+904,181,Gout,"Plant-based, low purines; very safe for gout.",10
+905,181,Pre-diabetes,"Low carb, healthy fat, protein; excellent for glucose control.",10
+906,182,Fatty Liver,"High fiber, plant-based protein and healthy fats, moderate sugar; supportive for fatty liver.",9
+907,182,High Cholesterol,"No cholesterol, mostly unsaturated fat; very beneficial.",10
+908,182,High Blood Pressure,"Low sodium, potassium-rich; excellent for hypertension.",10
+909,182,Gout,"Plant-based, low purines, nuts in moderation; very safe for gout.",10
+910,182,Pre-diabetes,"Contains fruit sugar, high fiber and healthy fat; supportive with portion control.",8
+911,183,Fatty Liver,"High in antioxidants, healthy fat, low calorie; highly supportive for fatty liver.",10
+912,183,High Cholesterol,"No cholesterol, high in plant-based fat and fiber; highly beneficial.",10
+913,183,High Blood Pressure,"Low sodium, potassium-rich; excellent for blood pressure.",10
+914,183,Gout,"Plant-based, low purines; very safe for gout.",10
+915,183,Pre-diabetes,"Low sugar, good fiber, healthy fat; supportive for glucose control.",10
+916,184,Fatty Liver,"Lean protein, moderate fat, high sodium; moderation needed for fatty liver.",6
+917,184,High Cholesterol,"Lean fish, low saturated fat; generally supportive, but limit mayo.",7
+918,184,High Blood Pressure,Moderate sodium; suitable in moderation.,7
+919,184,Gout,Tuna is high in purines; limit for gout.,3
+920,184,Pre-diabetes,"Moderate carbs, protein, low sugar; supportive with whole grain bread.",7
+921,185,Fatty Liver,"Lean protein, healthy fat, moderate carbs; supportive if portion controlled.",8
+922,185,High Cholesterol,"Low saturated fat, lean protein; supportive for cholesterol.",9
+923,185,High Blood Pressure,Low sodium; very supportive for blood pressure.,10
+924,185,Gout,"Chicken moderate in purines, sunflower seeds low; safe in moderation.",8
+925,185,Pre-diabetes,"Moderate carbs, good protein and fat; supportive for glucose control.",8
+926,186,Fatty Liver,Contains sugar and saturated fat; best as an occasional treat.,5
+927,186,High Cholesterol,Contains saturated fat and cholesterol; keep as infrequent dessert.,6
+928,186,High Blood Pressure,Low sodium; neutral for hypertension.,10
+929,186,Gout,"Dairy and fruit, low purines; safe for gout.",10
+930,186,Pre-diabetes,"Contains sugar, low fiber; occasional treat is best.",5
+931,187,Fatty Liver,"Lean protein, moderate fat, high sodium; moderation needed for fatty liver.",6
+932,187,High Cholesterol,"Lean fish, low saturated fat; generally supportive, but limit mayo.",7
+933,187,High Blood Pressure,Moderate sodium; suitable in moderation.,7
+934,187,Gout,Tuna is high in purines; limit for gout.,3
+935,187,Pre-diabetes,"Moderate carbs, protein, low sugar; supportive with whole grain bread.",7
+936,188,Fatty Liver,"High in cholesterol and saturated fat, moderate fiber; limit frequency for fatty liver management.",5
+937,188,High Cholesterol,High cholesterol and saturated fat; not ideal for cholesterol management.,3
+938,188,High Blood Pressure,"Moderate sodium, could be higher if salted; use caution for hypertension.",6
+939,188,Gout,"Eggs are moderate in purines, mushrooms add some; acceptable in moderation.",7
+940,188,Pre-diabetes,"Refined carbs and jam increase sugar, moderate fiber and protein; portion control advised.",6
+941,189,Fatty Liver,"Moderate fat, fiber, and protein; suitable as an occasional snack.",8
+942,189,High Cholesterol,Low saturated fat and cholesterol; supportive for cholesterol.,9
+943,189,High Blood Pressure,"Moderate sodium, small serving; generally acceptable.",8
+944,189,Gout,"Plant-based, low purines; very safe for gout.",10
+945,189,Pre-diabetes,"Moderate carbs and sugar, good fiber; supportive in moderation.",8
+946,190,Fatty Liver,"High in fiber, plant protein, moderate fat; watch sodium and cheese.",8
+947,190,High Cholesterol,Some saturated fat and cholesterol from feta; supportive overall if cheese is limited.,7
+948,190,High Blood Pressure,"Sodium from olives, cheese, and dressing; limit for hypertension.",6
+949,190,Gout,"Beans and nuts moderate in purines, otherwise plant-based; safe in moderation.",8
+950,190,Pre-diabetes,"High fiber, moderate carbs, plant protein; supportive for glucose control.",8
+951,191,Fatty Liver,"High fiber, plant protein, healthy fats; excellent for fatty liver.",10
+952,191,High Cholesterol,"No cholesterol, low saturated fat, healthy fat; very beneficial.",10
+953,191,High Blood Pressure,"Low sodium, high potassium from veggies; excellent for hypertension.",10
+954,191,Gout,"Plant-based, low purines; very safe for gout.",10
+955,191,Pre-diabetes,"High fiber, healthy fats, low carbs; supportive for glucose control.",10
+956,192,Fatty Liver,"High in saturated fat and sugar, low fiber; best as an infrequent treat.",4
+957,192,High Cholesterol,"Contains butter and eggs, moderate saturated fat and cholesterol; limit frequency.",5
+958,192,High Blood Pressure,"Moderate sodium, high refined carbs; occasional use is fine.",7
+959,192,Gout,"Plant-based, low purines; very safe for gout.",10
+960,192,Pre-diabetes,"High sugar, refined carbs, low fiber; not supportive for glucose control.",4
+961,193,Fatty Liver,"High fiber, plant protein, healthy fats, low saturated fat; excellent for fatty liver.",10
+962,193,High Cholesterol,"No cholesterol, mostly unsaturated fat; highly beneficial.",10
+963,193,High Blood Pressure,"Moderate sodium, potassium-rich; supportive for hypertension.",9
+964,193,Gout,Chickpeas and quinoa moderate in purines; safe in reasonable portions.,8
+965,193,Pre-diabetes,"High fiber, moderate carbs, plant protein; supportive for glucose control.",8
+966,194,Fatty Liver,"Low calorie, high vitamin C and fiber; very supportive.",10
+967,194,High Cholesterol,No cholesterol or fat; highly beneficial.,10
+968,194,High Blood Pressure,"Very low sodium, high potassium; excellent for hypertension.",10
+969,194,Gout,"Plant-based, low purines; very safe for gout.",10
+970,194,Pre-diabetes,"Natural sugar, good fiber; portion control is key for glucose management.",8
+971,195,Fatty Liver,"High sodium, moderate fat, includes vegetables and lean protein; moderation needed.",5
+972,195,High Cholesterol,"Moderate fat and cholesterol, mostly lean protein; supportive if portion controlled.",7
+973,195,High Blood Pressure,Very high sodium from sauces and noodles; not recommended for hypertension.,3
+974,195,Gout,"Chicken moderate in purines, plant-based sides; safe in moderation.",7
+975,195,Pre-diabetes,"High carbs, moderate fiber and protein; control portion for glucose management.",6
+976,196,Fatty Liver,High sugar and saturated fat; best as an occasional treat.,3
+977,196,High Cholesterol,Contains saturated fat and cholesterol; limit frequency.,4
+978,196,High Blood Pressure,"Moderate sodium, high sugar; occasional use is fine.",7
+979,196,Gout,"Plant-based, low purines; very safe for gout.",10
+980,196,Pre-diabetes,"High sugar and refined carbs, low fiber; not supportive for glucose control.",3
+981,197,Fatty Liver,"High fat, sodium, and refined carbs; best as an occasional meal.",4
+982,197,High Cholesterol,"Contains saturated fat and cholesterol from eggs, fish, and dairy; limit frequency.",4
+983,197,High Blood Pressure,"High sodium from lox, cod, cream cheese, and bagel; not supportive for hypertension.",3
+984,197,Gout,Fish and eggs are high in purines; best to limit if prone to gout.,3
+985,197,Pre-diabetes,"High carbs, moderate sugar, some fiber and protein; not ideal for glucose control.",5
+986,198,Fatty Liver,"High sugar, low nutrients; acceptable if infrequent and in small portions.",6
+987,198,High Cholesterol,"Minimal saturated fat, very small portion; negligible impact.",8
+988,198,High Blood Pressure,Negligible sodium; neutral for hypertension.,10
+989,198,Gout,"Plant-based, low purines; very safe for gout.",10
+990,198,Pre-diabetes,"High sugar, no fiber, very small portion; best only as an occasional treat.",6
+991,199,Fatty Liver,"High sugar and saturated fat, low fiber; best as an occasional treat.",5
+992,199,High Cholesterol,"Contains butter and eggs, moderate saturated fat; minimal impact if infrequent.",7
+993,199,High Blood Pressure,"Low sodium, small serving; generally acceptable.",9
+994,199,Gout,"Plant-based, low purines; very safe for gout.",10
+995,199,Pre-diabetes,"High sugar, refined carbs, low fiber; best as a rare treat.",5
+996,200,Fatty Liver,"High protein, low fat, moderate sugar; generally supportive for fatty liver.",8
+997,200,High Cholesterol,"No saturated fat, very low cholesterol; highly beneficial.",10
+998,200,High Blood Pressure,Low sodium; excellent for hypertension.,10
+999,200,Gout,"Low purines, dairy-based; very safe for gout.",10
+1000,200,Pre-diabetes,"Low sugar, high protein; supportive for glucose control.",8
+1001,201,Fatty Liver,"High fiber, plant protein, low fat; supportive for fatty liver.",9
+1002,201,High Cholesterol,"No cholesterol, low saturated fat; beneficial.",10
+1003,201,High Blood Pressure,"Moderate sodium, good fiber; portion control advised.",8
+1004,201,Gout,Moderate in purines; safe in moderate amounts.,8
+1005,201,Pre-diabetes,"High fiber, moderate carbs, plant protein; beneficial for glucose control.",8
+1006,202,Fatty Liver,"Plant-based, good fiber and protein, moderate sodium; supportive as a snack.",8
+1007,202,High Cholesterol,"No cholesterol, low saturated fat; beneficial.",10
+1008,202,High Blood Pressure,"Moderate sodium, portion control important.",7
+1009,202,Gout,Lentils and chickpeas moderate in purines; safe in moderate amounts.,8
+1010,202,Pre-diabetes,"Good fiber and protein, moderate carbs; supportive if portion controlled.",8
+1011,203,Fatty Liver,"High sodium, moderate fat and sugar, includes vegetables; moderation needed.",5
+1012,203,High Cholesterol,Moderate saturated fat and cholesterol; limit fried foods for best results.,6
+1013,203,High Blood Pressure,Very high sodium; not recommended for hypertension.,3
+1014,203,Gout,Chicken moderate in purines; safe in moderate amounts.,7
+1015,203,Pre-diabetes,"Moderate carbs and sugar, some fiber and protein; portion control is key.",6
+1016,204,Fatty Liver,"Plant-based protein, moderate fiber and fat, some sugar; supportive in moderation.",8
+1017,204,High Cholesterol,"Mostly unsaturated fat, moderate cholesterol from challah; generally supportive.",8
+1018,204,High Blood Pressure,"Moderate sodium, plant-based fats; portion control is supportive.",8
+1019,204,Gout,Eggs and chickpeas moderate in purines; safe in moderate amounts.,8
+1020,204,Pre-diabetes,"Moderate carbs and sugar, some fiber and protein; portion control is key.",7
+1021,205,Fatty Liver,"High sodium and saturated fat, moderate fiber and protein; best in moderation.",5
+1022,205,High Cholesterol,Contains saturated fat and cholesterol from lox and cream cheese; limit frequency.,5
+1023,205,High Blood Pressure,"High sodium from lox, bagel, and cream cheese; not supportive for hypertension.",3
+1024,205,Gout,Lox is high in purines; not ideal for gout.,3
+1025,205,Pre-diabetes,"High carbs, moderate fiber and protein; portion control is important.",6
+1026,206,Fatty Liver,"Healthy fats from almonds, but egg salad is high in cholesterol and saturated fat; moderation advised.",6
+1027,206,High Cholesterol,High cholesterol from eggs and some saturated fat from mayonnaise; limit frequency.,5
+1028,206,High Blood Pressure,"Moderate sodium, healthy fats; generally acceptable.",8
+1029,206,Gout,"Eggs moderate in purines, almonds low; suitable in moderation.",7
+1030,206,Pre-diabetes,"Low carb, healthy fat, and protein; supportive for glucose control.",9
+1031,207,Fatty Liver,"Lean protein, moderate fat and sodium; supportive if mayonnaise is limited.",7
+1032,207,High Cholesterol,"Lean fish, low saturated fat, moderate cholesterol; generally supportive if mayo is limited.",7
+1033,207,High Blood Pressure,Moderate sodium from bread and mayo; suitable if limited elsewhere.,7
+1034,207,Gout,Tuna is high in purines; not ideal for gout.,4
+1035,207,Pre-diabetes,"Moderate carbs, good fiber and protein; supportive for glucose control.",8
+1036,208,Fatty Liver,"High fiber, plant protein, moderate fat; watch sodium and cheese.",8
+1037,208,High Cholesterol,Some saturated fat and cholesterol from feta; supportive if cheese is limited.,7
+1038,208,High Blood Pressure,"Sodium from olives, cheese, and dressing; limit for hypertension.",6
+1039,208,Gout,"Beans and nuts moderate in purines, otherwise plant-based; safe in moderation.",8
+1040,208,Pre-diabetes,"High fiber, moderate carbs, plant protein; supportive for glucose control.",8
+1041,209,Fatty Liver,"Plant-based, moderate fat and fiber, some sodium; supportive if portion is small.",8
+1042,209,High Cholesterol,"Some saturated fat and cholesterol from feta, otherwise plant-based; supportive in moderation.",8
+1043,209,High Blood Pressure,"Contains sodium, especially from feta and olives; portion control is key.",7
+1044,209,Gout,"Contains beans and cheese, moderate in purines; suitable in moderation.",7
+1045,209,Pre-diabetes,"Moderate carbs, fiber, and protein; supportive in small portions.",8
