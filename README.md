@@ -1,22 +1,11 @@
 # nutrition-journal
-Purpose: Using LLM to assist with food choices
+Purpose: Collaborate with a large-language model (LLM) to assist with food choices for optimal health.
 
-Method: Narrative conversion.  
+Input: Copy narrative conversations from ChatGPT into Copilot with instructions to produce daily files with standardized nutritional information.     
 
-Input: Human-computer exchange from another AI tool.  Copilot analyzes input to produce an output.  The input is a discussion of food intake.  
-
-Output: Extract side by side the original desired meal and the eventually consumed meal following the discussion within.
+Output: Feed the daily files through a YAML file in a Github workflow that calls a Python script which iterates through the files and populates tables with data at the Meals, Nutrients and Impacts levels.
 
 Copilot instructions:
-Given an input of narrative descriptions of what I planned to eat and what I actually ate, in natural language, produce the following output:
-For each meal on each day, a markdown table capturing: Date; Meal (Breakfast, Lunch, Dinner, Snack); Nutrient (Calories, Sugar, Carbohydrates, etc.); Desired Meal value (g); Consumed Meal value (g); Desired Meal Detail (free text); Consumed Meal Detail (free text)
-File Structure: Each day is logged in a separate markdown file named YYYY-MM-DD.md. A daily file contains tables (one per meal) with a row for each nutrient.
-I will input a file structure to mimic, followed by 3 input files for 7/7/25, 7/8/25, and 7/9/25.  Follow the input structure exactly, including the elimination of hashtags and pipes.
-
-Are you ready for the 1st file (structure?)
-
-
-NEW PROMPT:
 
 For each meal in the "List of Meals" section, please provide the following structured analysis.
 Strictly follow these formatting rules for every meal:
