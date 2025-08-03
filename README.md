@@ -74,3 +74,20 @@ List of Meals:
 7/26/25: Lunch is a macrobiotic addict salad from Kreation.
 
 End of prompt. Please use this exact format for every meal.
+
+Tables with sample records:
+
+Meals:
+MealID,DateID,MealTypeID,MealDescription,Ingredients
+1,2025-06-21,Breakfast,"Grande drip coffee with nonfat milk and <¼ brown sugar; oatmeal with ~¼ brown sugar, fresh blueberries","coffee, nonfat milk, brown sugar, oats, blueberries"
+2,2025-06-21,Lunch,"Mediterranean Protein Bowl: greens, lentils, tomatoes, avocado, egg, hummus, flax, wrap or pita","whole grain pita, mixed greens, cherry tomatoes, avocado, egg, hummus, lentils, flaxseed"
+
+Nutrients:
+NutrientID,MealID,NutrientType,Grams
+1,1,Calories,260 kcal
+2,1,Carbohydrates,50 g
+
+Impacts:
+ImpactID,MealID,ConditionType,Notes,Score
+1,1,Fatty Liver,"Low-fat, high-fiber breakfast with minimal added sugar; supports liver health.",8
+2,1,High Cholesterol,Low in saturated fat and cholesterol; beneficial for cholesterol management.,9
