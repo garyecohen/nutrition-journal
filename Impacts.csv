@@ -1064,3 +1064,223 @@ ImpactID,MealID,ConditionType,Notes,Score
 1063,213,High Blood Pressure,"High sodium from meat, feta, and olives; may exacerbate hypertension.",3/10
 1064,213,Gout,Meat provides moderate purines; feta and vegetables are low.,5/10
 1065,213,Pre-diabetes,"Low carbohydrate; good for glycemic control, but watch saturated fat.",7/10
+1066,221,Fatty Liver,High fiber and low fat; generally supportive for fatty liver.,9/10
+1067,221,High Cholesterol,Low in saturated fat and cholesterol; favorable.,9/10
+1068,221,High Blood Pressure,Low sodium; beneficial.,9/10
+1069,221,Gout,Low purine content; safe.,9/10
+1070,221,Pre-diabetes,Contains natural sugars and fiber; moderate glycemic impact.,8/10
+1071,222,Fatty Liver,Balanced macro profile; moderate sugar.,7/10
+1072,222,High Cholesterol,Low in saturated fat; beneficial.,8/10
+1073,222,High Blood Pressure,Moderate sodium; acceptable in moderation.,7/10
+1074,222,Gout,"Contains nuts and egg whites, moderate in purines.",7/10
+1075,222,Pre-diabetes,Contains natural sugars but also fiber and protein.,7/10
+1076,223,Fatty Liver,Contains processed meats and cheese; high in fat.,5/10
+1077,223,High Cholesterol,High saturated fat and cholesterol; not ideal.,4/10
+1078,223,High Blood Pressure,High sodium from ham and cheese.,3/10
+1079,223,Gout,Contains processed meats; moderate purine risk.,5/10
+1080,223,Pre-diabetes,High in refined carbohydrates; moderate glycemic load.,5/10
+1081,224,Fatty Liver,Contains healthy fats from seeds and peanuts; moderate calories.,7/10
+1082,224,High Cholesterol,Low saturated fat; favorable.,8/10
+1083,224,High Blood Pressure,Moderate sodium; ok in moderation.,7/10
+1084,224,Gout,Plant-based meal; low purine.,9/10
+1085,224,Pre-diabetes,"Carbs from noodles; moderate impact, but fiber present.",6/10
+1086,225,Fatty Liver,High in sugar and saturated fat; occasional treat is okay.,4/10
+1087,225,High Cholesterol,Contains butter and eggs; keep occasional.,5/10
+1088,225,High Blood Pressure,Contains sodium and sugar; minimal impact if occasional.,6/10
+1089,225,Gout,Low purine; safe for most.,8/10
+1090,225,Pre-diabetes,High sugar; limit frequency.,4/10
+1091,226,Fatty Liver,"Low calorie, high in antioxidants; beneficial.",10/10
+1092,226,High Cholesterol,No cholesterol or fat; excellent choice.,10/10
+1093,226,High Blood Pressure,No sodium; beneficial.,10/10
+1094,226,Gout,Low purine; very safe.,10/10
+1095,226,Pre-diabetes,"Low sugar, high fiber; good for blood sugar.",10/10
+1096,227,Fatty Liver,"Low fiber, moderate fat; minimal impact if infrequent.",6/10
+1097,227,High Cholesterol,Contains butter; moderate saturated fat.,6/10
+1098,227,High Blood Pressure,Moderate sodium; keep occasional.,7/10
+1099,227,Gout,Low in purines; safe.,9/10
+1100,227,Pre-diabetes,Refined carb; not ideal for blood sugar.,6/10
+1101,228,Fatty Liver,"Plant-based, moderate fat; beneficial for fatty liver.",8/10
+1102,228,High Cholesterol,"No cholesterol, healthy fats; good choice.",9/10
+1103,228,High Blood Pressure,Moderate sodium; monitor intake.,7/10
+1104,228,Gout,Some veggie burgers contain legumes; moderate purine.,7/10
+1105,228,Pre-diabetes,"Good fiber, moderate carbs; favorable for glycemic control.",8/10
+1106,229,Fatty Liver,"Lean protein, some processed meat; moderate benefit.",7/10
+1107,229,High Cholesterol,Low saturated fat; moderate cholesterol; reasonable.,7/10
+1108,229,High Blood Pressure,Sodium from turkey and pickles; monitor.,6/10
+1109,229,Gout,Turkey is moderate purine; occasional is safe.,6/10
+1110,229,Pre-diabetes,"Balanced macros, moderate sugar.",7/10
+1111,230,Fatty Liver,High in refined carbs and fat; limit portion size.,6/10
+1112,230,High Cholesterol,Contains butter; moderate saturated fat.,6/10
+1113,230,High Blood Pressure,Moderate sodium from olives and bread.,7/10
+1114,230,Gout,Plant-based; low purine.,9/10
+1115,230,Pre-diabetes,High glycemic bread; limit portion.,6/10
+1116,231,Fatty Liver,"Healthy fats, low sugar; beneficial.",9/10
+1117,231,High Cholesterol,Contains unsaturated fats; favorable.,9/10
+1118,231,High Blood Pressure,No sodium; excellent.,10/10
+1119,231,Gout,Low purines; very safe.,10/10
+1120,231,Pre-diabetes,"Low carb, healthy fat; good.",10/10
+1121,232,Fatty Liver,"Moderate fat, high sugar from latte; limit frequency.",6/10
+1122,232,High Cholesterol,Some saturated fat; keep occasional.,6/10
+1123,232,High Blood Pressure,High sodium; caution.,5/10
+1124,232,Gout,Contains cheese and egg whites; moderate purine.,6/10
+1125,232,Pre-diabetes,High sugar in beverage; not ideal.,5/10
+1126,233,Fatty Liver,"Lean protein, but mayo adds fat; moderate.",7/10
+1127,233,High Cholesterol,Some cholesterol from tuna and mayo; moderate.,6/10
+1128,233,High Blood Pressure,Moderate sodium; keep in check.,7/10
+1129,233,Gout,Tuna is high in purines; limit frequency.,4/10
+1130,233,Pre-diabetes,Good balance of macros; moderate glycemic impact.,7/10
+1131,234,Fatty Liver,"Moderate fat, high carb; occasional is fine.",6/10
+1132,234,High Cholesterol,Some saturated fat; seafood is lean.,7/10
+1133,234,High Blood Pressure,High sodium from soy sauce and fillings.,5/10
+1134,234,Gout,Tuna and yellowtail are high purine; limit intake.,3/10
+1135,234,Pre-diabetes,High carb from white rice; not ideal.,6/10
+1136,235,Fatty Liver,"Healthy fats, low carb; beneficial.",9/10
+1137,235,High Cholesterol,Unsaturated fats; very good.,10/10
+1138,235,High Blood Pressure,No sodium; excellent snack.,10/10
+1139,235,Gout,Low purine; very safe.,10/10
+1140,235,Pre-diabetes,"Low carb, healthy fat; good.",10/10
+1141,236,Fatty Liver,High fiber and low fat; supportive for fatty liver.,9/10
+1142,236,High Cholesterol,Low saturated fat and cholesterol; beneficial.,9/10
+1143,236,High Blood Pressure,Low sodium; favorable.,9/10
+1144,236,Gout,Low purine; safe.,9/10
+1145,236,Pre-diabetes,Contains natural and added sugars; moderate glycemic load.,7/10
+1146,237,Fatty Liver,"Low calorie, high fiber, antioxidant-rich; very favorable.",10/10
+1147,237,High Cholesterol,No cholesterol or fat; beneficial.,10/10
+1148,237,High Blood Pressure,No sodium; excellent.,10/10
+1149,237,Gout,Low purines; safe.,10/10
+1150,237,Pre-diabetes,"Natural sugars, moderate fiber; moderate portion is fine.",9/10
+1151,238,Fatty Liver,Plant-based and high fiber; favorable.,8/10
+1152,238,High Cholesterol,Low saturated fat; good choice.,9/10
+1153,238,High Blood Pressure,Moderate sodium from salsa and tortillas.,7/10
+1154,238,Gout,"Mushrooms are moderate, but overall low purine meal.",8/10
+1155,238,Pre-diabetes,"Complex carbs, fiber-rich; good for blood sugar control.",8/10
+1156,239,Fatty Liver,High in refined carbs and fat; limit frequency.,5/10
+1157,239,High Cholesterol,Contains cheese and butter; moderate saturated fat.,6/10
+1158,239,High Blood Pressure,"High sodium from cheese, bread, and sauce.",5/10
+1159,239,Gout,Cheese and tomato moderate; not high in purines.,7/10
+1160,239,Pre-diabetes,High glycemic load; not ideal.,5/10
+1161,240,Fatty Liver,"Low calorie, no added sugar; beneficial in moderation.",9/10
+1162,240,High Cholesterol,No fat or cholesterol.,10/10
+1163,240,High Blood Pressure,No sodium.,10/10
+1164,240,Gout,Low purine; safe.,10/10
+1165,240,Pre-diabetes,"Natural sugars, low fiber; moderate portion preferred.",8/10
+1166,241,Fatty Liver,Refined carbs and fat; keep occasional.,5/10
+1167,241,High Cholesterol,Contains cream cheese; moderate saturated fat.,6/10
+1168,241,High Blood Pressure,Moderate sodium; watch intake.,6/10
+1169,241,Gout,"Dairy and soy, moderate purine content.",7/10
+1170,241,Pre-diabetes,High glycemic index from bagel; not ideal.,5/10
+1171,242,Fatty Liver,"Moderate sugar, balanced macros.",7/10
+1172,242,High Cholesterol,Low in saturated fat.,8/10
+1173,242,High Blood Pressure,Moderate sodium; acceptable in moderation.,7/10
+1174,242,Gout,Contains nuts and egg whites; moderate purines.,7/10
+1175,242,Pre-diabetes,Contains natural sugars but also fiber and protein.,7/10
+1176,243,Fatty Liver,Very high calories and sugar; not recommended.,2/10
+1177,243,High Cholesterol,High fat and saturated fat; not ideal.,3/10
+1178,243,High Blood Pressure,Moderate sodium; keep rare.,6/10
+1179,243,Gout,Contains nuts; moderate purines.,6/10
+1180,243,Pre-diabetes,High sugar; unfavorable.,2/10
+1181,244,Fatty Liver,"Healthy fats from salmon, but mayo adds saturated fat.",7/10
+1182,244,High Cholesterol,Salmon beneficial; mayo adds cholesterol.,6/10
+1183,244,High Blood Pressure,Moderate sodium; generally acceptable.,7/10
+1184,244,Gout,Salmon is high in purines; not ideal for gout.,4/10
+1185,244,Pre-diabetes,White rice is high glycemic; not optimal.,6/10
+1186,245,Fatty Liver,Balanced macros; moderate fat.,7/10
+1187,245,High Cholesterol,High cholesterol from eggs; be cautious.,5/10
+1188,245,High Blood Pressure,Moderate sodium; monitor intake.,7/10
+1189,245,Gout,Eggs are moderate purine; generally safe.,8/10
+1190,245,Pre-diabetes,Bagel is high glycemic; not ideal.,6/10
+1191,246,Fatty Liver,"Plant-based, healthy fats; beneficial.",8/10
+1192,246,High Cholesterol,Moderate cheese; overall favorable.,7/10
+1193,246,High Blood Pressure,High sodium from olives and feta.,6/10
+1194,246,Gout,Low purine; safe.,9/10
+1195,246,Pre-diabetes,"Good fiber, moderate carbs.",8/10
+1196,247,Fatty Liver,"High fiber, low calorie; very favorable.",10/10
+1197,247,High Cholesterol,No cholesterol or fat; excellent.,10/10
+1198,247,High Blood Pressure,No sodium.,10/10
+1199,247,Gout,Low purine; safe.,10/10
+1200,247,Pre-diabetes,Fiber helps blood sugar; good snack.,9/10
+1201,248,Fatty Liver,High fat from dressing; moderate.,6/10
+1202,248,High Cholesterol,Contains cheese and dressing; moderate.,6/10
+1203,248,High Blood Pressure,Moderate sodium; keep in check.,7/10
+1204,248,Gout,Low purines; safe.,9/10
+1205,248,Pre-diabetes,Moderate carbs and fat; acceptable if infrequent.,7/10
+1206,249,Fatty Liver,Healthy fats and antioxidants; yogurt adds sugar.,7/10
+1207,249,High Cholesterol,Low saturated fat; reasonable.,8/10
+1208,249,High Blood Pressure,Low sodium; favorable.,9/10
+1209,249,Gout,Low purine; safe.,10/10
+1210,249,Pre-diabetes,Yogurt contains sugar; watch portion.,7/10
+1211,250,Fatty Liver,"Low fat, moderate sugar; fine as a treat.",7/10
+1212,250,High Cholesterol,Low fat and no cholesterol.,9/10
+1213,250,High Blood Pressure,Low sodium.,9/10
+1214,250,Gout,Low purine; safe.,10/10
+1215,250,Pre-diabetes,Added sugar; watch frequency.,7/10
+1216,251,Fatty Liver,Fish protein and veggies; cheese and dressing add fat.,7/10
+1217,251,High Cholesterol,"Contains cheese, moderate fat.",7/10
+1218,251,High Blood Pressure,Moderate sodium; reasonable.,7/10
+1219,251,Gout,Tuna is high in purines; limit frequency.,4/10
+1220,251,Pre-diabetes,Rice and fruit add carbs; fiber and protein help.,7/10
+1221,252,Fatty Liver,"Cheese adds fat, but portion is small.",7/10
+1222,252,High Cholesterol,Contains cheese; moderate.,7/10
+1223,252,High Blood Pressure,Moderate sodium; reasonable.,8/10
+1224,252,Gout,Cheese and tuna moderate purine.,7/10
+1225,252,Pre-diabetes,Crackers are moderate carb; portion is key.,7/10
+1226,253,Fatty Liver,"Plant-based, moderate fat, high fiber; beneficial.",8/10
+1227,253,High Cholesterol,"Vegan meal, no cholesterol; very good.",10/10
+1228,253,High Blood Pressure,Moderate sodium; monitor intake.,7/10
+1229,253,Gout,Chickpeas are moderate purine; generally safe.,7/10
+1230,253,Pre-diabetes,"High fiber, moderate carbs.",8/10
+1231,254,Fatty Liver,High in saturated fat; occasional treat only.,4/10
+1232,254,High Cholesterol,Contains cream and eggs; keep rare.,5/10
+1233,254,High Blood Pressure,Minimal sodium; negligible impact.,9/10
+1234,254,Gout,Low purine; safe.,9/10
+1235,254,Pre-diabetes,Contains sugar and fat; limit frequency.,5/10
+1236,255,Fatty Liver,High in saturated fat and refined carbs; limit frequency.,4/10
+1237,255,High Cholesterol,Cheese is high in saturated fat and cholesterol.,4/10
+1238,255,High Blood Pressure,High sodium; not ideal.,5/10
+1239,255,Gout,Cheese is moderate purine; moderate portion is key.,6/10
+1240,255,Pre-diabetes,High glycemic bread; not ideal.,5/10
+1241,256,Fatty Liver,"Low fat, moderate sugar; fine as a treat.",7/10
+1242,256,High Cholesterol,Low fat and no cholesterol.,9/10
+1243,256,High Blood Pressure,Low sodium.,9/10
+1244,256,Gout,Low purine; safe.,10/10
+1245,256,Pre-diabetes,Added sugar; watch frequency.,7/10
+1246,257,Fatty Liver,"High fiber, plant protein; mayo adds fat.",7/10
+1247,257,High Cholesterol,Low saturated fat; reasonable.,8/10
+1248,257,High Blood Pressure,Moderate sodium; monitor portion.,7/10
+1249,257,Gout,Edamame is moderate purine; generally safe.,7/10
+1250,257,Pre-diabetes,Good fiber and protein; moderate carbs.,8/10
+1251,258,Fatty Liver,"Lean protein, but sauce adds sodium and some fat.",7/10
+1252,258,High Cholesterol,Lean fish protein; minimal saturated fat.,8/10
+1253,258,High Blood Pressure,Moderate sodium; watch sauce portions.,7/10
+1254,258,Gout,Sole is high purine; limit for gout patients.,5/10
+1255,258,Pre-diabetes,Low carb and sugar; favorable.,9/10
+1256,259,Fatty Liver,Some added sugar from yogurt; otherwise favorable.,7/10
+1257,259,High Cholesterol,Low saturated fat; reasonable.,8/10
+1258,259,High Blood Pressure,Low sodium.,9/10
+1259,259,Gout,Low purine; safe.,10/10
+1260,259,Pre-diabetes,High sugar; moderate portion.,6/10
+1261,260,Fatty Liver,High in refined carbs and sugar; not ideal.,5/10
+1262,260,High Cholesterol,"No cholesterol, low saturated fat.",8/10
+1263,260,High Blood Pressure,Moderate sodium; limit portion.,7/10
+1264,260,Gout,Low purine; safe.,10/10
+1265,260,Pre-diabetes,High carbs and sugar; limit frequency.,5/10
+1266,261,Fatty Liver,Cheese adds saturated fat; vegetables and fruit positive.,6/10
+1267,261,High Cholesterol,Cheese is high in saturated fat; limit portion.,6/10
+1268,261,High Blood Pressure,Moderate sodium.,7/10
+1269,261,Gout,Cheese is moderate purine.,7/10
+1270,261,Pre-diabetes,"Moderate carb and protein, fiber from veggies.",7/10
+1271,262,Fatty Liver,High in refined carbs and fat; not ideal.,4/10
+1272,262,High Cholesterol,"Contains oils, minimal saturated fat.",7/10
+1273,262,High Blood Pressure,High sodium; not recommended.,3/10
+1274,262,Gout,Low purine; safe.,9/10
+1275,262,Pre-diabetes,High glycemic; limit frequency.,4/10
+1276,263,Fatty Liver,High in fiber and healthy fat; chips add fat and sodium.,7/10
+1277,263,High Cholesterol,Plant-based; moderate fat.,8/10
+1278,263,High Blood Pressure,High sodium from chips and bun.,5/10
+1279,263,Gout,Veggie burger moderate purine.,7/10
+1280,263,Pre-diabetes,"High fiber, but also high carb.",6/10
+1281,264,Fatty Liver,Fruits and veggies; healthy snack.,8/10
+1282,264,High Cholesterol,"No cholesterol, low fat.",9/10
+1283,264,High Blood Pressure,Low sodium.,9/10
+1284,264,Gout,Low purine; very safe.,10/10
+1285,264,Pre-diabetes,Low-moderate glycemic; portion is key.,8/10
