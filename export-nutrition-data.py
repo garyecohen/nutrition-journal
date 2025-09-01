@@ -74,7 +74,7 @@ def parse_file(path):
 
 def main():
     start = datetime.date(2025, 6, 21)
-    end = datetime.date(2025, 7, 31)
+    end = datetime.date(2025, 8, 9)
     files = iter_files(start, end)
     all_meals = []
     all_nutrients = []
