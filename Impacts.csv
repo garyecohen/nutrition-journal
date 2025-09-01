@@ -1044,3 +1044,23 @@ ImpactID,MealID,ConditionType,Notes,Score
 1043,209,High Blood Pressure,"Contains sodium, especially from feta and olives; portion control is key.",7
 1044,209,Gout,"Contains beans and cheese, moderate in purines; suitable in moderation.",7
 1045,209,Pre-diabetes,"Moderate carbs, fiber, and protein; supportive in small portions.",8
+1046,210,Fatty Liver,Moderately high in refined carbs and saturated fat; lox adds omega-3s but also sodium.,5/10
+1047,210,High Cholesterol,Contains saturated fat from cream cheese and lox but also healthy fats; moderate intake advised.,5/10
+1048,210,High Blood Pressure,"High sodium from lox, bagel, and cream cheese; may not be ideal for hypertension.",4/10
+1049,210,Gout,Lox is moderately high in purines; caution for gout-prone individuals.,5/10
+1050,210,Pre-diabetes,High in refined carbohydrates; may cause blood sugar spikes.,4/10
+1051,211,Fatty Liver,Healthy fat source; beneficial for liver health in moderation.,9/10
+1052,211,High Cholesterol,May help lower LDL cholesterol; heart-healthy choice.,9/10
+1053,211,High Blood Pressure,Low sodium; beneficial for blood pressure.,10/10
+1054,211,Gout,Very low in purines; safe for gout.,10/10
+1055,211,Pre-diabetes,"Low carbohydrate, low glycemic; good snack option.",10/10
+1056,212,Fatty Liver,Refined carbs and saturated fat present; cod provides lean protein.,5/10
+1057,212,High Cholesterol,Some saturated fat from cream cheese; cod is lean and beneficial.,6/10
+1058,212,High Blood Pressure,Sodium moderate; monitor total daily intake.,6/10
+1059,212,Gout,Cod is moderate to high in purines; may trigger flare-ups.,5/10
+1060,212,Pre-diabetes,High in refined carbs and sugar; not optimal for glycemic control.,4/10
+1061,213,Fatty Liver,High in saturated fat from gyro meat and feta; vegetables add fiber.,4/10
+1062,213,High Cholesterol,High saturated fat; may raise LDL cholesterol.,4/10
+1063,213,High Blood Pressure,"High sodium from meat, feta, and olives; may exacerbate hypertension.",3/10
+1064,213,Gout,Meat provides moderate purines; feta and vegetables are low.,5/10
+1065,213,Pre-diabetes,"Low carbohydrate; good for glycemic control, but watch saturated fat.",7/10
