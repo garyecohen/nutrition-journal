@@ -1,1 +1,106 @@
+Meal Date: 2025-09-08
+Meal Type: Breakfast
+Meal: scrambled eggs and chicken biscuit
+Ingredients: egg, chicken, biscuit, flour, butter, milk, salt, baking powder
+Nutrient Estimate:
+Calories: 390 kcal
+Carbohydrates: 33 g
+Sugar: 3 g
+Fiber: 1 g
+Protein: 22 g
+Fat: 19 g
+Saturated Fat: 8 g
+Cholesterol: 220 mg
+Sodium: 850 mg
+Purines: moderate
+Confidence: 6/10
+Health Impacts by Condition:
+Fatty Liver Narrative: Animal fats and refined flour, not ideal. Score: 5
+High Cholesterol Narrative: Eggs and biscuit may raise cholesterol. Score: 4
+High Blood Pressure Narrative: Biscuit and chicken increase sodium. Score: 4
+Gout Narrative: Eggs and chicken moderate purine. Score: 5
+Pre-diabetes Narrative: Refined carbs, moderate protein. Score: 6
+Recommendations:
+• Use whole grain biscuit
+• Reduce egg portion
 
+---
+Meal Date: 2025-09-08
+Meal Type: Lunch
+Meal: grilled salmon wrap from Reid's
+Ingredients: salmon, tortilla wrap, lettuce, tomato, mayonnaise
+Nutrient Estimate:
+Calories: 410 kcal
+Carbohydrates: 38 g
+Sugar: 4 g
+Fiber: 3 g
+Protein: 27 g
+Fat: 18 g
+Saturated Fat: 4 g
+Cholesterol: 68 mg
+Sodium: 690 mg
+Purines: high
+Confidence: 7/10
+Health Impacts by Condition:
+Fatty Liver Narrative: Salmon is supportive, wrap adds carbs. Score: 7
+High Cholesterol Narrative: Salmon is heart-healthy, but mayo adds fat. Score: 7
+High Blood Pressure Narrative: Sodium from wrap and mayo. Score: 5
+Gout Narrative: Salmon is high purine. Score: 3
+Pre-diabetes Narrative: Balanced, moderate carbs. Score: 7
+Recommendations:
+• Use whole wheat wrap
+• Limit mayonnaise
+
+---
+Meal Date: 2025-09-08
+Meal Type: Snack
+Meal: 1 serving jelly belly smores
+Ingredients: sugar, corn syrup, gelatin, artificial flavors, cocoa powder
+Nutrient Estimate:
+Calories: 100 kcal
+Carbohydrates: 24 g
+Sugar: 20 g
+Fiber: 0 g
+Protein: 0 g
+Fat: 0 g
+Saturated Fat: 0 g
+Cholesterol: 0 mg
+Sodium: 10 mg
+Purines: low
+Confidence: 6/10
+Health Impacts by Condition:
+Fatty Liver Narrative: High sugar, no benefit. Score: 4
+High Cholesterol Narrative: No cholesterol. Score: 7
+High Blood Pressure Narrative: Low sodium. Score: 8
+Gout Narrative: No purine risk. Score: 8
+Pre-diabetes Narrative: High sugar, risk for glucose spikes. Score: 3
+Recommendations:
+• Limit candy snacks
+• Pair with nuts for satiety
+
+---
+Meal Date: 2025-09-08
+Meal Type: Dinner
+Meal: Caesar salad kit from Taylor Farms
+Ingredients: romaine lettuce, croutons, parmesan cheese, Caesar dressing
+Nutrient Estimate:
+Calories: 310 kcal
+Carbohydrates: 17 g
+Sugar: 3 g
+Fiber: 4 g
+Protein: 8 g
+Fat: 24 g
+Saturated Fat: 6 g
+Cholesterol: 30 mg
+Sodium: 540 mg
+Purines: moderate
+Confidence: 7/10
+Health Impacts by Condition:
+Fatty Liver Narrative: High fat, but plant-based and fiber. Score: 7
+High Cholesterol Narrative: Cheese and dressing add cholesterol. Score: 5
+High Blood Pressure Narrative: Moderate sodium. Score: 6
+Gout Narrative: Cheese is moderate purine. Score: 7
+Pre-diabetes Narrative: Low sugar, moderate carbs. Score: 7
+Recommendations:
+• Use low-fat dressing
+• Add grilled chicken or beans
