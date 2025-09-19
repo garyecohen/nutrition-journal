@@ -50,30 +50,27 @@ def parse_file(path):
                 i += 1
             i += 1  # skip header
 
-            # Impacts (flexible parsing)
+            # Impacts (flexible parsing for both formats)
             while i < len(lines) and not lines[i].startswith("Recommendations:") and not lines[i].startswith("---"):
                 line = lines[i].strip()
-                # Skip blank lines
                 if not line:
                     i += 1
                     continue
-                # Try flexible parsing: either "Cond Narrative: ... Score: ..." on one line, or split across lines
-                if re.match(r'^[A-Za-z ]+ Narrative:', line):
-                    # Combined line: "Fatty Liver Narrative: ... Score: ..."
-                    m = re.match(r'^([A-Za-z ]+) Narrative:(.*?)(Score:)(.*)', line)
-                    if m:
-                        cond = m.group(1).strip()
-                        narrative = m.group(2).strip()
-                        score = m.group(4).strip()
-                        meal["Impacts"].append({
-                            "ConditionType": cond,
-                            "Notes": narrative,
-                            "Score": score,
-                        })
-                        i += 1
-                        continue
+                # Combined line: "ConditionName Narrative: ... Score: ..."
+                m = re.match(r'^([A-Za-z ]+)\sNarrative:(.*?)Score:(.*)', line)
+                if m:
+                    cond = m.group(1).strip()
+                    narrative = m.group(2).strip()
+                    score = m.group(3).strip()
+                    meal["Impacts"].append({
+                        "ConditionType": cond,
+                        "Notes": narrative,
+                        "Score": score,
+                    })
+                    i += 1
+                    continue
+                # Multi-line format
                 elif re.match(r'^[A-Za-z ]+$', line):
-                    # Condition name, look for Narrative and Score on next lines
                     cond = line
                     i += 1
                     if i < len(lines) and lines[i].startswith("Narrative:"):
