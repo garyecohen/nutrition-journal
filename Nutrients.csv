@@ -2931,3 +2931,680 @@ NutrientID,MealID,NutrientType,Grams
 2930,264,Sodium,50 mg
 2931,264,Purines,low
 2932,264,Confidence,8/10
+2933,362,Calories,420 kcal
+2934,362,Carbohydrates,36 g
+2935,362,Sugar,3 g
+2936,362,Fiber,1 g
+2937,362,Protein,17 g
+2938,362,Fat,24 g
+2939,362,Saturated Fat,12 g
+2940,362,Cholesterol,230 mg
+2941,362,Sodium,890 mg
+2942,362,Purines,moderate
+2943,362,Confidence,6/10
+2944,362,Health Impacts by Condition,
+2945,362,Fatty Liver Narrative,"Moderate animal fat and refined flour, not ideal. Score: 6"
+2946,362,High Cholesterol Narrative,"Contains egg and cheddar, may raise cholesterol. Score: 5"
+2947,362,High Blood Pressure Narrative,High sodium from cheese and biscuit. Score: 5
+2948,362,Gout Narrative,Eggs and cheese are moderate purine sources. Score: 6
+2949,362,Pre-diabetes Narrative,"Refined carbs from biscuit, modest protein. Score: 6"
+2950,362,Recommendations,
+2951,363,Calories,280 kcal
+2952,363,Carbohydrates,12 g
+2953,363,Sugar,8 g
+2954,363,Fiber,0 g
+2955,363,Protein,21 g
+2956,363,Fat,15 g
+2957,363,Saturated Fat,4 g
+2958,363,Cholesterol,90 mg
+2959,363,Sodium,540 mg
+2960,363,Purines,high
+2961,363,Confidence,6/10
+2962,363,Health Impacts by Condition,
+2963,363,Fatty Liver Narrative,"Moderate animal fat, processed sauce. Score: 6"
+2964,363,High Cholesterol Narrative,Chicken skin may raise cholesterol. Score: 5
+2965,363,High Blood Pressure Narrative,BBQ sauce adds sodium. Score: 5
+2966,363,Gout Narrative,Chicken wings are high purine. Score: 4
+2967,363,Pre-diabetes Narrative,"Sauce adds sugar, moderate risk. Score: 6"
+2968,363,Recommendations,
+2969,364,Calories,220 kcal
+2970,364,Carbohydrates,27 g
+2971,364,Sugar,18 g
+2972,364,Fiber,5 g
+2973,364,Protein,7 g
+2974,364,Fat,9 g
+2975,364,Saturated Fat,1 g
+2976,364,Cholesterol,0 mg
+2977,364,Sodium,3 mg
+2978,364,Purines,low
+2979,364,Confidence,8/10
+2980,364,Health Impacts by Condition,
+2981,364,Fatty Liver Narrative,Fruits and nuts support liver health. Score: 8
+2982,364,High Cholesterol Narrative,Peanuts are heart-healthy. Score: 8
+2983,364,High Blood Pressure Narrative,"Minimal sodium, high potassium. Score: 8"
+2984,364,Gout Narrative,Peanuts and fruits are low purine. Score: 8
+2985,364,Pre-diabetes Narrative,"Natural sugars, fiber helps. Score: 7"
+2986,364,Recommendations,
+2987,365,Calories,290 kcal
+2988,365,Carbohydrates,38 g
+2989,365,Sugar,21 g
+2990,365,Fiber,6 g
+2991,365,Protein,5 g
+2992,365,Fat,12 g
+2993,365,Saturated Fat,2 g
+2994,365,Cholesterol,0 mg
+2995,365,Sodium,25 mg
+2996,365,Purines,low
+2997,365,Confidence,7/10
+2998,365,Health Impacts by Condition,
+2999,365,Fatty Liver Narrative,"High antioxidants, healthy fats. Score: 8"
+3000,365,High Cholesterol Narrative,"Good fats, no cholesterol. Score: 8"
+3001,365,High Blood Pressure Narrative,"Low sodium, high potassium. Score: 8"
+3002,365,Gout Narrative,"Low purine, suitable. Score: 8"
+3003,365,Pre-diabetes Narrative,"Natural sugars, but fiber helps. Score: 7"
+3004,365,Recommendations,
+3005,366,Calories,100 kcal
+3006,366,Carbohydrates,24 g
+3007,366,Sugar,20 g
+3008,366,Fiber,0 g
+3009,366,Protein,0 g
+3010,366,Fat,0 g
+3011,366,Saturated Fat,0 g
+3012,366,Cholesterol,0 mg
+3013,366,Sodium,10 mg
+3014,366,Purines,low
+3015,366,Confidence,6/10
+3016,366,Health Impacts by Condition,
+3017,366,Fatty Liver Narrative,"High sugar, no benefit. Score: 4"
+3018,366,High Cholesterol Narrative,No cholesterol. Score: 7
+3019,366,High Blood Pressure Narrative,Low sodium. Score: 8
+3020,366,Gout Narrative,No purine risk. Score: 8
+3021,366,Pre-diabetes Narrative,"High sugar, risk for glucose spikes. Score: 3"
+3022,366,Recommendations,
+3023,367,Calories,160 kcal
+3024,367,Carbohydrates,24 g
+3025,367,Sugar,19 g
+3026,367,Fiber,2 g
+3027,367,Protein,3 g
+3028,367,Fat,6 g
+3029,367,Saturated Fat,2 g
+3030,367,Cholesterol,0 mg
+3031,367,Sodium,70 mg
+3032,367,Purines,low
+3033,367,Confidence,6/10
+3034,367,Health Impacts by Condition,
+3035,367,Fatty Liver Narrative,"High sugar, but small portion. Score: 6"
+3036,367,High Cholesterol Narrative,No cholesterol. Score: 8
+3037,367,High Blood Pressure Narrative,Low sodium. Score: 8
+3038,367,Gout Narrative,Peanuts and chocolate are low purine. Score: 8
+3039,367,Pre-diabetes Narrative,Duck sauce is high sugar. Score: 4
+3040,367,Recommendations,
+3041,368,Calories,170 kcal
+3042,368,Carbohydrates,30 g
+3043,368,Sugar,16 g
+3044,368,Fiber,3 g
+3045,368,Protein,3 g
+3046,368,Fat,5 g
+3047,368,Saturated Fat,1 g
+3048,368,Cholesterol,28 mg
+3049,368,Sodium,80 mg
+3050,368,Purines,low
+3051,368,Confidence,7/10
+3052,368,Health Impacts by Condition,
+3053,368,Fatty Liver Narrative,"Includes vegetables, but high sugar. Score: 6"
+3054,368,High Cholesterol Narrative,"Low cholesterol, little fat. Score: 8"
+3055,368,High Blood Pressure Narrative,Low sodium. Score: 9
+3056,368,Gout Narrative,"Low purine, suitable. Score: 8"
+3057,368,Pre-diabetes Narrative,"Moderate sugar, some fiber. Score: 6"
+3058,368,Recommendations,
+3059,369,Calories,160 kcal
+3060,369,Carbohydrates,24 g
+3061,369,Sugar,13 g
+3062,369,Fiber,1 g
+3063,369,Protein,2 g
+3064,369,Fat,7 g
+3065,369,Saturated Fat,4 g
+3066,369,Cholesterol,30 mg
+3067,369,Sodium,60 mg
+3068,369,Purines,low
+3069,369,Confidence,6/10
+3070,369,Health Impacts by Condition,
+3071,369,Fatty Liver Narrative,"High sugar and butter, limited benefit. Score: 4"
+3072,369,High Cholesterol Narrative,Butter increases cholesterol. Score: 4
+3073,369,High Blood Pressure Narrative,Low sodium. Score: 8
+3074,369,Gout Narrative,Cookies are low purine. Score: 8
+3075,369,Pre-diabetes Narrative,"High sugar, low fiber. Score: 4"
+3076,369,Recommendations,
+3077,370,Calories,480 kcal
+3078,370,Carbohydrates,62 g
+3079,370,Sugar,1 g
+3080,370,Fiber,8 g
+3081,370,Protein,6 g
+3082,370,Fat,22 g
+3083,370,Saturated Fat,3 g
+3084,370,Cholesterol,0 mg
+3085,370,Sodium,10 mg
+3086,370,Purines,low
+3087,370,Confidence,8/10
+3088,370,Health Impacts by Condition,
+3089,370,Fatty Liver Narrative,"High fiber, healthy fats, supportive. Score: 9"
+3090,370,High Cholesterol Narrative,"Plant-based fats, no cholesterol. Score: 9"
+3091,370,High Blood Pressure Narrative,Low sodium. Score: 9
+3092,370,Gout Narrative,"Low purine, suitable. Score: 9"
+3093,370,Pre-diabetes Narrative,"High carb, but high fiber. Score: 7"
+3094,370,Recommendations,
+3095,371,Calories,260 kcal
+3096,371,Carbohydrates,42 g
+3097,371,Sugar,23 g
+3098,371,Fiber,3 g
+3099,371,Protein,11 g
+3100,371,Fat,4 g
+3101,371,Saturated Fat,2 g
+3102,371,Cholesterol,10 mg
+3103,371,Sodium,60 mg
+3104,371,Purines,low
+3105,371,Confidence,7/10
+3106,371,Health Impacts by Condition,
+3107,371,Fatty Liver Narrative,"Low fat, high sugar, moderate benefit. Score: 7"
+3108,371,High Cholesterol Narrative,"Low cholesterol, some sugar. Score: 8"
+3109,371,High Blood Pressure Narrative,Low sodium. Score: 9
+3110,371,Gout Narrative,"Low purine, suitable. Score: 9"
+3111,371,Pre-diabetes Narrative,"High sugar, but fiber helps. Score: 6"
+3112,371,Recommendations,
+3113,372,Calories,510 kcal
+3114,372,Carbohydrates,62 g
+3115,372,Sugar,5 g
+3116,372,Fiber,3 g
+3117,372,Protein,26 g
+3118,372,Fat,17 g
+3119,372,Saturated Fat,4 g
+3120,372,Cholesterol,70 mg
+3121,372,Sodium,980 mg
+3122,372,Purines,high
+3123,372,Confidence,6/10
+3124,372,Health Impacts by Condition,
+3125,372,Fatty Liver Narrative,"Moderate fish, higher sodium, some benefit. Score: 7"
+3126,372,High Cholesterol Narrative,"Some cholesterol, but fish is heart-healthy. Score: 7"
+3127,372,High Blood Pressure Narrative,Very high sodium due to soy sauce. Score: 4
+3128,372,Gout Narrative,Yellowtail is high purine. Score: 3
+3129,372,Pre-diabetes Narrative,"High carb (rice), but some lean protein. Score: 6"
+3130,372,Recommendations,
+3131,373,Calories,180 kcal
+3132,373,Carbohydrates,32 g
+3133,373,Sugar,16 g
+3134,373,Fiber,3 g
+3135,373,Protein,3 g
+3136,373,Fat,6 g
+3137,373,Saturated Fat,1 g
+3138,373,Cholesterol,25 mg
+3139,373,Sodium,80 mg
+3140,373,Purines,low
+3141,373,Confidence,7/10
+3142,373,Health Impacts by Condition,
+3143,373,Fatty Liver Narrative,"Some veggies, but high sugar. Score: 6"
+3144,373,High Cholesterol Narrative,"Low fat, low cholesterol. Score: 8"
+3145,373,High Blood Pressure Narrative,Low sodium. Score: 9
+3146,373,Gout Narrative,"Low purine, suitable. Score: 9"
+3147,373,Pre-diabetes Narrative,"Moderate sugar, some fiber. Score: 6"
+3148,373,Recommendations,
+3149,374,Calories,90 kcal
+3150,374,Carbohydrates,16 g
+3151,374,Sugar,8 g
+3152,374,Fiber,3 g
+3153,374,Protein,2 g
+3154,374,Fat,3 g
+3155,374,Saturated Fat,0.5 g
+3156,374,Cholesterol,0 mg
+3157,374,Sodium,220 mg
+3158,374,Purines,low
+3159,374,Confidence,8/10
+3160,374,Health Impacts by Condition,
+3161,374,Fatty Liver Narrative,"Plant-based, anti-inflammatory. Score: 9"
+3162,374,High Cholesterol Narrative,"No cholesterol, heart-friendly. Score: 9"
+3163,374,High Blood Pressure Narrative,"Low sodium, high potassium. Score: 8"
+3164,374,Gout Narrative,Low purine. Score: 9
+3165,374,Pre-diabetes Narrative,"Natural sugars, but balanced. Score: 8"
+3166,374,Recommendations,
+3167,375,Calories,520 kcal
+3168,375,Carbohydrates,68 g
+3169,375,Sugar,54 g
+3170,375,Fiber,2 g
+3171,375,Protein,6 g
+3172,375,Fat,22 g
+3173,375,Saturated Fat,13 g
+3174,375,Cholesterol,95 mg
+3175,375,Sodium,280 mg
+3176,375,Purines,moderate
+3177,375,Confidence,7/10
+3178,375,Health Impacts by Condition,
+3179,375,Fatty Liver Narrative,"High sugar, saturated fat, not ideal. Score: 3"
+3180,375,High Cholesterol Narrative,Ice cream and Oreos add cholesterol. Score: 3
+3181,375,High Blood Pressure Narrative,Moderate sodium and sugar. Score: 5
+3182,375,Gout Narrative,Dairy and chocolate are moderate purine. Score: 5
+3183,375,Pre-diabetes Narrative,"High sugar, risk for glucose spike. Score: 2"
+3184,375,Recommendations,
+3185,376,Calories,320 kcal
+3186,376,Carbohydrates,53 g
+3187,376,Sugar,29 g
+3188,376,Fiber,4 g
+3189,376,Protein,8 g
+3190,376,Fat,7 g
+3191,376,Saturated Fat,2 g
+3192,376,Cholesterol,12 mg
+3193,376,Sodium,80 mg
+3194,376,Purines,low
+3195,376,Confidence,7/10
+3196,376,Health Impacts by Condition,
+3197,376,Fatty Liver Narrative,"High sugar, but some protein and fiber. Score: 7"
+3198,376,High Cholesterol Narrative,Low saturated fat. Score: 8
+3199,376,High Blood Pressure Narrative,Low sodium. Score: 9
+3200,376,Gout Narrative,"Low purine, suitable. Score: 9"
+3201,376,Pre-diabetes Narrative,"High sugar, moderate fiber. Score: 6"
+3202,376,Recommendations,
+3203,377,Calories,470 kcal
+3204,377,Carbohydrates,62 g
+3205,377,Sugar,1 g
+3206,377,Fiber,8 g
+3207,377,Protein,26 g
+3208,377,Fat,12 g
+3209,377,Saturated Fat,2 g
+3210,377,Cholesterol,65 mg
+3211,377,Sodium,270 mg
+3212,377,Purines,high
+3213,377,Confidence,7/10
+3214,377,Health Impacts by Condition,
+3215,377,Fatty Liver Narrative,"Lean protein, healthy fats, but tuna is high purine. Score: 6"
+3216,377,High Cholesterol Narrative,"Tuna is low fat, heart-healthy. Score: 8"
+3217,377,High Blood Pressure Narrative,Low sodium preparation. Score: 8
+3218,377,Gout Narrative,"Tuna is high purine, not ideal for gout. Score: 3"
+3219,377,Pre-diabetes Narrative,"High fiber, moderate carb. Score: 8"
+3220,377,Recommendations,
+3221,378,Calories,290 kcal
+3222,378,Carbohydrates,38 g
+3223,378,Sugar,21 g
+3224,378,Fiber,6 g
+3225,378,Protein,5 g
+3226,378,Fat,12 g
+3227,378,Saturated Fat,2 g
+3228,378,Cholesterol,0 mg
+3229,378,Sodium,25 mg
+3230,378,Purines,low
+3231,378,Confidence,7/10
+3232,378,Health Impacts by Condition,
+3233,378,Fatty Liver Narrative,"High antioxidants, healthy fats. Score: 8"
+3234,378,High Cholesterol Narrative,"Good fats, no cholesterol. Score: 8"
+3235,378,High Blood Pressure Narrative,"Low sodium, high potassium. Score: 8"
+3236,378,Gout Narrative,"Low purine, suitable. Score: 8"
+3237,378,Pre-diabetes Narrative,"Natural sugars, but fiber helps. Score: 7"
+3238,378,Recommendations,
+3239,379,Calories,430 kcal
+3240,379,Carbohydrates,58 g
+3241,379,Sugar,38 g
+3242,379,Fiber,2 g
+3243,379,Protein,7 g
+3244,379,Fat,18 g
+3245,379,Saturated Fat,8 g
+3246,379,Cholesterol,50 mg
+3247,379,Sodium,90 mg
+3248,379,Purines,moderate
+3249,379,Confidence,6/10
+3250,379,Health Impacts by Condition,
+3251,379,Fatty Liver Narrative,High sugar and saturated fat. Score: 4
+3252,379,High Cholesterol Narrative,Butter and ice cream increase cholesterol. Score: 4
+3253,379,High Blood Pressure Narrative,Low sodium. Score: 8
+3254,379,Gout Narrative,Nuts and dairy are moderate purine. Score: 6
+3255,379,Pre-diabetes Narrative,"High sugar, risk for glucose spike. Score: 3"
+3256,379,Recommendations,
+3257,380,Calories,390 kcal
+3258,380,Carbohydrates,33 g
+3259,380,Sugar,3 g
+3260,380,Fiber,1 g
+3261,380,Protein,22 g
+3262,380,Fat,19 g
+3263,380,Saturated Fat,8 g
+3264,380,Cholesterol,220 mg
+3265,380,Sodium,850 mg
+3266,380,Purines,moderate
+3267,380,Confidence,6/10
+3268,380,Health Impacts by Condition,
+3269,380,Fatty Liver Narrative,"Animal fats and refined flour, not ideal. Score: 5"
+3270,380,High Cholesterol Narrative,Eggs and biscuit may raise cholesterol. Score: 4
+3271,380,High Blood Pressure Narrative,Biscuit and chicken increase sodium. Score: 4
+3272,380,Gout Narrative,Eggs and chicken moderate purine. Score: 5
+3273,380,Pre-diabetes Narrative,"Refined carbs, moderate protein. Score: 6"
+3274,380,Recommendations,
+3275,381,Calories,100 kcal
+3276,381,Carbohydrates,24 g
+3277,381,Sugar,20 g
+3278,381,Fiber,0 g
+3279,381,Protein,0 g
+3280,381,Fat,0 g
+3281,381,Saturated Fat,0 g
+3282,381,Cholesterol,0 mg
+3283,381,Sodium,10 mg
+3284,381,Purines,low
+3285,381,Confidence,6/10
+3286,381,Health Impacts by Condition,
+3287,381,Fatty Liver Narrative,"High sugar, no benefit. Score: 4"
+3288,381,High Cholesterol Narrative,No cholesterol. Score: 7
+3289,381,High Blood Pressure Narrative,Low sodium. Score: 8
+3290,381,Gout Narrative,No purine risk. Score: 8
+3291,381,Pre-diabetes Narrative,"High sugar, risk for glucose spikes. Score: 3"
+3292,381,Recommendations,
+3293,382,Calories,330 kcal
+3294,382,Carbohydrates,18 g
+3295,382,Sugar,2 g
+3296,382,Fiber,2 g
+3297,382,Protein,15 g
+3298,382,Fat,22 g
+3299,382,Saturated Fat,8 g
+3300,382,Cholesterol,340 mg
+3301,382,Sodium,560 mg
+3302,382,Purines,moderate
+3303,382,Confidence,7/10
+3304,382,Health Impacts by Condition,
+3305,382,Fatty Liver Narrative,High animal fat and cholesterol. Score: 4
+3306,382,High Cholesterol Narrative,"Eggs, bacon and cheese add cholesterol. Score: 3"
+3307,382,High Blood Pressure Narrative,Bacon increases sodium. Score: 4
+3308,382,Gout Narrative,Eggs and bacon moderate purine. Score: 5
+3309,382,Pre-diabetes Narrative,"Refined carbs, high fat. Score: 6"
+3310,382,Recommendations,
+3311,383,Calories,380 kcal
+3312,383,Carbohydrates,13 g
+3313,383,Sugar,2 g
+3314,383,Fiber,4 g
+3315,383,Protein,27 g
+3316,383,Fat,21 g
+3317,383,Saturated Fat,5 g
+3318,383,Cholesterol,70 mg
+3319,383,Sodium,570 mg
+3320,383,Purines,high
+3321,383,Confidence,8/10
+3322,383,Health Impacts by Condition,
+3323,383,Fatty Liver Narrative,"Salmon supportive, high protein. Score: 8"
+3324,383,High Cholesterol Narrative,"Salmon heart-healthy, cheese adds cholesterol. Score: 7"
+3325,383,High Blood Pressure Narrative,Moderate sodium. Score: 7
+3326,383,Gout Narrative,Salmon is high purine. Score: 3
+3327,383,Pre-diabetes Narrative,"Low carb, high protein. Score: 8"
+3328,383,Recommendations,
+3329,384,Calories,220 kcal
+3330,384,Carbohydrates,34 g
+3331,384,Sugar,17 g
+3332,384,Fiber,3 g
+3333,384,Protein,12 g
+3334,384,Fat,3 g
+3335,384,Saturated Fat,1 g
+3336,384,Cholesterol,10 mg
+3337,384,Sodium,60 mg
+3338,384,Purines,low
+3339,384,Confidence,7/10
+3340,384,Health Impacts by Condition,
+3341,384,Fatty Liver Narrative,"Low fat, moderate sugar, good protein. Score: 8"
+3342,384,High Cholesterol Narrative,Very low cholesterol. Score: 9
+3343,384,High Blood Pressure Narrative,Low sodium. Score: 9
+3344,384,Gout Narrative,"Low purine, suitable. Score: 9"
+3345,384,Pre-diabetes Narrative,"Natural sugars, some fiber. Score: 7"
+3346,384,Recommendations,
+3347,385,Calories,130 kcal
+3348,385,Carbohydrates,27 g
+3349,385,Sugar,10 g
+3350,385,Fiber,2 g
+3351,385,Protein,2 g
+3352,385,Fat,3 g
+3353,385,Saturated Fat,0.5 g
+3354,385,Cholesterol,0 mg
+3355,385,Sodium,40 mg
+3356,385,Purines,low
+3357,385,Confidence,7/10
+3358,385,Health Impacts by Condition,
+3359,385,Fatty Liver Narrative,"Low fat, moderate sugar. Score: 7"
+3360,385,High Cholesterol Narrative,Cholesterol-free. Score: 9
+3361,385,High Blood Pressure Narrative,Very low sodium. Score: 9
+3362,385,Gout Narrative,Low purine. Score: 9
+3363,385,Pre-diabetes Narrative,"Moderate sugar, oats for fiber. Score: 7"
+3364,385,Recommendations,
+3365,386,Calories,80 kcal
+3366,386,Carbohydrates,21 g
+3367,386,Sugar,16 g
+3368,386,Fiber,4 g
+3369,386,Protein,0 g
+3370,386,Fat,0 g
+3371,386,Saturated Fat,0 g
+3372,386,Cholesterol,0 mg
+3373,386,Sodium,0 mg
+3374,386,Purines,low
+3375,386,Confidence,9/10
+3376,386,Health Impacts by Condition,
+3377,386,Fatty Liver Narrative,"Fruit, high fiber, very good. Score: 9"
+3378,386,High Cholesterol Narrative,"Cholesterol-free, heart-healthy. Score: 9"
+3379,386,High Blood Pressure Narrative,Zero sodium. Score: 9
+3380,386,Gout Narrative,"Low purine, suitable. Score: 9"
+3381,386,Pre-diabetes Narrative,"Natural sugar, fiber helps. Score: 8"
+3382,386,Recommendations,
+3383,387,Calories,320 kcal
+3384,387,Carbohydrates,50 g
+3385,387,Sugar,5 g
+3386,387,Fiber,2 g
+3387,387,Protein,9 g
+3388,387,Fat,8 g
+3389,387,Saturated Fat,5 g
+3390,387,Cholesterol,30 mg
+3391,387,Sodium,420 mg
+3392,387,Purines,moderate
+3393,387,Confidence,7/10
+3394,387,Health Impacts by Condition,
+3395,387,Fatty Liver Narrative,"Refined carbs, moderate fat. Score: 6"
+3396,387,High Cholesterol Narrative,Cream cheese adds cholesterol. Score: 5
+3397,387,High Blood Pressure Narrative,Moderate sodium. Score: 6
+3398,387,Gout Narrative,Cheese is moderate purine. Score: 7
+3399,387,Pre-diabetes Narrative,"Refined carbs, moderate sugar. Score: 6"
+3400,387,Recommendations,
+3401,388,Calories,80 kcal
+3402,388,Carbohydrates,21 g
+3403,388,Sugar,16 g
+3404,388,Fiber,4 g
+3405,388,Protein,0 g
+3406,388,Fat,0 g
+3407,388,Saturated Fat,0 g
+3408,388,Cholesterol,0 mg
+3409,388,Sodium,0 mg
+3410,388,Purines,low
+3411,388,Confidence,9/10
+3412,388,Health Impacts by Condition,
+3413,388,Fatty Liver Narrative,"Fruit, high fiber, very good. Score: 9"
+3414,388,High Cholesterol Narrative,"Cholesterol-free, heart-healthy. Score: 9"
+3415,388,High Blood Pressure Narrative,Zero sodium. Score: 9
+3416,388,Gout Narrative,"Low purine, suitable. Score: 9"
+3417,388,Pre-diabetes Narrative,"Natural sugar, fiber helps. Score: 8"
+3418,388,Recommendations,
+3419,389,Calories,180 kcal
+3420,389,Carbohydrates,26 g
+3421,389,Sugar,18 g
+3422,389,Fiber,1 g
+3423,389,Protein,3 g
+3424,389,Fat,7 g
+3425,389,Saturated Fat,4 g
+3426,389,Cholesterol,22 mg
+3427,389,Sodium,35 mg
+3428,389,Purines,moderate
+3429,389,Confidence,7/10
+3430,389,Health Impacts by Condition,
+3431,389,Fatty Liver Narrative,"High sugar, saturated fat. Score: 5"
+3432,389,High Cholesterol Narrative,Gelato adds cholesterol. Score: 5
+3433,389,High Blood Pressure Narrative,Very low sodium. Score: 9
+3434,389,Gout Narrative,Dairy moderate purine. Score: 7
+3435,389,Pre-diabetes Narrative,"High sugar, risk for glucose spike. Score: 4"
+3436,389,Recommendations,
+3437,390,Calories,490 kcal
+3438,390,Carbohydrates,62 g
+3439,390,Sugar,26 g
+3440,390,Fiber,2 g
+3441,390,Protein,15 g
+3442,390,Fat,19 g
+3443,390,Saturated Fat,9 g
+3444,390,Cholesterol,210 mg
+3445,390,Sodium,780 mg
+3446,390,Purines,moderate
+3447,390,Confidence,6/10
+3448,390,Health Impacts by Condition,
+3449,390,Fatty Liver Narrative,"High sugar and fat, not ideal. Score: 4"
+3450,390,High Cholesterol Narrative,"Egg, cheese and ham increase cholesterol. Score: 4"
+3451,390,High Blood Pressure Narrative,High sodium from sandwich. Score: 4
+3452,390,Gout Narrative,Egg and ham moderate purine. Score: 5
+3453,390,Pre-diabetes Narrative,"High sugar, refined carbs. Score: 3"
+3454,390,Recommendations,
+3455,391,Calories,130 kcal
+3456,391,Carbohydrates,25 g
+3457,391,Sugar,18 g
+3458,391,Fiber,2 g
+3459,391,Protein,4 g
+3460,391,Fat,2 g
+3461,391,Saturated Fat,1 g
+3462,391,Cholesterol,8 mg
+3463,391,Sodium,40 mg
+3464,391,Purines,low
+3465,391,Confidence,8/10
+3466,391,Health Impacts by Condition,
+3467,391,Fatty Liver Narrative,"Fresh fruit and yogurt, moderate sugar. Score: 8"
+3468,391,High Cholesterol Narrative,"Low cholesterol, good choice. Score: 9"
+3469,391,High Blood Pressure Narrative,Very low sodium. Score: 9
+3470,391,Gout Narrative,"Low purine, suitable. Score: 9"
+3471,391,Pre-diabetes Narrative,"Natural sugar, moderate amount. Score: 7"
+3472,391,Recommendations,
+3473,392,Calories,320 kcal
+3474,392,Carbohydrates,38 g
+3475,392,Sugar,22 g
+3476,392,Fiber,2 g
+3477,392,Protein,6 g
+3478,392,Fat,15 g
+3479,392,Saturated Fat,6 g
+3480,392,Cholesterol,4 mg
+3481,392,Sodium,190 mg
+3482,392,Purines,moderate
+3483,392,Confidence,7/10
+3484,392,Health Impacts by Condition,
+3485,392,Fatty Liver Narrative,"High sugar, saturated fat, not ideal. Score: 4"
+3486,392,High Cholesterol Narrative,Saturated fat present. Score: 5
+3487,392,High Blood Pressure Narrative,Moderate sodium. Score: 7
+3488,392,Gout Narrative,Cookies and peanut butter moderate purine. Score: 7
+3489,392,Pre-diabetes Narrative,"High sugar, risk for glucose spike. Score: 4"
+3490,392,Recommendations,
+3491,393,Health Impacts by Condition,
+3492,393,Fatty Liver Narrative,"High in saturated fat and simple carbohydrates, may contribute to liver fat accumulation. Score: 4/10"
+3493,393,High Cholesterol Narrative,"Contains cholesterol and saturated fat, which may increase LDL. Score: 5/10"
+3494,393,High Blood Pressure Narrative,"Moderate sodium, not excessive. Score: 7/10"
+3495,393,Gout Narrative,"Low purines, low risk. Score: 8/10"
+3496,393,Pre-diabetes Narrative,Refined carbs and sugar may spike blood glucose. Score: 4/10
+3497,393,Recommendations,
+3498,394,Health Impacts by Condition,
+3499,394,Fatty Liver Narrative,"High fat content, but unsaturated; moderation advised. Score: 6/10"
+3500,394,High Cholesterol Narrative,"No cholesterol, but high fat intake. Score: 7/10"
+3501,394,High Blood Pressure Narrative,Very low sodium. Score: 9/10
+3502,394,Gout Narrative,Moderate purines in nuts. Score: 6/10
+3503,394,Pre-diabetes Narrative,High calories may affect weight; moderate carbs. Score: 6/10
+3504,394,Recommendations,
+3505,395,Health Impacts by Condition,
+3506,395,Fatty Liver Narrative,"Low fat, low risk; watch sugar. Score: 7/10"
+3507,395,High Cholesterol Narrative,No cholesterol or fat. Score: 9/10
+3508,395,High Blood Pressure Narrative,Very low sodium. Score: 10/10
+3509,395,Gout Narrative,Low purines. Score: 9/10
+3510,395,Pre-diabetes Narrative,High sugar; could spike glucose. Score: 4/10
+3511,395,Recommendations,
+3512,396,Health Impacts by Condition,
+3513,396,Fatty Liver Narrative,Moderate fat and carbs; eggs and vegetables are beneficial. Score: 7/10
+3514,396,High Cholesterol Narrative,Eggs elevate cholesterol; mushrooms and arugula are heart-healthy. Score: 6/10
+3515,396,High Blood Pressure Narrative,Moderate sodium. Score: 7/10
+3516,396,Gout Narrative,Eggs are moderate purine; mushrooms add some purines. Score: 6/10
+3517,396,Pre-diabetes Narrative,Balanced macronutrients; sourdough bread is lower glycemic. Score: 7/10
+3518,396,Recommendations,
+3519,397,Health Impacts by Condition,
+3520,397,Fatty Liver Narrative,"High fat, but unsalted and plant-based; moderation advised. Score: 7/10"
+3521,397,High Cholesterol Narrative,"No cholesterol, but high fat. Score: 7/10"
+3522,397,High Blood Pressure Narrative,Very low sodium. Score: 9/10
+3523,397,Gout Narrative,Moderate purines. Score: 6/10
+3524,397,Pre-diabetes Narrative,High calories; moderate carbs. Score: 6/10
+3525,397,Recommendations,
+3526,398,Health Impacts by Condition,
+3527,398,Fatty Liver Narrative,High saturated fat and sugar; limit frequency. Score: 4/10
+3528,398,High Cholesterol Narrative,Saturated fat may raise LDL. Score: 4/10
+3529,398,High Blood Pressure Narrative,Low sodium. Score: 8/10
+3530,398,Gout Narrative,Moderate purines from chocolate and eggs. Score: 6/10
+3531,398,Pre-diabetes Narrative,High sugar content. Score: 4/10
+3532,398,Recommendations,
+3533,399,Health Impacts by Condition,
+3534,399,Fatty Liver Narrative,"Plant-based, low fat; beneficial. Score: 9/10"
+3535,399,High Cholesterol Narrative,"No cholesterol, healthy fats. Score: 9/10"
+3536,399,High Blood Pressure Narrative,Moderate sodium. Score: 7/10
+3537,399,Gout Narrative,Low purines. Score: 9/10
+3538,399,Pre-diabetes Narrative,"Moderate carbs, high fiber. Score: 8/10"
+3539,399,Recommendations,
+3540,400,Health Impacts by Condition,
+3541,400,Fatty Liver Narrative,"High fiber, moderate fat; limit butter. Score: 7/10"
+3542,400,High Cholesterol Narrative,Cheese and butter add cholesterol. Score: 6/10
+3543,400,High Blood Pressure Narrative,Garlic bread and cheese increase sodium. Score: 5/10
+3544,400,Gout Narrative,"Beans are moderate purine, cheese is low. Score: 7/10"
+3545,400,Pre-diabetes Narrative,"High carbs, fiber mitigates. Score: 7/10"
+3546,400,Recommendations,
+3547,401,Health Impacts by Condition,
+3548,401,Fatty Liver Narrative,"High fiber, plant-based, healthy fats. Score: 10/10"
+3549,401,High Cholesterol Narrative,"No cholesterol, heart-healthy. Score: 10/10"
+3550,401,High Blood Pressure Narrative,Low sodium. Score: 9/10
+3551,401,Gout Narrative,Low purines. Score: 10/10
+3552,401,Pre-diabetes Narrative,"Low carbs, high fiber. Score: 10/10"
+3553,401,Recommendations,
+3554,402,Health Impacts by Condition,
+3555,402,Fatty Liver Narrative,High fat and sodium; eggs and veggie sausage are moderate. Score: 5/10
+3556,402,High Cholesterol Narrative,Eggs and butter increase cholesterol. Score: 4/10
+3557,402,High Blood Pressure Narrative,Sodium is high. Score: 4/10
+3558,402,Gout Narrative,Moderate purines. Score: 6/10
+3559,402,Pre-diabetes Narrative,Moderate carbs; fiber helps. Score: 7/10
+3560,402,Recommendations,
+3561,403,Health Impacts by Condition,
+3562,403,Fatty Liver Narrative,"Low fat, moderate sugar. Score: 8/10"
+3563,403,High Cholesterol Narrative,No cholesterol. Score: 10/10
+3564,403,High Blood Pressure Narrative,Low sodium. Score: 9/10
+3565,403,Gout Narrative,Low purines. Score: 9/10
+3566,403,Pre-diabetes Narrative,"Moderate sugar, portion-controlled. Score: 7/10"
+3567,403,Recommendations,
+3568,404,Health Impacts by Condition,
+3569,404,Fatty Liver Narrative,"Small portion, healthy fats. Score: 9/10"
+3570,404,High Cholesterol Narrative,No cholesterol. Score: 10/10
+3571,404,High Blood Pressure Narrative,Very low sodium. Score: 10/10
+3572,404,Gout Narrative,Moderate purines in peanuts. Score: 7/10
+3573,404,Pre-diabetes Narrative,Minimal impact. Score: 10/10
+3574,404,Recommendations,
+3575,405,Health Impacts by Condition,
+3576,405,Fatty Liver Narrative,"Low fat, high fiber; beneficial. Score: 8/10"
+3577,405,High Cholesterol Narrative,"Low cholesterol, healthy ingredients. Score: 9/10"
+3578,405,High Blood Pressure Narrative,Low sodium. Score: 10/10
+3579,405,Gout Narrative,Low purines. Score: 9/10
+3580,405,Pre-diabetes Narrative,"Moderate sugar, but fiber helps. Score: 7/10"
+3581,405,Recommendations,
+3582,406,Health Impacts by Condition,
+3583,406,Fatty Liver Narrative,High sugar and saturated fat; best in moderation. Score: 4/10
+3584,406,High Cholesterol Narrative,Saturated fat and cholesterol. Score: 5/10
+3585,406,High Blood Pressure Narrative,Low sodium. Score: 9/10
+3586,406,Gout Narrative,Moderate purines from peanuts and chocolate. Score: 6/10
+3587,406,Pre-diabetes Narrative,High sugar; small portion. Score: 5/10
+3588,406,Recommendations,
+3589,407,Health Impacts by Condition,
+3590,407,Fatty Liver Narrative,High in saturated fat and sugar; occasional treat. Score: 4/10
+3591,407,High Cholesterol Narrative,Contains cholesterol and saturated fat. Score: 5/10
+3592,407,High Blood Pressure Narrative,Moderate sodium. Score: 7/10
+3593,407,Gout Narrative,Low purines. Score: 8/10
+3594,407,Pre-diabetes Narrative,Refined carbs and sugar may spike glucose. Score: 4/10
+3595,407,Recommendations,
+3596,408,Health Impacts by Condition,
+3597,408,Fatty Liver Narrative,"Plant-based, healthy fats. Score: 9/10"
+3598,408,High Cholesterol Narrative,"No cholesterol, beneficial fats. Score: 10/10"
+3599,408,High Blood Pressure Narrative,Very low sodium. Score: 10/10
+3600,408,Gout Narrative,Moderate purines in peanuts. Score: 7/10
+3601,408,Pre-diabetes Narrative,"Moderate carbs, protein. Score: 8/10"
+3602,408,Recommendations,
+3603,409,Health Impacts by Condition,
+3604,409,Fatty Liver Narrative,High fiber and water; beneficial. Score: 10/10
+3605,409,High Cholesterol Narrative,Excellent for cholesterol. Score: 10/10
+3606,409,High Blood Pressure Narrative,No sodium. Score: 10/10
+3607,409,Gout Narrative,Low purines. Score: 10/10
+3608,409,Pre-diabetes Narrative,"Moderate sugar, high fiber. Score: 8/10"
+3609,409,Recommendations,
