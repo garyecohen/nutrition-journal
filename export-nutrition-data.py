@@ -3,6 +3,7 @@ import csv
 import datetime
 import re
 
+# Set up file paths and directories used in the script.
 REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
 MEALS_CSV = os.path.join(REPO_ROOT, "Meals.csv")
 NUTRIENTS_CSV = os.path.join(REPO_ROOT, "Nutrients.csv")
@@ -10,6 +11,11 @@ IMPACTS_CSV = os.path.join(REPO_ROOT, "Impacts.csv")
 DAILY_FILES_DIR = "daily_files"
 
 def iter_files(start, end):
+    """
+    Returns a list of daily input files within the date range.
+    Only includes files that actually exist.
+    Each file is expected to be named 'Input-YYYYMMDD' in DAILY_FILES_DIR.
+    """
     files = []
     d = start
     while d <= end:
@@ -20,11 +26,17 @@ def iter_files(start, end):
     return files
 
 def parse_file(path):
+    """
+    Parses a structured daily meal input file.
+    Extracts all meals and their attributes (date, type, description, ingredients, nutrients, health impacts).
+    Returns a list of meal dictionaries, one per meal in the file.
+    """
     with open(path, encoding="utf-8") as f:
         lines = [line.rstrip() for line in f]
     meals = []
     i = 0
     while i < len(lines):
+        # Look for the start of a meal record
         if lines[i].startswith("Meal Date:"):
             meal = {
                 "DateID": lines[i].split(":", 1)[1].strip(),
@@ -34,29 +46,29 @@ def parse_file(path):
                 "Nutrients": {},
                 "Impacts": []
             }
-            # Basic meal fields
+            # Parse basic meal fields (type, description, ingredients)
             i += 1; meal["MealTypeID"] = lines[i].split(":", 1)[1].strip()
             i += 1; meal["MealDescription"] = lines[i].split(":", 1)[1].strip()
             i += 1; meal["Ingredients"] = lines[i].split(":", 1)[1].strip()
-            # Nutrients
+            # Skip 'Nutrient Estimate:' header, then parse nutrients
             i += 1  # skip 'Nutrient Estimate:'
             i += 1
             while i < len(lines) and lines[i] and ":" in lines[i]:
                 k, v = lines[i].split(":", 1)
                 meal["Nutrients"][k.strip()] = v.strip()
                 i += 1
-            # Skip to 'Health Impacts by Condition:'
+            # Advance to the 'Health Impacts by Condition:' section
             while i < len(lines) and not lines[i].startswith("Health Impacts by Condition:"):
                 i += 1
             i += 1  # skip header
 
-            # Impacts (flexible parsing for both formats)
+            # Parse health impacts for each condition (multiple formats supported)
             while i < len(lines) and not lines[i].startswith("Recommendations:") and not lines[i].startswith("---"):
                 line = lines[i].strip()
                 if not line:
                     i += 1
                     continue
-                # Combined line: "ConditionName Narrative: ... Score: ..."
+                # Format 1: Combined line "Condition Narrative: ... Score: ..."
                 m = re.match(r'^([A-Za-z ]+)\sNarrative:(.*?)Score:(.*)', line)
                 if m:
                     cond = m.group(1).strip()
@@ -69,7 +81,7 @@ def parse_file(path):
                     })
                     i += 1
                     continue
-                # Multi-line format
+                # Format 2: Multi-line, with condition then narrative then score
                 elif re.match(r'^[A-Za-z ]+$', line):
                     cond = line
                     i += 1
@@ -98,6 +110,13 @@ def parse_file(path):
     return meals
 
 def main():
+    """
+    Main execution function:
+    - Defines date range for processing.
+    - Iterates over each daily input file.
+    - Parses meals and accumulates data for meals, nutrients, and impacts.
+    - Writes resulting records into three CSV files for further analysis.
+    """
     start = datetime.date(2025, 6, 21)
     end = datetime.date(2025, 9, 19)
     files = iter_files(start, end)
@@ -110,6 +129,7 @@ def main():
 
     for file in files:
         meals = parse_file(file)
+        # For each meal in the parsed file, save meal, nutrient, and impact data with unique IDs
         for meal in meals:
             this_meal_id = meal_id
             all_meals.append([
@@ -133,20 +153,24 @@ def main():
                 impact_id += 1
             meal_id += 1
 
+    # Write meals summary to Meals.csv
     with open(MEALS_CSV, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["MealID", "DateID", "MealTypeID", "MealDescription", "Ingredients"])
         writer.writerows(all_meals)
 
+    # Write nutrients data to Nutrients.csv
     with open(NUTRIENTS_CSV, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["NutrientID", "MealID", "NutrientType", "Grams"])
         writer.writerows(all_nutrients)
 
+    # Write health impact assessments to Impacts.csv
     with open(IMPACTS_CSV, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["ImpactID", "MealID", "ConditionType", "Notes", "Score"])
         writer.writerows(all_impacts)
 
 if __name__ == "__main__":
+    # Script entry point: runs the main function if called directly.
     main()
