@@ -3608,3 +3608,41 @@ NutrientID,MealID,NutrientType,Grams
 3607,409,Gout Narrative,Low purines. Score: 10/10
 3608,409,Pre-diabetes Narrative,"Moderate sugar, high fiber. Score: 8/10"
 3609,409,Recommendations,
+3610,410,Calories,480 kcal
+3611,410,Carbohydrates,45 g
+3612,410,Sugar,5 g
+3613,410,Fiber,8 g
+3614,410,Protein,15 g
+3615,410,Fat,28 g
+3616,410,Saturated Fat,9 g
+3617,410,Cholesterol,230 mg
+3618,410,Sodium,620 mg
+3619,410,Purines,moderate
+3620,410,Confidence,8/10
+3621,410,Health Impacts by Condition,
+3622,410,Fatty Liver Narrative,"Contains healthy fats from avocado, but moderate saturated fat. Overall balanced."
+3623,410,Score,8
+3624,410,High Cholesterol Narrative,"Moderate cholesterol and saturated fat, feta and egg contribute."
+3625,410,High Blood Pressure Narrative,"Sodium is moderate; pickled onions, feta, and bread add salt."
+3626,410,Gout Narrative,Egg and feta moderately increase purine load.
+3627,410,Pre-diabetes Narrative,Carbohydrates present but balanced with fiber and protein.
+3628,410,Recommendations,
+3629,411,Calories,340 kcal
+3630,411,Carbohydrates,42 g
+3631,411,Sugar,4 g
+3632,411,Fiber,3 g
+3633,411,Protein,10 g
+3634,411,Fat,15 g
+3635,411,Saturated Fat,4 g
+3636,411,Cholesterol,10 mg
+3637,411,Sodium,380 mg
+3638,411,Purines,low
+3639,411,Confidence,7/10
+3640,411,Health Impacts by Condition,
+3641,411,Fatty Liver Narrative,"Contains olive oil and sunflower seeds, both healthy fats; moderate calorie load."
+3642,411,Score,7
+3643,411,High Cholesterol Narrative,"Low cholesterol, moderate saturated fat from cheese."
+3644,411,High Blood Pressure Narrative,"Moderate sodium, mostly from cheese and dressing."
+3645,411,Gout Narrative,Low purine content.
+3646,411,Pre-diabetes Narrative,Carbohydrates present; fiber is modest.
+3647,411,Recommendations,

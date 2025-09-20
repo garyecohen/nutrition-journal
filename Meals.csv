@@ -408,3 +408,5 @@ MealID,DateID,MealTypeID,MealDescription,Ingredients
 407,2025-09-18,Breakfast,raspberry croissant with cream cheese,"wheat flour, butter, sugar, eggs, raspberry, cream cheese, yeast, milk, salt"
 408,2025-09-18,Snack,1/4 cup peanuts,peanuts
 409,2025-09-18,Snack,pear,pear
+410,2025-09-19,Breakfast,"avocado toast with pickled onions, feta and tomatoes, and 1 hash brown covered egg with sour cream","bread, avocado, pickled onions, feta cheese, tomatoes, hash brown, egg, sour cream"
+411,2025-09-19,Dinner,8 ounce Italian pasta salad with 2 tsp sunflower seeds,"pasta, olive oil, vinegar, bell peppers, tomatoes, cucumbers, mozzarella cheese, sunflower seeds"
