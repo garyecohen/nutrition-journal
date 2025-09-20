@@ -2,6 +2,9 @@ import os
 import csv
 import datetime
 import re
+# For debug
+from datetime import datetime as datetime2
+from collections import Counter
 
 # Set up file paths and directories used in the script.
 REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -153,9 +156,7 @@ def main():
                 impact_id += 1
             meal_id += 1
 
-    from collections import Counter
-    from datetime import datetime2
-
+    # Debug: print meals per date in M/D format
     date_counts = Counter(meal[1] for meal in all_meals)  # meal[1] is DateID
     for date, count in date_counts.items():
         dt = datetime2.strptime(date, "%Y-%m-%d")
