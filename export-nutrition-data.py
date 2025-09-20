@@ -154,11 +154,11 @@ def main():
             meal_id += 1
 
     from collections import Counter
-    from datetime import datetime
+    from datetime import datetime2
 
     date_counts = Counter(meal[1] for meal in all_meals)  # meal[1] is DateID
     for date, count in date_counts.items():
-        dt = datetime.strptime(date, "%Y-%m-%d")
+        dt = datetime2.strptime(date, "%Y-%m-%d")
         print(f"{dt.month}/{dt.day} - {count}")
 
     # Write meals summary to Meals.csv
