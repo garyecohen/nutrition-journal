@@ -51,83 +51,83 @@ def parse_file(path):
                     "Nutrients": {},
                     "Impacts": []
                 }
-            # Parse basic meal fields (type, description, ingredients)
-
-            i += 1
-            if not lines[i].startswith("Meal Type:"):
-                print(f"DEBUG: Expected 'Meal Type:' at line {i} but got {lines[i]!r}")
-            meal["MealTypeID"] = lines[i].split(":", 1)[1].strip()
-            i += 1
-            if not lines[i].startswith("Meal Description:"):
-                print(f"DEBUG: Expected 'Meal Description:' at line {i} but got {lines[i]!r}")
-            meal["MealDescription"] = lines[i].split(":", 1)[1].strip()
-            i += 1
-            if not lines[i].startswith("Ingredients:"):
-                print(f"DEBUG: Expected 'Ingredients:' at line {i} but got {lines[i]!r}")
-            meal["Ingredients"] = lines[i].split(":", 1)[1].strip()
-            # Skip 'Nutrient Estimate:' header, then parse nutrients
-            i += 1  # skip 'Nutrient Estimate:'
-            i += 1
-            while i < len(lines) and lines[i] and ":" in lines[i]:
-                k, v = lines[i].split(":", 1)
-                meal["Nutrients"][k.strip()] = v.strip()
+                # Parse basic meal fields (type, description, ingredients)
+    
                 i += 1
-            # Advance to the 'Health Impacts by Condition:' section
-            while i < len(lines) and not lines[i].startswith("Health Impacts by Condition:"):
+                if not lines[i].startswith("Meal Type:"):
+                    print(f"DEBUG: Expected 'Meal Type:' at line {i} but got {lines[i]!r}")
+                meal["MealTypeID"] = lines[i].split(":", 1)[1].strip()
                 i += 1
-            i += 1  # skip header
-
-            # Parse health impacts for each condition (multiple formats supported)
-            while i < len(lines) and not lines[i].startswith("Recommendations:") and not lines[i].startswith("---"):
-                line = lines[i].strip()
-                if not line:
+                if not lines[i].startswith("Meal Description:"):
+                    print(f"DEBUG: Expected 'Meal Description:' at line {i} but got {lines[i]!r}")
+                meal["MealDescription"] = lines[i].split(":", 1)[1].strip()
+                i += 1
+                if not lines[i].startswith("Ingredients:"):
+                    print(f"DEBUG: Expected 'Ingredients:' at line {i} but got {lines[i]!r}")
+                meal["Ingredients"] = lines[i].split(":", 1)[1].strip()
+                # Skip 'Nutrient Estimate:' header, then parse nutrients
+                i += 1  # skip 'Nutrient Estimate:'
+                i += 1
+                while i < len(lines) and lines[i] and ":" in lines[i]:
+                    k, v = lines[i].split(":", 1)
+                    meal["Nutrients"][k.strip()] = v.strip()
                     i += 1
-                    continue
-                # Format 1: Combined line "Condition Narrative: ... Score: ..."
-                m = re.match(r'^([A-Za-z ]+)\sNarrative:(.*?)Score:(.*)', line)
-                if m:
-                    cond = m.group(1).strip()
-                    narrative = m.group(2).strip()
-                    score = m.group(3).strip()
-                    meal["Impacts"].append({
-                        "ConditionType": cond,
-                        "Notes": narrative,
-                        "Score": score,
-                    })
+                # Advance to the 'Health Impacts by Condition:' section
+                while i < len(lines) and not lines[i].startswith("Health Impacts by Condition:"):
                     i += 1
-                    continue
-                # Format 2: Multi-line, with condition then narrative then score
-                elif re.match(r'^[A-Za-z ]+$', line):
-                    cond = line
-                    i += 1
-                    if i < len(lines) and lines[i].startswith("Narrative:"):
-                        narrative = lines[i].split(":", 1)[1].strip()
+                i += 1  # skip header
+    
+                # Parse health impacts for each condition (multiple formats supported)
+                while i < len(lines) and not lines[i].startswith("Recommendations:") and not lines[i].startswith("---"):
+                    line = lines[i].strip()
+                    if not line:
                         i += 1
-                    else:
-                        narrative = ""
-                    if i < len(lines) and lines[i].startswith("Score:"):
-                        score = lines[i].split(":", 1)[1].strip()
+                        continue
+                    # Format 1: Combined line "Condition Narrative: ... Score: ..."
+                    m = re.match(r'^([A-Za-z ]+)\sNarrative:(.*?)Score:(.*)', line)
+                    if m:
+                        cond = m.group(1).strip()
+                        narrative = m.group(2).strip()
+                        score = m.group(3).strip()
+                        meal["Impacts"].append({
+                            "ConditionType": cond,
+                            "Notes": narrative,
+                            "Score": score,
+                        })
                         i += 1
+                        continue
+                    # Format 2: Multi-line, with condition then narrative then score
+                    elif re.match(r'^[A-Za-z ]+$', line):
+                        cond = line
+                        i += 1
+                        if i < len(lines) and lines[i].startswith("Narrative:"):
+                            narrative = lines[i].split(":", 1)[1].strip()
+                            i += 1
+                        else:
+                            narrative = ""
+                        if i < len(lines) and lines[i].startswith("Score:"):
+                            score = lines[i].split(":", 1)[1].strip()
+                            i += 1
+                        else:
+                            score = ""
+                        meal["Impacts"].append({
+                            "ConditionType": cond,
+                            "Notes": narrative,
+                            "Score": score,
+                        })
+                        continue
                     else:
-                        score = ""
-                    meal["Impacts"].append({
-                        "ConditionType": cond,
-                        "Notes": narrative,
-                        "Score": score,
-                    })
-                    continue
-                else:
-                    i += 1
-                    continue
+                        i += 1
+                        continue
             meals.append(meal)
             except Exception as e:
                     print(f"DEBUG: Exception when parsing meal starting at line {i}: {e}")
                     # You could also print a chunk of lines for context
-            else:
-                # If you expect a meal start here but don't get it, log why
-                if "Meal Date" in lines[i]:
-                    print(f"DEBUG: Line {i} contains 'Meal Date' but does not start a meal: {lines[i]!r}")
-                i += 1
+        else:
+            # If you expect a meal start here but don't get it, log why
+            if "Meal Date" in lines[i]:
+                print(f"DEBUG: Line {i} contains 'Meal Date' but does not start a meal: {lines[i]!r}")
+            i += 1
     return meals
 
 def main():
