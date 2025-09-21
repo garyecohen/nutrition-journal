@@ -39,6 +39,7 @@ def parse_file(path):
     meals = []
     i = 0
     while i < len(lines):
+        print(f"DEBUG: Processing line {i}: {lines[i]!r}")  # Print every line as processed
         # Look for the start of a meal record
         if lines[i].startswith("Meal Date:"):
             meal = {
