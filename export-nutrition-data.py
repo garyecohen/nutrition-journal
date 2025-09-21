@@ -120,8 +120,8 @@ def main():
     - Parses meals and accumulates data for meals, nutrients, and impacts.
     - Writes resulting records into three CSV files for further analysis.
     """
-    start = datetime.date(2025, 6, 21)
-    end = datetime.date(2025, 9, 19)
+    start = datetime.date(2025, 7, 30)
+    end = datetime.date(2025, 7, 30)
     files = iter_files(start, end)
     all_meals = []
     all_nutrients = []
