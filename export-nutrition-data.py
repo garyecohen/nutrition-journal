@@ -42,18 +42,29 @@ def parse_file(path):
         print(f"DEBUG: Processing line {i}: {lines[i]!r}")  # Print every line as processed
         # Look for the start of a meal record
         if lines[i].startswith("Meal Date:"):
-            meal = {
-                "DateID": lines[i].split(":", 1)[1].strip(),
-                "MealTypeID": "",
-                "MealDescription": "",
-                "Ingredients": "",
-                "Nutrients": {},
-                "Impacts": []
-            }
+            try:
+                meal = {
+                    "DateID": lines[i].split(":", 1)[1].strip(),
+                    "MealTypeID": "",
+                    "MealDescription": "",
+                    "Ingredients": "",
+                    "Nutrients": {},
+                    "Impacts": []
+                }
             # Parse basic meal fields (type, description, ingredients)
-            i += 1; meal["MealTypeID"] = lines[i].split(":", 1)[1].strip()
-            i += 1; meal["MealDescription"] = lines[i].split(":", 1)[1].strip()
-            i += 1; meal["Ingredients"] = lines[i].split(":", 1)[1].strip()
+
+            i += 1
+            if not lines[i].startswith("Meal Type:"):
+                print(f"DEBUG: Expected 'Meal Type:' at line {i} but got {lines[i]!r}")
+            meal["MealTypeID"] = lines[i].split(":", 1)[1].strip()
+            i += 1
+            if not lines[i].startswith("Meal Description:"):
+                print(f"DEBUG: Expected 'Meal Description:' at line {i} but got {lines[i]!r}")
+            meal["MealDescription"] = lines[i].split(":", 1)[1].strip()
+            i += 1
+            if not lines[i].startswith("Ingredients:"):
+                print(f"DEBUG: Expected 'Ingredients:' at line {i} but got {lines[i]!r}")
+            meal["Ingredients"] = lines[i].split(":", 1)[1].strip()
             # Skip 'Nutrient Estimate:' header, then parse nutrients
             i += 1  # skip 'Nutrient Estimate:'
             i += 1
@@ -109,8 +120,14 @@ def parse_file(path):
                     i += 1
                     continue
             meals.append(meal)
-        else:
-            i += 1
+            except Exception as e:
+                    print(f"DEBUG: Exception when parsing meal starting at line {i}: {e}")
+                    # You could also print a chunk of lines for context
+            else:
+                # If you expect a meal start here but don't get it, log why
+                if "Meal Date" in lines[i]:
+                    print(f"DEBUG: Line {i} contains 'Meal Date' but does not start a meal: {lines[i]!r}")
+                i += 1
     return meals
 
 def main():
