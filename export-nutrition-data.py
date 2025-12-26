@@ -79,8 +79,7 @@ def parse_file(path):
                 # Parse health impacts for each condition (multiple formats supported)
                 while i < len(lines):  # Process each line until explicitly broken
                     if lines[i].strip().startswith("Recommendations:"):  # Exit condition
-                        print(f"DEBUG: Recommendations line encountered at {i}. Exiting loop.")
-                        break
+                        print(f"DEBUG: Recommendations line encountered at {i}. NOT Exiting loop.")
                     line = lines[i].strip()
                     if not line:
                         i += 1
@@ -141,8 +140,8 @@ def main():
     - Parses meals and accumulates data for meals, nutrients, and impacts.
     - Writes resulting records into three CSV files for further analysis.
     """
-    start = datetime.date(2025, 8, 1)
-    end = datetime.date(2025, 8, 5)
+    start = datetime.date(2025, 6, 21)
+    end = datetime.date(2025, 9, 17)
     files = iter_files(start, end)
     all_meals = []
     all_nutrients = []
