@@ -1,4 +1,25 @@
 MealID,DateID,MealTypeID,MealDescription,Ingredients
-1,2025-07-30,Breakfast,Mush blueberry overnight oats,"oats, blueberries, almond milk, chia seeds, maple syrup"
-2,2025-07-30,Lunch,Southwestern Cobb salad from Bristol Farms,"romaine lettuce, grilled chicken, black beans, avocado, corn, tomatoes, hard-boiled egg, bacon, blue cheese, ranch dressing"
-3,2025-07-30,Dinner,"Penne pasta with mozzarella, pesto and extra pine nuts","penne pasta, mozzarella cheese, pesto, pine nuts, olive oil, basil, garlic, parmesan cheese"
+1,2025-08-01,Breakfast,"Mush blueberry overnight oats, 1/2 banana","oats, blueberries, milk, banana"
+2,2025-08-01,Snack,1 blueberry Rx bar,"dates, egg whites, almonds, cashews, blueberries, natural flavors"
+3,2025-08-01,Lunch,"Sandwich on fresh Italian ciabatta bread with Black Forest ham, Swiss emmenthal cheese, mixed greens, black olive tapenade, extra virgin olive oil and balsamic vinegar. 1 Lindor milk chocolate truffle.","ciabatta bread, Black Forest ham, Swiss emmenthal cheese, mixed greens, black olive tapenade, extra virgin olive oil, balsamic vinegar, Lindor milk chocolate truffle"
+4,2025-08-01,Dinner,"Small portion of Spicy peanut Thai noodles. Salad: Lettuce with red peppers, sundried tomatoes, olives, 4 tbsp of raw sunflower seeds","noodles, peanut sauce, lettuce, red peppers, sundried tomatoes, olives, sunflower seeds"
+5,2025-08-01,Dessert,1 chocolate chip cookie and 1 chocolate pretzel,"flour, sugar, butter, eggs, chocolate chips, pretzels, cocoa, salt"
+6,2025-08-02,Breakfast,50 blueberries,blueberries
+7,2025-08-02,Snack,1/4 baguette and unsalted butter,"baguette, butter"
+8,2025-08-02,Lunch,"Veggie burger with avocado, onions and sprouts, and side salad from Brighton Coffee Shop","veggie burger patty, avocado, onions, sprouts, mixed greens, bread/bun"
+9,2025-08-02,Snack,"1/2 turkey sandwich (with lettuce, tomato, onions, pickles, mayo), and 1 blueberry Rx bar","bread, turkey, lettuce, tomato, onions, pickles, mayonnaise, blueberry Rx bar"
+10,2025-08-02,Dinner,"Salad (Lettuce with red peppers, sundried tomatoes, olives), full size baguette and unsalted butter","lettuce, red peppers, sundried tomatoes, olives, baguette, butter"
+11,2025-08-02,Snack,8 raw almonds,almonds
+12,2025-08-03,Breakfast,Starbucks - spinach feta wrap and venti vanilla hazelnut latte with nonfat milk,"flour tortilla, spinach, feta cheese, egg whites, sundried tomato, latte, nonfat milk, vanilla syrup, hazelnut syrup"
+13,2025-08-03,Lunch,"Tuna salad sandwich - fresh tuna mixed with mayo and celery, relish, sprouts, lettuce and tomato","bread, tuna, mayonnaise, celery, relish, sprouts, lettuce, tomato"
+14,2025-08-03,Dinner,"Kopan sushi and ramen bar - caterpillar roll, spicy tuna roll, yellowtail roll, 1 bite of chicken cutlet, 1 piece of California roll","sushi rice, nori, avocado, eel, tuna, yellowtail, rice vinegar, cucumber, chicken, breadcrumbs, mayonnaise, imitation crab"
+15,2025-08-03,Snack,6 raw almonds,almonds
+16,2025-08-04,Breakfast,Quaker instant oatmeal (apple cinnamon) with organic nonfat milk and a banana,"instant oats, apple, cinnamon, sugar, nonfat milk, banana"
+17,2025-08-04,Snack,nectarine,nectarine
+18,2025-08-04,Lunch,"Tacos 1986 - 3 hongo tacos (mushrooms, onions, guacamole and salsa)","corn tortillas, mushrooms, onions, guacamole, salsa"
+19,2025-08-04,Dinner,"Jon and Vinny’s - spicy fusilli with red sauce, 1/2 chopped salad, 2 slices garlic bread","fusilli pasta, tomato sauce, chili, lettuce, tomato, cheese, croutons, garlic bread, butter, olive oil"
+20,2025-08-04,Snack,4 ounce cup of unsweetened applesauce,apples
+21,2025-08-05,Breakfast,"Plain bagel with cream cheese, smoothie with cherry, strawberry and soy milk","wheat flour, yeast, salt, water, cream cheese, cherry, strawberry, soy milk"
+22,2025-08-05,Snack,1 blueberry Rx bar,"dates, egg whites, almonds, cashews, blueberries, natural flavors"
+23,2025-08-05,Snack,"Snak Club peanut butter chocolate trail mix (1020 cal - finished bag, did not eat lunch)","peanuts, chocolate chips, raisins, peanut butter chips"
+24,2025-08-05,Dinner,"Wild salmon with white rice, salad, pita bread and mayonnaise","salmon, white rice, lettuce, tomato, cucumber, pita bread, mayonnaise"

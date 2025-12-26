@@ -1,1 +1,97 @@
 ImpactID,MealID,ConditionType,Notes,Score
+1,1,Fatty Liver,High fiber and low fat; generally supportive for fatty liver.,9/10
+2,1,High Cholesterol,Low in saturated fat and cholesterol; favorable.,9/10
+3,1,High Blood Pressure,Low sodium; beneficial.,9/10
+4,1,Gout,Low purine content; safe.,9/10
+5,2,Fatty Liver,Balanced macro profile; moderate sugar.,7/10
+6,2,High Cholesterol,Low in saturated fat; beneficial.,8/10
+7,2,High Blood Pressure,Moderate sodium; acceptable in moderation.,7/10
+8,2,Gout,"Contains nuts and egg whites, moderate in purines.",7/10
+9,3,Fatty Liver,Contains processed meats and cheese; high in fat.,5/10
+10,3,High Cholesterol,High saturated fat and cholesterol; not ideal.,4/10
+11,3,High Blood Pressure,High sodium from ham and cheese.,3/10
+12,3,Gout,Contains processed meats; moderate purine risk.,5/10
+13,4,Fatty Liver,Contains healthy fats from seeds and peanuts; moderate calories.,7/10
+14,4,High Cholesterol,Low saturated fat; favorable.,8/10
+15,4,High Blood Pressure,Moderate sodium; ok in moderation.,7/10
+16,4,Gout,Plant-based meal; low purine.,9/10
+17,5,Fatty Liver,High in sugar and saturated fat; occasional treat is okay.,4/10
+18,5,High Cholesterol,Contains butter and eggs; keep occasional.,5/10
+19,5,High Blood Pressure,Contains sodium and sugar; minimal impact if occasional.,6/10
+20,5,Gout,Low purine; safe for most.,8/10
+21,6,Fatty Liver,"Low calorie, high in antioxidants; beneficial.",10/10
+22,6,High Cholesterol,No cholesterol or fat; excellent choice.,10/10
+23,6,High Blood Pressure,No sodium; beneficial.,10/10
+24,6,Gout,Low purine; very safe.,10/10
+25,7,Fatty Liver,"Low fiber, moderate fat; minimal impact if infrequent.",6/10
+26,7,High Cholesterol,Contains butter; moderate saturated fat.,6/10
+27,7,High Blood Pressure,Moderate sodium; keep occasional.,7/10
+28,7,Gout,Low in purines; safe.,9/10
+29,8,Fatty Liver,"Plant-based, moderate fat; beneficial for fatty liver.",8/10
+30,8,High Cholesterol,"No cholesterol, healthy fats; good choice.",9/10
+31,8,High Blood Pressure,Moderate sodium; monitor intake.,7/10
+32,8,Gout,Some veggie burgers contain legumes; moderate purine.,7/10
+33,9,Fatty Liver,"Lean protein, some processed meat; moderate benefit.",7/10
+34,9,High Cholesterol,Low saturated fat; moderate cholesterol; reasonable.,7/10
+35,9,High Blood Pressure,Sodium from turkey and pickles; monitor.,6/10
+36,9,Gout,Turkey is moderate purine; occasional is safe.,6/10
+37,10,Fatty Liver,High in refined carbs and fat; limit portion size.,6/10
+38,10,High Cholesterol,Contains butter; moderate saturated fat.,6/10
+39,10,High Blood Pressure,Moderate sodium from olives and bread.,7/10
+40,10,Gout,Plant-based; low purine.,9/10
+41,11,Fatty Liver,"Healthy fats, low sugar; beneficial.",9/10
+42,11,High Cholesterol,Contains unsaturated fats; favorable.,9/10
+43,11,High Blood Pressure,No sodium; excellent.,10/10
+44,11,Gout,Low purines; very safe.,10/10
+45,12,Fatty Liver,"Moderate fat, high sugar from latte; limit frequency.",6/10
+46,12,High Cholesterol,Some saturated fat; keep occasional.,6/10
+47,12,High Blood Pressure,High sodium; caution.,5/10
+48,12,Gout,Contains cheese and egg whites; moderate purine.,6/10
+49,13,Fatty Liver,"Lean protein, but mayo adds fat; moderate.",7/10
+50,13,High Cholesterol,Some cholesterol from tuna and mayo; moderate.,6/10
+51,13,High Blood Pressure,Moderate sodium; keep in check.,7/10
+52,13,Gout,Tuna is high in purines; limit frequency.,4/10
+53,14,Fatty Liver,"Moderate fat, high carb; occasional is fine.",6/10
+54,14,High Cholesterol,Some saturated fat; seafood is lean.,7/10
+55,14,High Blood Pressure,High sodium from soy sauce and fillings.,5/10
+56,14,Gout,Tuna and yellowtail are high purine; limit intake.,3/10
+57,15,Fatty Liver,"Healthy fats, low carb; beneficial.",9/10
+58,15,High Cholesterol,Unsaturated fats; very good.,10/10
+59,15,High Blood Pressure,No sodium; excellent snack.,10/10
+60,15,Gout,Low purine; very safe.,10/10
+61,16,Fatty Liver,High fiber and low fat; supportive for fatty liver.,9/10
+62,16,High Cholesterol,Low saturated fat and cholesterol; beneficial.,9/10
+63,16,High Blood Pressure,Low sodium; favorable.,9/10
+64,16,Gout,Low purine; safe.,9/10
+65,17,Fatty Liver,"Low calorie, high fiber, antioxidant-rich; very favorable.",10/10
+66,17,High Cholesterol,No cholesterol or fat; beneficial.,10/10
+67,17,High Blood Pressure,No sodium; excellent.,10/10
+68,17,Gout,Low purines; safe.,10/10
+69,18,Fatty Liver,Plant-based and high fiber; favorable.,8/10
+70,18,High Cholesterol,Low saturated fat; good choice.,9/10
+71,18,High Blood Pressure,Moderate sodium from salsa and tortillas.,7/10
+72,18,Gout,"Mushrooms are moderate, but overall low purine meal.",8/10
+73,19,Fatty Liver,High in refined carbs and fat; limit frequency.,5/10
+74,19,High Cholesterol,Contains cheese and butter; moderate saturated fat.,6/10
+75,19,High Blood Pressure,"High sodium from cheese, bread, and sauce.",5/10
+76,19,Gout,Cheese and tomato moderate; not high in purines.,7/10
+77,20,Fatty Liver,"Low calorie, no added sugar; beneficial in moderation.",9/10
+78,20,High Cholesterol,No fat or cholesterol.,10/10
+79,20,High Blood Pressure,No sodium.,10/10
+80,20,Gout,Low purine; safe.,10/10
+81,21,Fatty Liver,Refined carbs and fat; keep occasional.,5/10
+82,21,High Cholesterol,Contains cream cheese; moderate saturated fat.,6/10
+83,21,High Blood Pressure,Moderate sodium; watch intake.,6/10
+84,21,Gout,"Dairy and soy, moderate purine content.",7/10
+85,22,Fatty Liver,"Moderate sugar, balanced macros.",7/10
+86,22,High Cholesterol,Low in saturated fat.,8/10
+87,22,High Blood Pressure,Moderate sodium; acceptable in moderation.,7/10
+88,22,Gout,Contains nuts and egg whites; moderate purines.,7/10
+89,23,Fatty Liver,Very high calories and sugar; not recommended.,2/10
+90,23,High Cholesterol,High fat and saturated fat; not ideal.,3/10
+91,23,High Blood Pressure,Moderate sodium; keep rare.,6/10
+92,23,Gout,Contains nuts; moderate purines.,6/10
+93,24,Fatty Liver,"Healthy fats from salmon, but mayo adds saturated fat.",7/10
+94,24,High Cholesterol,Salmon beneficial; mayo adds cholesterol.,6/10
+95,24,High Blood Pressure,Moderate sodium; generally acceptable.,7/10
+96,24,Gout,Salmon is high in purines; not ideal for gout.,4/10
