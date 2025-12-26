@@ -78,9 +78,12 @@ def parse_file(path):
                 i += 1  # skip header
     
                 # Parse health impacts for each condition (multiple formats supported)
-                while i < len(lines) and not lines[i].startswith("Recommendations:") and not lines[i].startswith("---"):
-                    line = lines[i].strip()
-                    if not line:
+               while i < len(lines):  # Process each line until explicitly broken
+                    if lines[i].strip().startswith("Recommendations:"):  # Exit condition
+                        print(f"DEBUG: Recommendations line encountered at {i}. Exiting loop.")
+                        break
+                        line = lines[i].strip()
+                        if not line:
                         i += 1
                         continue
                     # Format 1: Combined line "Condition Narrative: ... Score: ..."
