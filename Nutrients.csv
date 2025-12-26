@@ -1,265 +1,811 @@
 NutrientID,MealID,NutrientType,Grams
-1,1,Calories,230 kcal
-2,1,Carbohydrates,45 g
-3,1,Sugar,14 g
+1,1,Calories,260 kcal
+2,1,Carbohydrates,50 g
+3,1,Sugar,18 g
 4,1,Fiber,5 g
-5,1,Protein,6 g
-6,1,Fat,3 g
-7,1,Saturated Fat,1 g
+5,1,Protein,8 g
+6,1,Fat,2 g
+7,1,Saturated Fat,0.5 g
 8,1,Cholesterol,5 mg
-9,1,Sodium,45 mg
+9,1,Sodium,80 mg
 10,1,Purines,low
-11,1,Confidence,8/10
-12,2,Calories,210 kcal
-13,2,Carbohydrates,24 g
-14,2,Sugar,13 g
+11,1,Confidence,7/10
+12,2,Calories,220 kcal
+13,2,Carbohydrates,38 g
+14,2,Sugar,17 g
 15,2,Fiber,4 g
-16,2,Protein,12 g
-17,2,Fat,7 g
-18,2,Saturated Fat,1 g
-19,2,Cholesterol,0 mg
-20,2,Sodium,140 mg
-21,2,Purines,moderate
+16,2,Protein,15 g
+17,2,Fat,2 g
+18,2,Saturated Fat,0 g
+19,2,Cholesterol,5 mg
+20,2,Sodium,55 mg
+21,2,Purines,low
 22,2,Confidence,8/10
-23,3,Calories,540 kcal
-24,3,Carbohydrates,52 g
-25,3,Sugar,7 g
+23,3,Calories,215 kcal
+24,3,Carbohydrates,36 g
+25,3,Sugar,11 g
 26,3,Fiber,4 g
-27,3,Protein,23 g
-28,3,Fat,25 g
-29,3,Saturated Fat,10 g
-30,3,Cholesterol,55 mg
-31,3,Sodium,1200 mg
+27,3,Protein,8 g
+28,3,Fat,5 g
+29,3,Saturated Fat,1 g
+30,3,Cholesterol,185 mg
+31,3,Sodium,170 mg
 32,3,Purines,moderate
-33,3,Confidence,7/10
+33,3,Confidence,8/10
 34,4,Calories,480 kcal
-35,4,Carbohydrates,55 g
-36,4,Sugar,8 g
-37,4,Fiber,6 g
-38,4,Protein,12 g
-39,4,Fat,23 g
-40,4,Saturated Fat,3 g
-41,4,Cholesterol,0 mg
-42,4,Sodium,650 mg
+35,4,Carbohydrates,60 g
+36,4,Sugar,7 g
+37,4,Fiber,3 g
+38,4,Protein,13 g
+39,4,Fat,22 g
+40,4,Saturated Fat,12 g
+41,4,Cholesterol,60 mg
+42,4,Sodium,680 mg
 43,4,Purines,low
-44,4,Confidence,7/10
-45,5,Calories,180 kcal
-46,5,Carbohydrates,24 g
-47,5,Sugar,13 g
-48,5,Fiber,1 g
-49,5,Protein,2 g
-50,5,Fat,8 g
-51,5,Saturated Fat,4 g
-52,5,Cholesterol,15 mg
-53,5,Sodium,120 mg
+44,4,Confidence,8/10
+45,5,Calories,270 kcal
+46,5,Carbohydrates,47 g
+47,5,Sugar,14 g
+48,5,Fiber,7 g
+49,5,Protein,6 g
+50,5,Fat,6 g
+51,5,Saturated Fat,0.5 g
+52,5,Cholesterol,0 mg
+53,5,Sodium,150 mg
 54,5,Purines,low
-55,5,Confidence,7/10
-56,6,Calories,35 kcal
-57,6,Carbohydrates,9 g
-58,6,Sugar,6 g
-59,6,Fiber,2 g
-60,6,Protein,0 g
-61,6,Fat,0 g
-62,6,Saturated Fat,0 g
-63,6,Cholesterol,0 mg
-64,6,Sodium,0 mg
-65,6,Purines,low
-66,6,Confidence,9/10
-67,7,Calories,130 kcal
-68,7,Carbohydrates,23 g
-69,7,Sugar,1 g
-70,7,Fiber,1 g
-71,7,Protein,3 g
-72,7,Fat,4 g
-73,7,Saturated Fat,2 g
-74,7,Cholesterol,10 mg
-75,7,Sodium,130 mg
+55,5,Confidence,9/10
+56,6,Calories,520 kcal
+57,6,Carbohydrates,47 g
+58,6,Sugar,18 g
+59,6,Fiber,4 g
+60,6,Protein,22 g
+61,6,Fat,28 g
+62,6,Saturated Fat,9 g
+63,6,Cholesterol,340 mg
+64,6,Sodium,890 mg
+65,6,Purines,moderate
+66,6,Confidence,8/10
+67,7,Calories,140 kcal
+68,7,Carbohydrates,36 g
+69,7,Sugar,28 g
+70,7,Fiber,7 g
+71,7,Protein,1 g
+72,7,Fat,0 g
+73,7,Saturated Fat,0 g
+74,7,Cholesterol,0 mg
+75,7,Sodium,2 mg
 76,7,Purines,low
-77,7,Confidence,8/10
-78,8,Calories,410 kcal
-79,8,Carbohydrates,45 g
+77,7,Confidence,10/10
+78,8,Calories,520 kcal
+79,8,Carbohydrates,36 g
 80,8,Sugar,6 g
-81,8,Fiber,7 g
-82,8,Protein,13 g
-83,8,Fat,18 g
-84,8,Saturated Fat,3 g
-85,8,Cholesterol,0 mg
-86,8,Sodium,540 mg
-87,8,Purines,moderate
-88,8,Confidence,7/10
-89,9,Calories,300 kcal
-90,9,Carbohydrates,34 g
-91,9,Sugar,8 g
-92,9,Fiber,4 g
-93,9,Protein,19 g
-94,9,Fat,8 g
-95,9,Saturated Fat,1.5 g
-96,9,Cholesterol,30 mg
-97,9,Sodium,740 mg
-98,9,Purines,moderate
-99,9,Confidence,7/10
-100,10,Calories,370 kcal
-101,10,Carbohydrates,52 g
-102,10,Sugar,7 g
-103,10,Fiber,4 g
-104,10,Protein,7 g
-105,10,Fat,13 g
-106,10,Saturated Fat,6 g
-107,10,Cholesterol,20 mg
-108,10,Sodium,400 mg
-109,10,Purines,low
-110,10,Confidence,7/10
-111,11,Calories,55 kcal
-112,11,Carbohydrates,2 g
-113,11,Sugar,0 g
-114,11,Fiber,1 g
-115,11,Protein,2 g
-116,11,Fat,5 g
-117,11,Saturated Fat,0.5 g
-118,11,Cholesterol,0 mg
-119,11,Sodium,0 mg
-120,11,Purines,low
+81,8,Fiber,2 g
+82,8,Protein,23 g
+83,8,Fat,30 g
+84,8,Saturated Fat,13 g
+85,8,Cholesterol,225 mg
+86,8,Sodium,950 mg
+87,8,Purines,high
+88,8,Confidence,8/10
+89,9,Calories,180 kcal
+90,9,Carbohydrates,27 g
+91,9,Sugar,18 g
+92,9,Fiber,5 g
+93,9,Protein,6 g
+94,9,Fat,6 g
+95,9,Saturated Fat,0.5 g
+96,9,Cholesterol,0 mg
+97,9,Sodium,35 mg
+98,9,Purines,low
+99,9,Confidence,9/10
+100,10,Calories,390 kcal
+101,10,Carbohydrates,43 g
+102,10,Sugar,12 g
+103,10,Fiber,2 g
+104,10,Protein,17 g
+105,10,Fat,18 g
+106,10,Saturated Fat,7 g
+107,10,Cholesterol,370 mg
+108,10,Sodium,670 mg
+109,10,Purines,moderate
+110,10,Confidence,8/10
+111,11,Calories,140 kcal
+112,11,Carbohydrates,12 g
+113,11,Sugar,6 g
+114,11,Fiber,2 g
+115,11,Protein,7 g
+116,11,Fat,8 g
+117,11,Saturated Fat,2 g
+118,11,Cholesterol,185 mg
+119,11,Sodium,65 mg
+120,11,Purines,moderate
 121,11,Confidence,9/10
-122,12,Calories,430 kcal
-123,12,Carbohydrates,62 g
-124,12,Sugar,27 g
+122,12,Calories,760 kcal
+123,12,Carbohydrates,80 g
+124,12,Sugar,16 g
 125,12,Fiber,4 g
-126,12,Protein,19 g
-127,12,Fat,10 g
-128,12,Saturated Fat,5 g
-129,12,Cholesterol,20 mg
-130,12,Sodium,920 mg
-131,12,Purines,moderate
-132,12,Confidence,7/10
-133,13,Calories,420 kcal
+126,12,Protein,36 g
+127,12,Fat,34 g
+128,12,Saturated Fat,10 g
+129,12,Cholesterol,110 mg
+130,12,Sodium,1680 mg
+131,12,Purines,high
+132,12,Confidence,8/10
+133,13,Calories,200 kcal
 134,13,Carbohydrates,38 g
-135,13,Sugar,5 g
-136,13,Fiber,4 g
-137,13,Protein,26 g
-138,13,Fat,17 g
-139,13,Saturated Fat,2.5 g
-140,13,Cholesterol,35 mg
-141,13,Sodium,740 mg
-142,13,Purines,high
-143,13,Confidence,7/10
-144,14,Calories,520 kcal
-145,14,Carbohydrates,70 g
-146,14,Sugar,8 g
-147,14,Fiber,4 g
-148,14,Protein,24 g
-149,14,Fat,15 g
-150,14,Saturated Fat,3.5 g
-151,14,Cholesterol,45 mg
-152,14,Sodium,820 mg
-153,14,Purines,high
-154,14,Confidence,7/10
-155,15,Calories,40 kcal
-156,15,Carbohydrates,1 g
-157,15,Sugar,0 g
-158,15,Fiber,1 g
-159,15,Protein,1 g
-160,15,Fat,4 g
-161,15,Saturated Fat,0.3 g
+135,13,Sugar,33 g
+136,13,Fiber,5 g
+137,13,Protein,11 g
+138,13,Fat,0 g
+139,13,Saturated Fat,0 g
+140,13,Cholesterol,0 mg
+141,13,Sodium,60 mg
+142,13,Purines,low
+143,13,Confidence,9/10
+144,14,Calories,250 kcal
+145,14,Carbohydrates,27 g
+146,14,Sugar,20 g
+147,14,Fiber,5 g
+148,14,Protein,14 g
+149,14,Fat,9 g
+150,14,Saturated Fat,1.5 g
+151,14,Cholesterol,185 mg
+152,14,Sodium,75 mg
+153,14,Purines,moderate
+154,14,Confidence,9/10
+155,15,Calories,310 kcal
+156,15,Carbohydrates,61 g
+157,15,Sugar,32 g
+158,15,Fiber,8 g
+159,15,Protein,6 g
+160,15,Fat,5 g
+161,15,Saturated Fat,1 g
 162,15,Cholesterol,0 mg
-163,15,Sodium,0 mg
+163,15,Sodium,30 mg
 164,15,Purines,low
 165,15,Confidence,9/10
-166,16,Calories,280 kcal
-167,16,Carbohydrates,56 g
-168,16,Sugar,21 g
-169,16,Fiber,5 g
-170,16,Protein,8 g
-171,16,Fat,2 g
-172,16,Saturated Fat,0.5 g
-173,16,Cholesterol,5 mg
-174,16,Sodium,100 mg
+166,16,Calories,210 kcal
+167,16,Carbohydrates,25 g
+168,16,Sugar,3 g
+169,16,Fiber,6 g
+170,16,Protein,5 g
+171,16,Fat,11 g
+172,16,Saturated Fat,1.5 g
+173,16,Cholesterol,0 mg
+174,16,Sodium,120 mg
 175,16,Purines,low
-176,16,Confidence,8/10
-177,17,Calories,60 kcal
-178,17,Carbohydrates,15 g
-179,17,Sugar,13 g
-180,17,Fiber,2 g
-181,17,Protein,1 g
-182,17,Fat,0 g
-183,17,Saturated Fat,0 g
+176,16,Confidence,9/10
+177,17,Calories,300 kcal
+178,17,Carbohydrates,45 g
+179,17,Sugar,28 g
+180,17,Fiber,6 g
+181,17,Protein,5 g
+182,17,Fat,13 g
+183,17,Saturated Fat,5 g
 184,17,Cholesterol,0 mg
-185,17,Sodium,0 mg
+185,17,Sodium,50 mg
 186,17,Purines,low
-187,17,Confidence,10/10
-188,18,Calories,350 kcal
-189,18,Carbohydrates,46 g
-190,18,Sugar,7 g
+187,17,Confidence,8/10
+188,18,Calories,370 kcal
+189,18,Carbohydrates,44 g
+190,18,Sugar,4 g
 191,18,Fiber,7 g
-192,18,Protein,7 g
+192,18,Protein,10 g
 193,18,Fat,16 g
-194,18,Saturated Fat,2 g
-195,18,Cholesterol,0 mg
-196,18,Sodium,520 mg
+194,18,Saturated Fat,4 g
+195,18,Cholesterol,10 mg
+196,18,Sodium,480 mg
 197,18,Purines,low
-198,18,Confidence,7/10
-199,19,Calories,670 kcal
-200,19,Carbohydrates,88 g
-201,19,Sugar,12 g
-202,19,Fiber,7 g
-203,19,Protein,18 g
-204,19,Fat,26 g
-205,19,Saturated Fat,8 g
-206,19,Cholesterol,22 mg
-207,19,Sodium,980 mg
+198,18,Confidence,9/10
+199,19,Calories,410 kcal
+200,19,Carbohydrates,57 g
+201,19,Sugar,7 g
+202,19,Fiber,3 g
+203,19,Protein,12 g
+204,19,Fat,14 g
+205,19,Saturated Fat,7 g
+206,19,Cholesterol,35 mg
+207,19,Sodium,670 mg
 208,19,Purines,moderate
-209,19,Confidence,7/10
-210,20,Calories,50 kcal
-211,20,Carbohydrates,13 g
-212,20,Sugar,11 g
-213,20,Fiber,1 g
-214,20,Protein,0 g
-215,20,Fat,0 g
-216,20,Saturated Fat,0 g
+209,19,Confidence,9/10
+210,20,Calories,270 kcal
+211,20,Carbohydrates,40 g
+212,20,Sugar,10 g
+213,20,Fiber,6 g
+214,20,Protein,15 g
+215,20,Fat,4 g
+216,20,Saturated Fat,0.5 g
 217,20,Cholesterol,0 mg
-218,20,Sodium,0 mg
+218,20,Sodium,340 mg
 219,20,Purines,low
-220,20,Confidence,10/10
-221,21,Calories,420 kcal
-222,21,Carbohydrates,68 g
-223,21,Sugar,15 g
-224,21,Fiber,3 g
-225,21,Protein,12 g
-226,21,Fat,11 g
-227,21,Saturated Fat,5 g
-228,21,Cholesterol,22 mg
-229,21,Sodium,480 mg
+220,20,Confidence,9/10
+221,21,Calories,390 kcal
+222,21,Carbohydrates,52 g
+223,21,Sugar,12 g
+224,21,Fiber,5 g
+225,21,Protein,20 g
+226,21,Fat,10 g
+227,21,Saturated Fat,4 g
+228,21,Cholesterol,25 mg
+229,21,Sodium,830 mg
 230,21,Purines,moderate
-231,21,Confidence,7/10
-232,22,Calories,210 kcal
-233,22,Carbohydrates,24 g
-234,22,Sugar,13 g
-235,22,Fiber,4 g
-236,22,Protein,12 g
-237,22,Fat,7 g
-238,22,Saturated Fat,1 g
+231,21,Confidence,9/10
+232,22,Calories,320 kcal
+233,22,Carbohydrates,38 g
+234,22,Sugar,10 g
+235,22,Fiber,7 g
+236,22,Protein,10 g
+237,22,Fat,13 g
+238,22,Saturated Fat,2 g
 239,22,Cholesterol,0 mg
-240,22,Sodium,140 mg
-241,22,Purines,moderate
-242,22,Confidence,8/10
-243,23,Calories,1020 kcal
-244,23,Carbohydrates,84 g
-245,23,Sugar,42 g
-246,23,Fiber,8 g
-247,23,Protein,28 g
-248,23,Fat,64 g
-249,23,Saturated Fat,14 g
-250,23,Cholesterol,8 mg
-251,23,Sodium,220 mg
+240,22,Sodium,75 mg
+241,22,Purines,low
+242,22,Confidence,9/10
+243,23,Calories,140 kcal
+244,23,Carbohydrates,2 g
+245,23,Sugar,1 g
+246,23,Fiber,0 g
+247,23,Protein,12 g
+248,23,Fat,10 g
+249,23,Saturated Fat,3 g
+250,23,Cholesterol,370 mg
+251,23,Sodium,140 mg
 252,23,Purines,moderate
-253,23,Confidence,7/10
-254,24,Calories,560 kcal
-255,24,Carbohydrates,52 g
-256,24,Sugar,4 g
-257,24,Fiber,4 g
-258,24,Protein,33 g
-259,24,Fat,22 g
-260,24,Saturated Fat,4 g
-261,24,Cholesterol,65 mg
-262,24,Sodium,380 mg
-263,24,Purines,high
-264,24,Confidence,7/10
+253,23,Confidence,10/10
+254,24,Calories,260 kcal
+255,24,Carbohydrates,49 g
+256,24,Sugar,34 g
+257,24,Fiber,6 g
+258,24,Protein,13 g
+259,24,Fat,0 g
+260,24,Saturated Fat,0 g
+261,24,Cholesterol,5 mg
+262,24,Sodium,110 mg
+263,24,Purines,low
+264,24,Confidence,10/10
+265,25,Calories,410 kcal
+266,25,Carbohydrates,57 g
+267,25,Sugar,7 g
+268,25,Fiber,3 g
+269,25,Protein,12 g
+270,25,Fat,14 g
+271,25,Saturated Fat,7 g
+272,25,Cholesterol,35 mg
+273,25,Sodium,670 mg
+274,25,Purines,moderate
+275,25,Confidence,9/10
+276,26,Calories,240 kcal
+277,26,Carbohydrates,48 g
+278,26,Sugar,18 g
+279,26,Fiber,6 g
+280,26,Protein,6 g
+281,26,Fat,4 g
+282,26,Saturated Fat,0.5 g
+283,26,Cholesterol,0 mg
+284,26,Sodium,210 mg
+285,26,Purines,low
+286,26,Confidence,9/10
+287,27,Calories,440 kcal
+288,27,Carbohydrates,62 g
+289,27,Sugar,16 g
+290,27,Fiber,3 g
+291,27,Protein,15 g
+292,27,Fat,12 g
+293,27,Saturated Fat,7 g
+294,27,Cholesterol,35 mg
+295,27,Sodium,770 mg
+296,27,Purines,moderate
+297,27,Confidence,9/10
+298,28,Calories,330 kcal
+299,28,Carbohydrates,37 g
+300,28,Sugar,5 g
+301,28,Fiber,2 g
+302,28,Protein,14 g
+303,28,Fat,14 g
+304,28,Saturated Fat,6 g
+305,28,Cholesterol,205 mg
+306,28,Sodium,520 mg
+307,28,Purines,moderate
+308,28,Confidence,9/10
+309,29,Calories,270 kcal
+310,29,Carbohydrates,38 g
+311,29,Sugar,21 g
+312,29,Fiber,5 g
+313,29,Protein,8 g
+314,29,Fat,10 g
+315,29,Saturated Fat,2 g
+316,29,Cholesterol,5 mg
+317,29,Sodium,65 mg
+318,29,Purines,low
+319,29,Confidence,9/10
+320,30,Calories,170 kcal
+321,30,Carbohydrates,33 g
+322,30,Sugar,12 g
+323,30,Fiber,3 g
+324,30,Protein,4 g
+325,30,Fat,2 g
+326,30,Saturated Fat,0 g
+327,30,Cholesterol,0 mg
+328,30,Sodium,160 mg
+329,30,Purines,low
+330,30,Confidence,9/10
+331,31,Calories,410 kcal
+332,31,Carbohydrates,45 g
+333,31,Sugar,3 g
+334,31,Fiber,6 g
+335,31,Protein,18 g
+336,31,Fat,18 g
+337,31,Saturated Fat,5 g
+338,31,Cholesterol,220 mg
+339,31,Sodium,510 mg
+340,31,Purines,moderate
+341,31,Confidence,9/10
+342,32,Calories,440 kcal
+343,32,Carbohydrates,53 g
+344,32,Sugar,7 g
+345,32,Fiber,5 g
+346,32,Protein,16 g
+347,32,Fat,17 g
+348,32,Saturated Fat,4 g
+349,32,Cholesterol,220 mg
+350,32,Sodium,480 mg
+351,32,Purines,moderate
+352,32,Confidence,9/10
+353,33,Calories,220 kcal
+354,33,Carbohydrates,37 g
+355,33,Sugar,30 g
+356,33,Fiber,6 g
+357,33,Protein,7 g
+358,33,Fat,7 g
+359,33,Saturated Fat,0.5 g
+360,33,Cholesterol,0 mg
+361,33,Sodium,30 mg
+362,33,Purines,low
+363,33,Confidence,9/10
+364,34,Calories,380 kcal
+365,34,Carbohydrates,46 g
+366,34,Sugar,21 g
+367,34,Fiber,8 g
+368,34,Protein,13 g
+369,34,Fat,18 g
+370,34,Saturated Fat,2 g
+371,34,Cholesterol,0 mg
+372,34,Sodium,60 mg
+373,34,Purines,low
+374,34,Confidence,9/10
+375,35,Calories,520 kcal
+376,35,Carbohydrates,55 g
+377,35,Sugar,16 g
+378,35,Fiber,5 g
+379,35,Protein,21 g
+380,35,Fat,25 g
+381,35,Saturated Fat,7 g
+382,35,Cholesterol,555 mg
+383,35,Sodium,530 mg
+384,35,Purines,moderate
+385,35,Confidence,9/10
+386,36,Calories,380 kcal
+387,36,Carbohydrates,52 g
+388,36,Sugar,18 g
+389,36,Fiber,2 g
+390,36,Protein,6 g
+391,36,Fat,16 g
+392,36,Saturated Fat,9 g
+393,36,Cholesterol,55 mg
+394,36,Sodium,340 mg
+395,36,Purines,low
+396,36,Confidence,8/10
+397,37,Calories,510 kcal
+398,37,Carbohydrates,58 g
+399,37,Sugar,17 g
+400,37,Fiber,4 g
+401,37,Protein,23 g
+402,37,Fat,22 g
+403,37,Saturated Fat,8 g
+404,37,Cholesterol,140 mg
+405,37,Sodium,990 mg
+406,37,Purines,high
+407,37,Confidence,8/10
+408,38,Calories,410 kcal
+409,38,Carbohydrates,54 g
+410,38,Sugar,7 g
+411,38,Fiber,4 g
+412,38,Protein,17 g
+413,38,Fat,14 g
+414,38,Saturated Fat,6 g
+415,38,Cholesterol,45 mg
+416,38,Sodium,970 mg
+417,38,Purines,high
+418,38,Confidence,9/10
+419,39,Nutrient Estimate,
+420,39,Calories,450 kcal
+421,39,Carbohydrates,55 g
+422,39,Sugar,6 g
+423,39,Fiber,3 g
+424,39,Protein,18 g
+425,39,Fat,16 g
+426,39,Saturated Fat,7 g
+427,39,Cholesterol,40 mg
+428,39,Sodium,820 mg
+429,39,Purines,moderate
+430,39,Confidence,7/10
+431,40,Calories,260 kcal
+432,40,Carbohydrates,42 g
+433,40,Sugar,11 g
+434,40,Fiber,6 g
+435,40,Protein,7 g
+436,40,Fat,7 g
+437,40,Saturated Fat,0.7 g
+438,40,Cholesterol,0 mg
+439,40,Sodium,60 mg
+440,40,Purines,low
+441,40,Confidence,8/10
+442,40,Health Impacts by Condition,
+443,40,Fatty Liver Narrative,"Low in saturated fat and cholesterol, high in fiber; favorable for fatty liver."
+444,40,Score,8
+445,40,High Cholesterol Narrative,"Minimal cholesterol, healthy fats; beneficial."
+446,40,High Blood Pressure Narrative,"Low sodium, good potassium from blueberries; positive."
+447,40,Gout Narrative,Low purine ingredients; safe.
+448,40,Pre-diabetes Narrative,"Moderate sugar, high fiber aids glycemic control."
+449,40,Recommendations,
+450,41,Calories,420 kcal
+451,41,Carbohydrates,48 g
+452,41,Sugar,26 g
+453,41,Fiber,10 g
+454,41,Protein,12 g
+455,41,Fat,22 g
+456,41,Saturated Fat,2 g
+457,41,Cholesterol,0 mg
+458,41,Sodium,90 mg
+459,41,Purines,low
+460,41,Confidence,8/10
+461,42,Calories,230 kcal
+462,42,Carbohydrates,45 g
+463,42,Sugar,14 g
+464,42,Fiber,5 g
+465,42,Protein,6 g
+466,42,Fat,3 g
+467,42,Saturated Fat,1 g
+468,42,Cholesterol,5 mg
+469,42,Sodium,45 mg
+470,42,Purines,low
+471,42,Confidence,8/10
+472,43,Calories,35 kcal
+473,43,Carbohydrates,9 g
+474,43,Sugar,6 g
+475,43,Fiber,2 g
+476,43,Protein,0 g
+477,43,Fat,0 g
+478,43,Saturated Fat,0 g
+479,43,Cholesterol,0 mg
+480,43,Sodium,0 mg
+481,43,Purines,low
+482,43,Confidence,9/10
+483,44,Calories,430 kcal
+484,44,Carbohydrates,62 g
+485,44,Sugar,27 g
+486,44,Fiber,4 g
+487,44,Protein,19 g
+488,44,Fat,10 g
+489,44,Saturated Fat,5 g
+490,44,Cholesterol,20 mg
+491,44,Sodium,920 mg
+492,44,Purines,moderate
+493,44,Confidence,7/10
+494,45,Calories,280 kcal
+495,45,Carbohydrates,56 g
+496,45,Sugar,21 g
+497,45,Fiber,5 g
+498,45,Protein,8 g
+499,45,Fat,2 g
+500,45,Saturated Fat,0.5 g
+501,45,Cholesterol,5 mg
+502,45,Sodium,100 mg
+503,45,Purines,low
+504,45,Confidence,8/10
+505,46,Calories,420 kcal
+506,46,Carbohydrates,68 g
+507,46,Sugar,15 g
+508,46,Fiber,3 g
+509,46,Protein,12 g
+510,46,Fat,11 g
+511,46,Saturated Fat,5 g
+512,46,Cholesterol,22 mg
+513,46,Sodium,480 mg
+514,46,Purines,moderate
+515,46,Confidence,7/10
+516,47,Calories,360 kcal
+517,47,Carbohydrates,48 g
+518,47,Sugar,5 g
+519,47,Fiber,3 g
+520,47,Protein,16 g
+521,47,Fat,11 g
+522,47,Saturated Fat,3 g
+523,47,Cholesterol,370 mg
+524,47,Sodium,470 mg
+525,47,Purines,moderate
+526,47,Confidence,8/10
+527,48,Calories,250 kcal
+528,48,Carbohydrates,27 g
+529,48,Sugar,18 g
+530,48,Fiber,3 g
+531,48,Protein,8 g
+532,48,Fat,12 g
+533,48,Saturated Fat,3 g
+534,48,Cholesterol,15 mg
+535,48,Sodium,50 mg
+536,48,Purines,low
+537,48,Confidence,8/10
+538,49,Calories,440 kcal
+539,49,Carbohydrates,56 g
+540,49,Sugar,4 g
+541,49,Fiber,3 g
+542,49,Protein,18 g
+543,49,Fat,18 g
+544,49,Saturated Fat,10 g
+545,49,Cholesterol,60 mg
+546,49,Sodium,550 mg
+547,49,Purines,moderate
+548,49,Confidence,7/10
+549,50,Calories,220 kcal
+550,50,Carbohydrates,36 g
+551,50,Sugar,28 g
+552,50,Fiber,3 g
+553,50,Protein,7 g
+554,50,Fat,6 g
+555,50,Saturated Fat,3 g
+556,50,Cholesterol,15 mg
+557,50,Sodium,55 mg
+558,50,Purines,low
+559,50,Confidence,8/10
+560,73,Calories,420 kcal
+561,73,Carbohydrates,36 g
+562,73,Sugar,3 g
+563,73,Fiber,1 g
+564,73,Protein,17 g
+565,73,Fat,24 g
+566,73,Saturated Fat,12 g
+567,73,Cholesterol,230 mg
+568,73,Sodium,890 mg
+569,73,Purines,moderate
+570,73,Confidence,6/10
+571,73,Health Impacts by Condition,
+572,73,Fatty Liver Narrative,"Moderate animal fat and refined flour, not ideal. Score: 6"
+573,73,High Cholesterol Narrative,"Contains egg and cheddar, may raise cholesterol. Score: 5"
+574,73,High Blood Pressure Narrative,High sodium from cheese and biscuit. Score: 5
+575,73,Gout Narrative,Eggs and cheese are moderate purine sources. Score: 6
+576,73,Pre-diabetes Narrative,"Refined carbs from biscuit, modest protein. Score: 6"
+577,73,Recommendations,
+578,74,Calories,290 kcal
+579,74,Carbohydrates,38 g
+580,74,Sugar,21 g
+581,74,Fiber,6 g
+582,74,Protein,5 g
+583,74,Fat,12 g
+584,74,Saturated Fat,2 g
+585,74,Cholesterol,0 mg
+586,74,Sodium,25 mg
+587,74,Purines,low
+588,74,Confidence,7/10
+589,74,Health Impacts by Condition,
+590,74,Fatty Liver Narrative,"High antioxidants, healthy fats. Score: 8"
+591,74,High Cholesterol Narrative,"Good fats, no cholesterol. Score: 8"
+592,74,High Blood Pressure Narrative,"Low sodium, high potassium. Score: 8"
+593,74,Gout Narrative,"Low purine, suitable. Score: 8"
+594,74,Pre-diabetes Narrative,"Natural sugars, but fiber helps. Score: 7"
+595,74,Recommendations,
+596,75,Calories,170 kcal
+597,75,Carbohydrates,30 g
+598,75,Sugar,16 g
+599,75,Fiber,3 g
+600,75,Protein,3 g
+601,75,Fat,5 g
+602,75,Saturated Fat,1 g
+603,75,Cholesterol,28 mg
+604,75,Sodium,80 mg
+605,75,Purines,low
+606,75,Confidence,7/10
+607,75,Health Impacts by Condition,
+608,75,Fatty Liver Narrative,"Includes vegetables, but high sugar. Score: 6"
+609,75,High Cholesterol Narrative,"Low cholesterol, little fat. Score: 8"
+610,75,High Blood Pressure Narrative,Low sodium. Score: 9
+611,75,Gout Narrative,"Low purine, suitable. Score: 8"
+612,75,Pre-diabetes Narrative,"Moderate sugar, some fiber. Score: 6"
+613,75,Recommendations,
+614,76,Calories,260 kcal
+615,76,Carbohydrates,42 g
+616,76,Sugar,23 g
+617,76,Fiber,3 g
+618,76,Protein,11 g
+619,76,Fat,4 g
+620,76,Saturated Fat,2 g
+621,76,Cholesterol,10 mg
+622,76,Sodium,60 mg
+623,76,Purines,low
+624,76,Confidence,7/10
+625,76,Health Impacts by Condition,
+626,76,Fatty Liver Narrative,"Low fat, high sugar, moderate benefit. Score: 7"
+627,76,High Cholesterol Narrative,"Low cholesterol, some sugar. Score: 8"
+628,76,High Blood Pressure Narrative,Low sodium. Score: 9
+629,76,Gout Narrative,"Low purine, suitable. Score: 9"
+630,76,Pre-diabetes Narrative,"High sugar, but fiber helps. Score: 6"
+631,76,Recommendations,
+632,77,Calories,180 kcal
+633,77,Carbohydrates,32 g
+634,77,Sugar,16 g
+635,77,Fiber,3 g
+636,77,Protein,3 g
+637,77,Fat,6 g
+638,77,Saturated Fat,1 g
+639,77,Cholesterol,25 mg
+640,77,Sodium,80 mg
+641,77,Purines,low
+642,77,Confidence,7/10
+643,77,Health Impacts by Condition,
+644,77,Fatty Liver Narrative,"Some veggies, but high sugar. Score: 6"
+645,77,High Cholesterol Narrative,"Low fat, low cholesterol. Score: 8"
+646,77,High Blood Pressure Narrative,Low sodium. Score: 9
+647,77,Gout Narrative,"Low purine, suitable. Score: 9"
+648,77,Pre-diabetes Narrative,"Moderate sugar, some fiber. Score: 6"
+649,77,Recommendations,
+650,78,Calories,320 kcal
+651,78,Carbohydrates,53 g
+652,78,Sugar,29 g
+653,78,Fiber,4 g
+654,78,Protein,8 g
+655,78,Fat,7 g
+656,78,Saturated Fat,2 g
+657,78,Cholesterol,12 mg
+658,78,Sodium,80 mg
+659,78,Purines,low
+660,78,Confidence,7/10
+661,78,Health Impacts by Condition,
+662,78,Fatty Liver Narrative,"High sugar, but some protein and fiber. Score: 7"
+663,78,High Cholesterol Narrative,Low saturated fat. Score: 8
+664,78,High Blood Pressure Narrative,Low sodium. Score: 9
+665,78,Gout Narrative,"Low purine, suitable. Score: 9"
+666,78,Pre-diabetes Narrative,"High sugar, moderate fiber. Score: 6"
+667,78,Recommendations,
+668,79,Calories,290 kcal
+669,79,Carbohydrates,38 g
+670,79,Sugar,21 g
+671,79,Fiber,6 g
+672,79,Protein,5 g
+673,79,Fat,12 g
+674,79,Saturated Fat,2 g
+675,79,Cholesterol,0 mg
+676,79,Sodium,25 mg
+677,79,Purines,low
+678,79,Confidence,7/10
+679,79,Health Impacts by Condition,
+680,79,Fatty Liver Narrative,"High antioxidants, healthy fats. Score: 8"
+681,79,High Cholesterol Narrative,"Good fats, no cholesterol. Score: 8"
+682,79,High Blood Pressure Narrative,"Low sodium, high potassium. Score: 8"
+683,79,Gout Narrative,"Low purine, suitable. Score: 8"
+684,79,Pre-diabetes Narrative,"Natural sugars, but fiber helps. Score: 7"
+685,79,Recommendations,
+686,80,Calories,390 kcal
+687,80,Carbohydrates,33 g
+688,80,Sugar,3 g
+689,80,Fiber,1 g
+690,80,Protein,22 g
+691,80,Fat,19 g
+692,80,Saturated Fat,8 g
+693,80,Cholesterol,220 mg
+694,80,Sodium,850 mg
+695,80,Purines,moderate
+696,80,Confidence,6/10
+697,80,Health Impacts by Condition,
+698,80,Fatty Liver Narrative,"Animal fats and refined flour, not ideal. Score: 5"
+699,80,High Cholesterol Narrative,Eggs and biscuit may raise cholesterol. Score: 4
+700,80,High Blood Pressure Narrative,Biscuit and chicken increase sodium. Score: 4
+701,80,Gout Narrative,Eggs and chicken moderate purine. Score: 5
+702,80,Pre-diabetes Narrative,"Refined carbs, moderate protein. Score: 6"
+703,80,Recommendations,
+704,81,Calories,330 kcal
+705,81,Carbohydrates,18 g
+706,81,Sugar,2 g
+707,81,Fiber,2 g
+708,81,Protein,15 g
+709,81,Fat,22 g
+710,81,Saturated Fat,8 g
+711,81,Cholesterol,340 mg
+712,81,Sodium,560 mg
+713,81,Purines,moderate
+714,81,Confidence,7/10
+715,81,Health Impacts by Condition,
+716,81,Fatty Liver Narrative,High animal fat and cholesterol. Score: 4
+717,81,High Cholesterol Narrative,"Eggs, bacon and cheese add cholesterol. Score: 3"
+718,81,High Blood Pressure Narrative,Bacon increases sodium. Score: 4
+719,81,Gout Narrative,Eggs and bacon moderate purine. Score: 5
+720,81,Pre-diabetes Narrative,"Refined carbs, high fat. Score: 6"
+721,81,Recommendations,
+722,82,Calories,220 kcal
+723,82,Carbohydrates,34 g
+724,82,Sugar,17 g
+725,82,Fiber,3 g
+726,82,Protein,12 g
+727,82,Fat,3 g
+728,82,Saturated Fat,1 g
+729,82,Cholesterol,10 mg
+730,82,Sodium,60 mg
+731,82,Purines,low
+732,82,Confidence,7/10
+733,82,Health Impacts by Condition,
+734,82,Fatty Liver Narrative,"Low fat, moderate sugar, good protein. Score: 8"
+735,82,High Cholesterol Narrative,Very low cholesterol. Score: 9
+736,82,High Blood Pressure Narrative,Low sodium. Score: 9
+737,82,Gout Narrative,"Low purine, suitable. Score: 9"
+738,82,Pre-diabetes Narrative,"Natural sugars, some fiber. Score: 7"
+739,82,Recommendations,
+740,83,Calories,320 kcal
+741,83,Carbohydrates,50 g
+742,83,Sugar,5 g
+743,83,Fiber,2 g
+744,83,Protein,9 g
+745,83,Fat,8 g
+746,83,Saturated Fat,5 g
+747,83,Cholesterol,30 mg
+748,83,Sodium,420 mg
+749,83,Purines,moderate
+750,83,Confidence,7/10
+751,83,Health Impacts by Condition,
+752,83,Fatty Liver Narrative,"Refined carbs, moderate fat. Score: 6"
+753,83,High Cholesterol Narrative,Cream cheese adds cholesterol. Score: 5
+754,83,High Blood Pressure Narrative,Moderate sodium. Score: 6
+755,83,Gout Narrative,Cheese is moderate purine. Score: 7
+756,83,Pre-diabetes Narrative,"Refined carbs, moderate sugar. Score: 6"
+757,83,Recommendations,
+758,84,Calories,490 kcal
+759,84,Carbohydrates,62 g
+760,84,Sugar,26 g
+761,84,Fiber,2 g
+762,84,Protein,15 g
+763,84,Fat,19 g
+764,84,Saturated Fat,9 g
+765,84,Cholesterol,210 mg
+766,84,Sodium,780 mg
+767,84,Purines,moderate
+768,84,Confidence,6/10
+769,84,Health Impacts by Condition,
+770,84,Fatty Liver Narrative,"High sugar and fat, not ideal. Score: 4"
+771,84,High Cholesterol Narrative,"Egg, cheese and ham increase cholesterol. Score: 4"
+772,84,High Blood Pressure Narrative,High sodium from sandwich. Score: 4
+773,84,Gout Narrative,Egg and ham moderate purine. Score: 5
+774,84,Pre-diabetes Narrative,"High sugar, refined carbs. Score: 3"
+775,84,Recommendations,
+776,85,Health Impacts by Condition,
+777,85,Fatty Liver Narrative,"High in saturated fat and simple carbohydrates, may contribute to liver fat accumulation. Score: 4/10"
+778,85,High Cholesterol Narrative,"Contains cholesterol and saturated fat, which may increase LDL. Score: 5/10"
+779,85,High Blood Pressure Narrative,"Moderate sodium, not excessive. Score: 7/10"
+780,85,Gout Narrative,"Low purines, low risk. Score: 8/10"
+781,85,Pre-diabetes Narrative,Refined carbs and sugar may spike blood glucose. Score: 4/10
+782,85,Recommendations,
+783,86,Health Impacts by Condition,
+784,86,Fatty Liver Narrative,Moderate fat and carbs; eggs and vegetables are beneficial. Score: 7/10
+785,86,High Cholesterol Narrative,Eggs elevate cholesterol; mushrooms and arugula are heart-healthy. Score: 6/10
+786,86,High Blood Pressure Narrative,Moderate sodium. Score: 7/10
+787,86,Gout Narrative,Eggs are moderate purine; mushrooms add some purines. Score: 6/10
+788,86,Pre-diabetes Narrative,Balanced macronutrients; sourdough bread is lower glycemic. Score: 7/10
+789,86,Recommendations,
+790,87,Health Impacts by Condition,
+791,87,Fatty Liver Narrative,"Plant-based, low fat; beneficial. Score: 9/10"
+792,87,High Cholesterol Narrative,"No cholesterol, healthy fats. Score: 9/10"
+793,87,High Blood Pressure Narrative,Moderate sodium. Score: 7/10
+794,87,Gout Narrative,Low purines. Score: 9/10
+795,87,Pre-diabetes Narrative,"Moderate carbs, high fiber. Score: 8/10"
+796,87,Recommendations,
+797,88,Health Impacts by Condition,
+798,88,Fatty Liver Narrative,High fat and sodium; eggs and veggie sausage are moderate. Score: 5/10
+799,88,High Cholesterol Narrative,Eggs and butter increase cholesterol. Score: 4/10
+800,88,High Blood Pressure Narrative,Sodium is high. Score: 4/10
+801,88,Gout Narrative,Moderate purines. Score: 6/10
+802,88,Pre-diabetes Narrative,Moderate carbs; fiber helps. Score: 7/10
+803,88,Recommendations,
+804,89,Health Impacts by Condition,
+805,89,Fatty Liver Narrative,"Low fat, high fiber; beneficial. Score: 8/10"
+806,89,High Cholesterol Narrative,"Low cholesterol, healthy ingredients. Score: 9/10"
+807,89,High Blood Pressure Narrative,Low sodium. Score: 10/10
+808,89,Gout Narrative,Low purines. Score: 9/10
+809,89,Pre-diabetes Narrative,"Moderate sugar, but fiber helps. Score: 7/10"
+810,89,Recommendations,
