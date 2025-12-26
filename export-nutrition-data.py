@@ -83,7 +83,7 @@ def parse_file(path):
                         print(f"DEBUG: Recommendations line encountered at {i}. Exiting loop.")
                         break
                         line = lines[i].strip()
-                        if not line:
+                    if not line:
                         i += 1
                         continue
                     # Format 1: Combined line "Condition Narrative: ... Score: ..."
