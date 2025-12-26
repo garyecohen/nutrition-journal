@@ -123,9 +123,9 @@ def parse_file(path):
                 i += 1
                 continue
                 meals.append(meal)
-        except Exception as e:
-            print(f"DEBUG: Exception when parsing meal starting at line {i}: {e}")
-            # You could also print a chunk of lines for context
+            except Exception as e:
+                print(f"DEBUG: Exception when parsing meal starting at line {i}: {e}")
+                # You could also print a chunk of lines for context
     else:
         # If you expect a meal start here but don't get it, log why
         if "Meal Date" in lines[i]:
